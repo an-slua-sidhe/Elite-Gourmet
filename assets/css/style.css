@@ -1,0 +1,275 @@
+/* Meta Level */
+
+/* @import url('https://fonts.googleapis.com/css?family=Gafata&display=swap');
+body {
+    font-family: 'Gafata', sans-serif;
+} */
+
+/* h1, h2, h3, h4 {
+    font-weight: 600;
+} */
+
+
+/* The Header */
+
+#jumbotron {
+    position: relative;
+    /* background-attachment: fixed; */
+    background-image: url('../images/jumbotron.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0px;
+}
+
+
+
+.cta {
+    position: absolute;
+    top: 92vh;
+    text-align: center;
+    background-color: white;
+    color: #A51723;
+    opacity: 0.8;
+    height: 8vh;
+}
+
+/* .cta-text {
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.cta-text p a {
+    text-decoration: none;
+    color: #329e11;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.cta-text p a:hover {
+    text-decoration: none;
+    color: #1b631f;
+} */
+
+
+/* Navbar */
+
+.navbar-default {
+    background: transparent;
+    transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -webkit-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+}
+
+/* .navbar-default.scrolled {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-toggler {
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.navbar-toggler.scrolled {
+    background-color: rgba(242, 238, 216, 0.7)
+}
+
+.nav-item {
+    background-color: #D9D4BF;
+    border: 1px solid #707070;
+    border-radius: 6px;
+    max-width: 8em;
+    font-weight: 600;
+}
+
+.navbar .navbar-nav .nav-item a {
+    color: #73715F;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+    color: #A51723;
+} */
+
+/* Google API Section */
+
+/* .section-container {
+    display: block;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.section-container a {
+    text-decoration: none;
+    color: #A51723;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.section-container a:hover {
+    text-decoration: none;
+    color: #707070;
+}
+
+.section-container-row {
+    margin: 0;
+} */
+
+/* EmailJS Section */
+
+/* .section-container {
+    display: block;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.section-container a {
+    text-decoration: none;
+    color: #A51723;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.section-container a:hover {
+    text-decoration: none;
+    color: #707070;
+}
+
+.section-container-row {
+    margin: 0;
+} */
+
+
+
+/* Restaurants Section */
+
+/* .section-container {
+    display: block;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.section-container a {
+    text-decoration: none;
+    color: #A51723;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.section-container a:hover {
+    text-decoration: none;
+    color: #707070;
+}
+
+.section-container-row {
+    margin: 0;
+} */
+
+
+
+/* About Us Section */
+
+/* .section-container {
+    display: block;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.section-container a {
+    text-decoration: none;
+    color: #A51723;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.section-container a:hover {
+    text-decoration: none;
+    color: #707070;
+}
+
+.section-container-row {
+    margin: 0;
+} */
+
+
+/* The Footer */
+
+footer {
+    height: 4em;
+    padding: 1.1em;
+    background-color: #CFCDBF;
+}
+
+/* .copyright-text {
+    padding-top: 8px;
+    color: #73715F;
+    opacity: 0.8;
+}
+
+.social-media-links li a i {
+    color: #73715F;
+    background: #CFCDBF;
+    line-height: 10px;
+    padding: 15px 12px 0px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.social-media-links li a i:hover {
+    color: #A51723;
+} */
+
+
+/* Media Queries */
+/* -Separated between Heights and Widths.
+-Widths are divided into larger and and Smaller Widths.
+-Comment headings for styles that target specific pages or 
+sections (e.g. Google API Section, Restaiurants Section, 
+Footer etc.) are included within the Media Queries themselves. */
+
+
+/* Heights */
+
+
+/* Widths */
+
+/* Larger Resolutions */
+
+
+/* Smaller Resolutions */
