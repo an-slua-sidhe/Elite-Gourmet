@@ -1,14 +1,19 @@
 /* Meta Level */
 
-/* @import url('https://fonts.googleapis.com/css?family=Gafata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gafata&display=swap');
 body {
     font-family: 'Gafata', sans-serif;
-} */
+}
 
-/* h1, h2, h3, h4 {
+html body div {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
     font-weight: 600;
-} */
-
+    font-size: 1em;
+}
 
 /* The Header */
 
@@ -21,21 +26,41 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
-    margin-bottom: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+#jumbotron p {
+    font-size: .9em;
 }
 
 #logo {
+    text-align: right;
+    float: right;
     color: #ffffff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: .5em 1em 0em .5em;
 }
 
-.cta {
+#jumbotron h1 {
+    font-size: 1.6em;
+    margin-bottom: 0;
+}
+
+#cta {
     position: absolute;
     top: 92vh;
-    text-align: center;
-    /* background-color: white; */
+    /* text-align: center; */
     color: #ffffff;
-    /* opacity: 0.8; */
+    background: rgba(0, 0, 0, 0.5);
     height: 8vh;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+#cta strong {
+    font-size: 1.1em;
+    color: red;
 }
 
 /* .cta-text {
@@ -56,7 +81,6 @@ body {
     text-decoration: none;
     color: #1b631f;
 } */
-
 
 /* Navbar */
 
@@ -163,8 +187,6 @@ body {
     margin: 0;
 } */
 
-
-
 /* Restaurants Section */
 
 /* .section-container {
@@ -194,8 +216,6 @@ body {
 .section-container-row {
     margin: 0;
 } */
-
-
 
 /* About Us Section */
 
@@ -227,7 +247,6 @@ body {
     margin: 0;
 } */
 
-
 /* The Footer */
 
 footer {
@@ -257,21 +276,18 @@ footer {
     color: #A51723;
 } */
 
-
 /* Media Queries */
+
 /* -Separated between Heights and Widths.
 -Widths are divided into larger and and Smaller Widths.
 -Comment headings for styles that target specific pages or 
 sections (e.g. Google API Section, Restaiurants Section, 
 Footer etc.) are included within the Media Queries themselves. */
 
-
 /* Heights */
-
 
 /* Widths */
 
 /* Larger Resolutions */
-
 
 /* Smaller Resolutions */
