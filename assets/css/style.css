@@ -1,18 +1,19 @@
 /* Meta Level */
 
 @import url('https://fonts.googleapis.com/css?family=Gafata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+
 body {
     font-family: 'Gafata', sans-serif;
 }
 
-html body div {
+html body header div {
     margin: 0;
     padding: 0;
 }
 
 h1, h2, h3, h4 {
     font-weight: 600;
-    font-size: 1em;
 }
 
 /* The Header */
@@ -34,6 +35,7 @@ h1, h2, h3, h4 {
     font-size: .9em;
 }
 
+
 #logo {
     text-align: right;
     float: right;
@@ -42,20 +44,29 @@ h1, h2, h3, h4 {
     padding: .5em 1em 0em .5em;
 }
 
-#jumbotron h1 {
-    font-size: 1.6em;
-    margin-bottom: 0;
+#logo h1 {
+    font-family: 'Cinzel';
+    font-size: 1.5em;
+    margin-right: -0.3em;
+    margin-bottom: -0.5em;
 }
+
+#logo p {
+    margin-right: -0.3em;
+}
+
 
 #cta {
     position: absolute;
     top: 92vh;
-    /* text-align: center; */
+    text-align: center;
     color: #ffffff;
     background: rgba(0, 0, 0, 0.5);
-    height: 8vh;
-    /* margin-left: auto;
-    margin-right: auto; */
+    height: 5vh;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 0.2em;
 }
 
 #cta strong {
@@ -63,69 +74,13 @@ h1, h2, h3, h4 {
     color: red;
 }
 
-/* .cta-text {
-    padding-top: 10px;
-    font-weight: 600;
-}
-
-.cta-text p a {
-    text-decoration: none;
-    color: #329e11;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-}
-
-.cta-text p a:hover {
-    text-decoration: none;
-    color: #1b631f;
-} */
 
 /* Navbar */
 
-.navbar-default {
-    background: transparent;
-    transition: 0.5s ease-in;
-    -moz-transition: 0.5s ease-in;
-    -webkit-transition: 0.5s ease-in;
-    -o-transition: 0.5s ease-in;
+button {
+    margin-top: -3em;
 }
 
-/* .navbar-default.scrolled {
-    background: rgba(0, 0, 0, 0.3);
-}
-
-.navbar-toggler {
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-}
-
-.navbar-toggler.scrolled {
-    background-color: rgba(242, 238, 216, 0.7)
-}
-
-.nav-item {
-    background-color: #D9D4BF;
-    border: 1px solid #707070;
-    border-radius: 6px;
-    max-width: 8em;
-    font-weight: 600;
-}
-
-.navbar .navbar-nav .nav-item a {
-    color: #73715F;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-}
-
-.navbar .navbar-nav .nav-item a:hover {
-    color: #A51723;
-} */
 
 /* Google API Section */
 
@@ -250,9 +205,11 @@ h1, h2, h3, h4 {
 /* The Footer */
 
 footer {
-    height: 4em;
+    height: 70em;
     padding: 1.1em;
-    background-color: #CFCDBF;
+    background-color: #594C45;
+    margin: 0;
+    padding: 0;
 }
 
 /* .copyright-text {
@@ -281,7 +238,7 @@ footer {
 /* -Separated between Heights and Widths.
 -Widths are divided into larger and and Smaller Widths.
 -Comment headings for styles that target specific pages or 
-sections (e.g. Google API Section, Restaiurants Section, 
+sections (e.g. Google API Section, Restaurants Section, 
 Footer etc.) are included within the Media Queries themselves. */
 
 /* Heights */
@@ -291,3 +248,9 @@ Footer etc.) are included within the Media Queries themselves. */
 /* Larger Resolutions */
 
 /* Smaller Resolutions */
+
+@media (max-width: 340px) {
+    #cta {
+        font-size: 0.9em;
+    }
+}
