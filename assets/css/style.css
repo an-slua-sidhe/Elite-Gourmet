@@ -16,7 +16,10 @@ h1, h2, h3, h4 {
     font-weight: 600;
 }
 
+
 /* The Header */
+
+/* Jumbotron */
 
 #jumbotron {
     position: relative;
@@ -35,6 +38,8 @@ h1, h2, h3, h4 {
     font-size: .9em;
 }
 
+
+/* Logo */
 
 #logo {
     text-align: right;
@@ -55,6 +60,8 @@ h1, h2, h3, h4 {
     margin-right: -0.3em;
 }
 
+
+/* CTA */
 
 #cta {
     position: absolute;
@@ -77,40 +84,36 @@ h1, h2, h3, h4 {
 
 /* Navbar */
 
-button {
-    margin-top: -3em;
+.navbar {
+    transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -webkit-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+}
+
+.navbar-toggler {
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 
 /* Google API Section */
 
-/* .section-container {
+#google-api-section {
     display: block;
+    background-color: #594C45;
     text-align: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    height: 100vh;
+    width: 100vw;
     margin: 0;
     padding: 0;
 }
 
-.section-container a {
-    text-decoration: none;
-    color: #A51723;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-}
-
-.section-container a:hover {
-    text-decoration: none;
-    color: #707070;
-}
-
-.section-container-row {
-    margin: 0;
-} */
 
 /* EmailJS Section */
 
@@ -204,12 +207,12 @@ button {
 
 /* The Footer */
 
-footer {
-    height: 70em;
-    padding: 1.1em;
+/* footer {
     background-color: #594C45;
+    height: 70em;
+    width: 100vw;
     margin: 0;
-    padding: 0;
+    padding: 1.1em; */
 }
 
 /* .copyright-text {
