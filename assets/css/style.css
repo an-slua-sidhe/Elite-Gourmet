@@ -29,13 +29,12 @@ h1, h2, h3, h4 {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    width: 100vw;
     margin: 0;
     padding: 0;
 }
 
 #jumbotron p {
-    font-size: .9em;
+    font-size: 0.9em;
 }
 
 
@@ -46,7 +45,7 @@ h1, h2, h3, h4 {
     float: right;
     color: #ffffff;
     background: rgba(0, 0, 0, 0.5);
-    padding: .5em 1em 0em .5em;
+    padding: 0.5em 1em 0em 0.5em;
 }
 
 #logo h1 {
@@ -85,6 +84,8 @@ h1, h2, h3, h4 {
 /* Navbar */
 
 .navbar {
+    position: fixed;
+    z-index: 1;
     transition: 0.5s ease-in;
     -moz-transition: 0.5s ease-in;
     -webkit-transition: 0.5s ease-in;
@@ -99,7 +100,11 @@ h1, h2, h3, h4 {
 }
 
 .navbar .navbar-nav .nav-item a {
+    color: rgb(224, 223, 223);
+    background-color: rgba(0, 0, 0, 0.6);
     padding-left: 0.12em;
+    width: 5.8em;
+    border-radius: 0.2em;
 }
 
 .navbar .navbar-nav .nav-item a:hover {
@@ -109,7 +114,7 @@ h1, h2, h3, h4 {
 
 /* Google API Section */
 
-#google-api-section {
+#services-section {
     display: block;
     background-color: #594C45;
     text-align: center;
@@ -117,11 +122,22 @@ h1, h2, h3, h4 {
     -ms-flex-pack: center;
     justify-content: center;
     height: 100vh;
-    width: 100vw;
     margin: 0;
     padding: 0;
 }
 
+#google-api {
+    background-color: #C29C64;
+    height: 18em;
+    margin-top: 1em;
+    border-radius: .3em;
+}
+
+#services-text {
+    background-color: #426A8C;
+    height: 18em;
+    border-radius: .3em;
+}
 
 /* EmailJS Section */
 
