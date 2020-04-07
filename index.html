@@ -70,13 +70,58 @@
 
     </header>
 
-    <section id="services-section" class="container-fluid row">
-        <div id="google-api" class="col-9 col-lg-6 mx-auto">
-            <h1>GOOGLE API GOES HERE</h1>
+    <!-- Services Section -->
+    <section id="services-section" class="container-fluid section-container">
+
+        <div class="row section-container-row">
+
+            <div class="col-12 col-md-6 order-2 order-md-1">
+                <div id="google-api-card" class="section-card mx-auto">
+                    <h3>Our Restaurant Locations:</h3>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 order-1 order-md-2">
+                <div id="services-text-card" class="section-card mx-auto">
+
+                    <h3>Excellence is a choice.</h3>
+                    <br>
+
+                    <p> Here at ELITE GOURMET
+                        we believe our discerning customers would
+                        like to chose excellence in dining. We connect
+                        you with Michelin starred restaurants across
+                        the island of Ireland and provide you with
+                        a comprehensive dining package.</p>
+
+                    <p>This includes:</p>
+
+                    <ul>
+                        <li>Sourcing the establishment that
+                            best meets your needs;</li>
+                        <li>Booking your table;</li>
+                        <li>Dealing with any problems that arise regarding
+                            your booking, allergies or preferences;</li>
+                        <li>Providing information about the restaurants
+                            location and history;</li>
+                        <li>Organising transport to
+                            and from the venue.</li>
+                    </ul>
+                    <br>
+                    
+                    <p>Get in touch today and
+                        begin your culinary journey - <strong>20% off</strong> all
+                        services for the month of January!
+                        <br>
+                        Book <strong>HERE</strong>, or find more information
+                        on each restaurant <strong>HERE</strong>.
+                    </p>
+
+                </div>
+            </div>
+
         </div>
-        <div id="services-text" class="col-9 col-lg-6 mx-auto">
-            <h1>SERVICES TEXT GOES HERE</h1>
-        </div>
+
     </section>
 
     <!-- <section id="emailjs-section" class="container-fluid">
@@ -106,6 +151,13 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 
+
+    <!--The Javascript below is for style changes on scroll. Code modified from a snippet found at Jsfiddle (https://jsfiddle.net/wamosjk/ufhp9s15/)-->
+    <script>
+        $(window).scroll(function () {
+            $('nav, .navbar-toggler, .nav-item').toggleClass('scrolled', $(this).scrollTop() > 400);
+        });
+    </script>
 
 </body>
 

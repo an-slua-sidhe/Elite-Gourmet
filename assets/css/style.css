@@ -2,9 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Gafata&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
-
 body {
     font-family: 'Gafata', sans-serif;
+    color: #ffffff;
 }
 
 html body header div {
@@ -16,8 +16,7 @@ h1, h2, h3, h4 {
     font-weight: 600;
 }
 
-
-/* The Header */
+/* Header */
 
 /* Jumbotron */
 
@@ -37,13 +36,11 @@ h1, h2, h3, h4 {
     font-size: 0.9em;
 }
 
-
 /* Logo */
 
 #logo {
     text-align: right;
     float: right;
-    color: #ffffff;
     background: rgba(0, 0, 0, 0.5);
     padding: 0.5em 1em 0em 0.5em;
 }
@@ -59,14 +56,12 @@ h1, h2, h3, h4 {
     margin-right: -0.3em;
 }
 
-
 /* CTA */
 
 #cta {
     position: absolute;
     top: 92vh;
     text-align: center;
-    color: #ffffff;
     background: rgba(0, 0, 0, 0.5);
     height: 5vh;
     width: 90%;
@@ -80,6 +75,13 @@ h1, h2, h3, h4 {
     color: red;
 }
 
+#cta strong:hover {
+    color: white;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
 
 /* Navbar */
 
@@ -99,137 +101,96 @@ h1, h2, h3, h4 {
     -o-transition: all 0.5s ease-in-out;
 }
 
+.navbar-toggler.scrolled {
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
 .navbar .navbar-nav .nav-item a {
     color: rgb(224, 223, 223);
     background-color: rgba(0, 0, 0, 0.6);
     padding-left: 0.12em;
     width: 5.8em;
     border-radius: 0.2em;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 .navbar .navbar-nav .nav-item a:hover {
-    color: white;
+    color: rgb(255, 62, 62);
 }
 
+/* Sections: General Styling */
 
-/* Google API Section */
+.section-container {
+    justify-content: center;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    font-size: 0.9em;
+    margin: 0;
+    padding: 0;
+}
+
+.section-card {
+    border-radius: .5em;
+    width: 90%;
+    height: auto;
+    margin: 5% auto;
+    padding: 3%;
+}
+
+.section-card h1, h2, h3 {
+    margin: 0;
+}
+
+/*Services Section */
 
 #services-section {
-    display: block;
     background-color: #594C45;
-    text-align: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
 }
 
-#google-api {
+.section-container-row {
+    margin: 0;
+}
+
+.section-container-row col-12 {
+    margin: 0;
+}
+
+#google-api-card {
     background-color: #C29C64;
-    height: 18em;
-    margin-top: 1em;
-    border-radius: .3em;
 }
 
-#services-text {
+#services-text-card {
     background-color: #426A8C;
-    height: 18em;
-    border-radius: .3em;
 }
 
-/* EmailJS Section */
-
-/* .section-container {
-    display: block;
-    text-align: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+#services-text-card ul {
+    justify-content: left;
+    text-align: left;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    color: #f1e5e5;
+    padding-right: .4em;
 }
 
-.section-container a {
-    text-decoration: none;
-    color: #A51723;
+#services-text-card strong:hover {
+    color: rgb(255, 62, 62);
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
 }
-
-.section-container a:hover {
-    text-decoration: none;
-    color: #707070;
-}
-
-.section-container-row {
-    margin: 0;
-} */
 
 /* Restaurants Section */
 
-/* .section-container {
-    display: block;
-    text-align: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-}
+/* Booking Section */
 
-.section-container a {
-    text-decoration: none;
-    color: #A51723;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-}
+/* About Section */
 
-.section-container a:hover {
-    text-decoration: none;
-    color: #707070;
-}
-
-.section-container-row {
-    margin: 0;
-} */
-
-/* About Us Section */
-
-/* .section-container {
-    display: block;
-    text-align: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-}
-
-.section-container a {
-    text-decoration: none;
-    color: #A51723;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-}
-
-.section-container a:hover {
-    text-decoration: none;
-    color: #707070;
-}
-
-.section-container-row {
-    margin: 0;
-} */
-
-/* The Footer */
+/* Footer */
 
 /* footer {
     background-color: #594C45;
@@ -237,6 +198,7 @@ h1, h2, h3, h4 {
     width: 100vw;
     margin: 0;
     padding: 1.1em; */
+
 }
 
 /* .copyright-text {
