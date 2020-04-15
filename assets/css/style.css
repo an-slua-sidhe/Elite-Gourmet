@@ -173,6 +173,12 @@ h1, h2, h3, h4 {
     background-color: #C29C64;
 }
 
+#map {
+    min-height: 360px;
+    border-radius: .4em;
+    margin: 1.5em;
+}
+
 /* #services-text-container {
     (May need this ID later)
 } */
