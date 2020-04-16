@@ -16,6 +16,8 @@ h1, h2, h3, h4 {
     font-weight: 600;
 }
 
+
+
 /* Header */
 
 /* Jumbotron */
@@ -35,6 +37,7 @@ h1, h2, h3, h4 {
 #jumbotron p {
     font-size: 0.9em;
 }
+
 
 /* Logo */
 
@@ -56,6 +59,7 @@ h1, h2, h3, h4 {
     margin-right: -0.3em;
 }
 
+
 /* CTA */
 
 #cta {
@@ -68,6 +72,10 @@ h1, h2, h3, h4 {
     margin-left: 5%;
     margin-right: 5%;
     padding-top: 0.2em;
+}
+
+#cta a {
+    text-decoration: none;
 }
 
 #cta strong {
@@ -86,6 +94,7 @@ h1, h2, h3, h4 {
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
 }
+
 
 /* Navbar */
 
@@ -125,7 +134,11 @@ h1, h2, h3, h4 {
     color: #C29C64;
 }
 
-/* Sections: General Styling */
+
+
+/* Sections */
+
+/* General Styling */
 
 .section-container {
     justify-content: center;
@@ -149,6 +162,7 @@ h1, h2, h3, h4 {
     margin: 0;
 }
 
+
 /*Services Section */
 
 #services-section {
@@ -164,13 +178,12 @@ h1, h2, h3, h4 {
     margin: 0;
 }
 
-/* .section-container-row col-12 {
-    margin: 0;
-    (Unnecessary?)
-} */
-
 #google-api-card {
     background-color: #C29C64;
+}
+
+ #google-api-card p {
+    justify-content: left;
 }
 
 #map {
@@ -178,10 +191,6 @@ h1, h2, h3, h4 {
     border-radius: .4em;
     margin: 1.5em;
 }
-
-/* #services-text-container {
-    (May need this ID later)
-} */
 
 #services-text-card {
     background-color: #426A8C;
@@ -212,11 +221,16 @@ h1, h2, h3, h4 {
     -o-transition: all 0.3s ease-in-out;
 }
 
-/* Restaurants Section */
 
 /* Booking Section */
 
+
+/* Restaurants Section */
+
+
 /* About Section */
+
+
 
 /* Footer */
 
