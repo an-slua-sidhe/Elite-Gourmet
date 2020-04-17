@@ -89,10 +89,6 @@ h1, h2, h3, h4 {
 
 #cta strong:hover {
     color: #C29C64;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
 }
 
 
@@ -184,6 +180,21 @@ h1, h2, h3, h4 {
 
  #google-api-card p {
     justify-content: left;
+    color: rgb(211, 229, 250)
+}
+
+#google-api-card p a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
+}
+
+#google-api-card p a:hover {
+    color: grey;
 }
 
 #map {
@@ -205,6 +216,10 @@ h1, h2, h3, h4 {
     padding-right: .4em;
 }
 
+#services-text-card span {
+    color: rgb(247, 210, 156);
+}
+
 #services-text-card strong {
     color: rgb(247, 210, 156);
     transition: all 0.3s ease-in-out;
@@ -215,10 +230,6 @@ h1, h2, h3, h4 {
 
 #services-text-card strong:hover {
     color: #C29C64;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
 }
 
 
@@ -264,6 +275,8 @@ h1, h2, h3, h4 {
 .social-media-links li a i:hover {
     color: #A51723;
 } */
+
+
 
 /* Media Queries */
 
