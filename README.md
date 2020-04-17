@@ -1,28 +1,31 @@
-![Corr Mhóna Banner Logo](assets/images/banner-logo1.jpg "Corr Mhóna Banner Logo")
+![Elite Gourmet Banner Logo](assets/images/banner.png "Elite Gourmet Banner Logo")
 
-# **THE _CORR MHÓNA_ BAND WEBSITE**
+# **THE _ELITE GOURMET_ WEBSITE**
 
 ## **Introduction**
 
-This is the repository for the official **Corr Mhóna** website.
+This is the repository for the **Elite Gourmet** website.
 
-The **Deployed Version** of the site can be visited by clicking [**here**](https://an-slua-sidhe.github.io/milestone-1).
+The **Deployed Version** of the site can be visited by clicking [**here**](https://an-slua-sidhe.github.io/milestone-2).
 
-It was designed by me, **Paul Quinn**, to give the band a greater independent online presence. I initally designed and developed the site from the ground up as part of my [Fullstack Web Development Diploma](https://codeinstitute.net/courses) with the **Code Institute**, Ireland. The end goal is to provide a fully interactive website for the band, with e-commerce functionality.
+My name is **Paul Quinn** and I designed and developed in its entirety as part of my [Fullstack Web Development Diploma](https://codeinstitute.net/courses) with the **Code Institute**, Ireland. I came up with the concept for Elite Gourmet while thinking of ideas for my Milestone 2 project. After completing modules in Javascript Fundamentals and Interactive Front-end Development, this project needed to showcase my newfound skills in Javascript powered website functionality.
 
-The band already had an online presence through third party sites such as [Bandcamp](https://corrmona.bandcamp.com) and [Facebook](https://www.facebook.com/corrmhona). However, there was a desire to cut out the middle man and provide the band's fans with the means to quickly and easily access merchandise, information and gig announcements on a single platform. As a band member myself, I decided to undertake this task with the skills I had learned during the course.
+I decided to use 2-3 APIs for the project; 2 certainties in the Google Maps and EmailJS APIs, with the possiblity of adding a third if time constraints allowed (this could also be added to a list of future features if necessary).
 
-A variety of features have been implemented already, and there are several more to come in the near future. I have used the band's own assets to populate the site and inspire its design. There is a full overview of the design/development process below, along with an extensive outline of the testing process, future features, user stories, responsivity and deployment.
+I then needed subject material and a central concept for my project. As I am from West Cork and live in the city of Cork, I considered the explosion of culinary excellence in the region in the last 10-15 years. This also extends beyond Cork to the rest of Ireland, and includes several **Michelin** starred establishments. Combining **Google Maps** and **EmailJS** with this local fine dining landscape, I hit upon the idea of a website serving clients who wished to discover the finest culinary experience without the hassle of organising it.
+
+**Elite Gourmet** is a site where the user can browse and select Michelin starred restaurants from the four corners of Ireland (via the Google Maps API) get in contact with the host (via the EmailJS API) and organise a trip to and from their chosen establishment, with all transport, dietary and booking concerns taken care of.
+
+ There is a full overview of the design/development process below, along with an extensive outline of the testing process, future features, user stories, responsivity and deployment.
 
 ## **Table of Contents**
 
 1. [User Experience](#user-experience)
     - [User Stories](#user-stories)
-        - [The Band Member](#the-band-member)
-        - [The Music Fan](#the-music-fan)
-        - [The Promoter](#the-promoter)
-        - [The Journalist](#the-journalist)
-        - [The Record Label](#the-record-label)
+        - [The Tourist](#the-tourist)
+        - [The Gourmand](#the-gourmand)
+        - [The Local](#the-local)
+        - [The Critic](#the-critic)
     - [Wireframes](#wireframes)
         - [Basic Wireframes](#basic-wireframes)
         - [Full Asset Mockups](#full-asset-mockups)
@@ -38,15 +41,14 @@ A variety of features have been implemented already, and there are several more 
 
 2. [Features](#features)
     - [Existing Features](#existing-features)
-        - [Common Features](#common-features)
-        - [Home](#home)
-        - [Biography {'The Band'}](#biography)
-        - [Discography](#discography)
-        - [Contact](#contact)
+        - [Jumbotron](#jumbotron)
+        - [Services](#services)
+        - [Booking](#booking)
+        - [Restaurants](#restaurants)
+        - [About Us](#about-us)
+        - [Footer](#footer)
     - [Future Features](#future-features)
-        - [Contact Form](#contact-form)
-        - [Shop](#shop)
-        - [Flip Cards](#flip-cards)
+        - [Not sure what else to add.](#??)
 
 3. [Technologies Used](#technologies-used)
 
@@ -59,17 +61,21 @@ A variety of features have been implemented already, and there are several more 
         - [Mobile](#mobile)
         - [Tablet](#tablet)
         - [Desktop](#desktop)
+    - [Jasmine](#Jasmine)
+        - [Not sure what to put here yet.](#??)
     - [User Scenarios](#user-scenarios)
-        - [Listening to the New Album](#listening-to-the-new-album)
-        - [Finding out the Latest News](#finding-out-the-latest-news)
-        - [Purchasing Merchandise and CDs](#purchasing-merchandise-and-cds)
-        - [Finding Out About the Band](#finding-out-about-the-band)
-        - [Contacting the Band](#contacting-the-band)
+        - [Seeking Fine Dining Information for Ireland](#seeking-fine-dining-information-for-ireland)
+        - [Specifically Looking for Michelin Starred Restaurants](#specifically-looking-for-michelin-starred-restaurants)
+        - [Locating the Six Restaurant Partners of Elite Gourmet](#locating-the-six-restaurant-partners-of-elite-gourmet)
+        - [Contacting Elite Gourmet](#contacting-elite-gourmet)
+        - [Booking a Fine Dining Experience](#booking-a-fine-dining-experience)
+        - [Finding Out About Elite Gourmet](#finding-out-about-elite-gourmet)
     - [Outstanding Bugs](#outstanding-bugs)
 
 5. [Deployment](#deployment)
-        - [Local](#local)
-        - [Remote](#remote)
+    - [Local](#local)
+    - [Remote](#remote)
+
 6. [Credits](#credits)
     - [Content](#content)
     - [Media](#media)
@@ -79,22 +85,24 @@ ___
 
 ## **User Experience**
 
-**Corr Mhóna** has always prided itself on following a few founding principles; Making use of natural elements both musically and lyrically, organically combining whatever styles suit the music we write, promoting the Irish language, and avoiding narcissistic imagery and remaining grounded when connecting with out fans.
+**Elite Gourmet** was conceived as a site where a discerning customer could go to have their culinary needs taken care of. The site was intended to have an aura of classy competence, a simplicity of design that didn't attempt to overwhelm the users senses.
 
-I have tried to use these principles when creating a User Experience for our website, constructing a site that has clean organic lines and colours, that delivers relevant content to the user simply and efficiently, and that is also available in the Irish language.
+I have tried to use clear, simple and high quality images and textures when designing the site. I didn't want a site that contained to much clutter and text and that got across its message confidently, clearly and cleanly.
+
+As such a site would most likely be popular with visitors to our island, I decided to give the site multi-language fuctionality to broaden the possible user-base.
 
 ### **User Stories**
 
-There are a number of different types of user which may visit the site, each with different goals and motivations. I have listed them below in five categories; The Band Member, The Music Fan, The Promoter, The Journalist, The Record Label.
+There are a number of different types of user which may visit the site, each with different goals and motivations. I have listed them below in four categories; The Tourist, The Gourmand, The Local, The Critic.
 
-#### The Band Member
+#### The Tourist
 
 - As band member, I can easily put the latest information up on the **News** section of the [**Home**](index.html) page, so that fans and promoters are kept updated.
 - As band member, I can embed media from the latest project in the **Media** section of the [**Home**](index.html) page, to make the latest release more exciting and interesting for our fans.
 - As band member, I can advertise that the band is available for gigs and festivals through the [**Contact**](contact.html) page of the site.
 - As band member, I will eventually be able to add merchandise and CDs to the **Shop** page, so I can sell directly to the fans.
 
-#### The Music Fan
+#### Gourmand
 
 - As a music fan, I can find out everything I need to know about the band in one place, when I search for new music to listen to.
 - As a metal music fan specifically interested in Celtic/Gaelic/folk music, I can find the band site through certain keywords found throughout the site.
@@ -103,20 +111,15 @@ There are a number of different types of user which may visit the site, each wit
 - As a music fan who already knows/likes the band, I can check the **Home** page for the latest news on gigs and upcoming releases, and I will soon be able to visit the **Shop** page to puchase the latest merchandise and CDs.
 - As a music fan, I can get in touch with the band on the [**Contact**](contact.html) page and let the band know why I am making contact through the **Contact Form**.
 
-#### The Promoter
+#### The Local
 
 - As promoter, I can check the **News** section to see if the band are currently active and looking for gigs.
 - As promoter, I can use the [**Contact**](contact.html) page to get in touch with the band, and specifically let them know that I am interested in booking them for gigs via the **Contact Form**.
 
-#### The Journalist
+#### The Critic
 
 - As journalist who has been sent a copy of the latest CD to review, I can get more information about the band to complete my review by visiting the [**Home**](index.html), [**Biography**](bio.html) {'The Band'} & [**Discography**](disc.html) pages of the site.
 - As journalist who is completing a feature about the band, I can find more information from the same locations mentioned above, as well as finding extra musical and visual content in the **Media** section, as well as the [**Biography**](bio.html) {'The Band'} & [**Discography**](disc.html) pages.
-
-#### The Record Label
-
-- As a record label employee who has been sent a promo pack from the band, I can browse the site to get a feel for the ethos and imagery the band is looking to evoke.
-- As a record label employee who has been recommended the band by another professional or promoter, I can get in contact with the band via the [**Contact**](contact.html) page and specifically tell the band the reason I am making contact through the **Contact Form**.
 
 ### **Wireframes**
 
@@ -195,18 +198,7 @@ There are four pages on the site, with a number of features appearing on each pa
 
 #### Common Features
 
-- **Navbar**  
-    I modified the typical [**Bootstrap**](https://getbootstrap.com/docs/4.0/components/navbar) **Navbar** to suit the site, which included fixing it to top so it would remain there while scrolling, with a translucent background. I modified **Javascript** from [**JS Fiddle**](https://jsfiddle.net/wamosjk/ufhp9s15) to make an opaque background for when the page scrolled. The __*Gaeilge*__ (Irish language) link changes colour from black to white on scroll, whereas the **Audio Player** text does not display on scroll. All of these  keep the text legible when scrolling.
-    The **Navbar** turns into a **Burger Button Menu** on mobile, and this changes colour on scroll for visibility, also enabled with the same **Javascript** code.
 
-- **Gaeilge Link (Irish Language Option)**  
-     This link was coding inside the **Bootstrap Navbar** div mentioned in the previous section. The description of how it changes when scrolled can be found above. A separate Irish language **HTML** page was created for each of the four main pages ([index-ga.html](index-ga.html) e.g.). I got the idea for this from the Code Institute Milestone 1 **Grade 5 Example Project**: [*A Porfolio by Haley Schafer*](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive) were she uses a simliar technique to give her site French language functionality. This link, available on every page, allows the user to navigate between the Irish and English versions of the site. All text (including image descriptions and alternative text), the **HTML** language setting (i.e. html lang="ga") and headings were translated into the Irish language by me. Link changes to maroon on hover, from black to white on scroll, and does not display on mobile for aesthetic reasons.
-
-- **Audio Player**  
-    A basic **HTML Audio Player** was included to the right of the **Header**. This contains a sample from the upcoming album, which is available in both [**MP3**](assets/audio/dair.mp3) and [**OGG**](assets/audio/dair.ogg) format. Some text advertising the player can be seen beneath it. The player does not appear on the mobile version of the site. The audio player text *disappears when scrolled* so that the navbar takes up less space. This text was not included on the [**Contact**](contact.html) page as the **Navbar** is already in its scrolled form when the page loads.
-
-- **Banner Logo**  
-    All other pages besides the **Home** page display a [**Banner Logo**](assets/images/banner-logo1.jpg) instead of the **Hero Image**. On the [**Contact**](contact.html) page the **Banner Logo** is not displayed above 1500px (see [**Media Queries**](#media-queries) below).
 
 - **Section**  
     There is a main section on each page, though the content is different each time (see below). These were created using the **Bootstrap** grid and are constructed with containers, rows and columns. The [**Home**](index.html) and [**Biography**](bio.html) pages main sections consist of two main containers which can display side by side or one beneath the other, depending on whether they are viewed in mobile or tablet/desktop (see [**Deployment**](#deployment)). The [**Contact**](contact.html) and [**Discography**](disc.html) pages have slightly different section layouts, however. All **in-line** links within any page's section text are fully navigable; they appear as maroon but change colour to grey when hovered over.
@@ -214,51 +206,53 @@ There are four pages on the site, with a number of features appearing on each pa
 - **Footer**
     A basic footer can be found on each page. It contains two features, some **Copyright Text** and the **Social Media Links**. The **Copyright Text** is a simple part of the **Bootstrap** grid, and doesn't display on mobile. The **Social Media Links** are fully functional, and link to the band's previously existing online web presence on [**Bandcamp**](https://corrmona.bandcamp.com), [**Youtube**](https://www.youtube.com/watch?v=2wL0o1rxRLQ), [**Facebook**](https://www.facebook.com/corrmhona) and [**Instagram**](https://www.instagram.com/corrmhona). The icons for each social media platform were provided by [**Font Awesome**](https://fontawesome.com).
 
-#### Home
+#### Jumbotron
 
 - **Hero Image**  
     This [image](assets/images/dair-art.jpg) is the new album cover, and provides a stiking backdrop to the **Landing Page**. It is presented via a **Jumbotron**, and scales across all platorms.
 
+- **Banner Logo**  
+    All other pages besides the **Home** page display a [**Banner Logo**](assets/images/banner-logo1.jpg) instead of the **Hero Image**. On the [**Contact**](contact.html) page the **Banner Logo** is not displayed above 1500px (see [**Media Queries**](#media-queries) below).
+
+- **Navbar**
+    I modified the typical [**Bootstrap**](https://getbootstrap.com/docs/4.0/components/navbar) **Navbar** to suit the site, which included fixing it to top so it would remain there while scrolling, with a translucent background. I modified **Javascript** from [**JS Fiddle**](https://jsfiddle.net/wamosjk/ufhp9s15) to make an opaque background for when the page scrolled. The __*Gaeilge*__ (Irish language) link changes colour from black to white on scroll, whereas the **Audio Player** text does not display on scroll. All of these  keep the text legible when scrolling.
+    The **Navbar** turns into a **Burger Button Menu** on mobile, and this changes colour on scroll for visibility, also enabled with the same **Javascript** code.
+
 - **Call to Action (CTA)**  
     There is **CTA** at the bottom of the [**Landing Page**](index.html) envelope. This tells users that a new album is coming soon, and provides a link for them to click to get more information, bringing them to the **News Section** of the page.
 
-- **Media Section**  
-    This section contains an embedded [**Youtube** video](https://www.youtube.com/watch?v=228sZcdZ6O0) that plays a **Teaser Video** with a medley of tunes from the new album. There are also a couple of images in this section; the new album [poster art](assets/images/dair-dryad.jpg) and a [live photo](assets/images/band-live2jpg) of the band.
+#### Services
 
-- **News Section**  
-    There are three elements containing text in this section. These display the latest news about the band. The third element ('Corr Mhóna play the Siege of Limerick') does not display on mobile to make the site more compact.
-
-#### Biography
-
-- **Band Members Section**  
+- **Google Maps API**  
     This [element](bio.html) contains photos of the four band members and their names. It displays to the left for desktop and to the bottom on mobile and tablet.
 
-- **Biography Section**  
+- **Services Text**  
     This is an [element](bio.html) which contains a large amount of text. All links within the text navigate to their respective targets. The **Biography Section** displays to the top on mobile and to the right for tablet and desktop.
 
-#### Discography
+#### Booking
 
-- **Discography Section**  
+- **EmailJS Booking Form**  
     There is only one main section container in the [**Discography**](disc.html) page. There are three groups of elements within it, each group with an **Album Cover**, an **Album Title** and **Album Text**. These are displayed on a dark green background, from the oldest release to the newest. On higher resolutions, the three elements appear in a containing div with a sand-coloured background, whereas on mobile the appear separately from the top down (i.e. **Album Cover**, **Album Title**, **Album Text**).
 
-#### Contact
+#### Restaurants
 
-- **Contact Section**  
+- **Restaurant Cards**  
     This section is different to the other three pages. There is a large background image (the new album [**Poster Art**](assets/images/dair-dryad.jpg)) and a central element on an opaque background. This contains a [**Contact Form**](contact.html) which is not functional yet, but will be in future. It is a modified version of the [**Bootstrap**](https://getbootstrap.com/docs/4.0/components/forms) form code. The form has several fields which ask the user to let the band know why they are getting in touch; an e-mail field, a set of three radio buttons, and a larger text input field. There is a [**Bootstrap**](https://getbootstrap.com/docs/4.0/components/buttons) button below these features, which has been modified so that its colours (maroon and cream) match the site.
+
+#### **Footer**
+
+- **Copyright Text**
+    A basic footer can be found on each page. It contains two features, some **Copyright Text** and the **Social Media Links**. The **Copyright Text** is a simple part of the **Bootstrap** grid, and doesn't display on mobile.
+
+- **Social Media Links**
+    The **Social Media Links** are fully functional, and link to the band's previously existing online web presence on [**Bandcamp**](https://corrmona.bandcamp.com), [**Youtube**](https://www.youtube.com/watch?v=2wL0o1rxRLQ), [**Facebook**](https://www.facebook.com/corrmhona) and [**Instagram**](https://www.instagram.com/corrmhona). The icons for each social media platform were provided by [**Font Awesome**](https://fontawesome.com).
+
 
 ### **Future Features**
 
-#### Contact Form
-
-The contact form needs **Javascript** to be fully functional. There are a couple of instances of Javascript code on this site, but I have yet to start learning the language, and so the ability of the **Contact Form** to receive and transmit information via a server will be part of a future expansion.
-
-#### Shop
-
-As with the **Contact Form** above, the **Shop** page needs **Javascript** to function. It is one of the major benefits of the band having its own site, and will provide the band with 100% profit from sales. Currently the **Shop** option in the **Navbar** is crossed out and inactive, but a future iteration of this project will use **Javascript** to make a fully functional and interactive e-commerce page for the site.
-
 #### Flip Cards
 
-This is another possible future feature for the site, though a purely aesthetic one; making images and photos function as **Flip Cards**. Each flip card would have extra information about whatever the image contained. This would make the site more dynamic and enjoyable for the user.
+This is another possible future feature for the site, though a purely aesthetic one; making images and photos function as **Flip Cards**. Each flip card would have extra information about whatever the image contained. This would make the site more dynamic and enjoyable for the user. (Possible here?)
 
 ___
 
@@ -319,7 +313,7 @@ I tested the site in **Developer Tools** on four internet browsers (**Chrome**, 
 
 ### **Media Queries**
 
-Over 20 separate **Media Query** parameters were set in the [**CSS** Code](assets/css/style.css). Every imaginable variation of resolution, from the smallest phone to the biggest 4K monitor, were used to test the responsivity of the site. There are often multiple elements, functions and attributes being targeted and styled within in any one **Media Query**. These ensure that the site looks like it should from 240px in width to over 4000px. I would use the full gamut of responsivity in **Developer Tools**, but I also tested certain specific resolutions, as shown below.
+Over 20 separate **Media Query** parameters were set in the [**CSS**] code(assets/css/style.css). Every imaginable variation of resolution, from the smallest phone to the biggest 4K monitor, were used to test the responsivity of the site. There are often multiple elements, functions and attributes being targeted and styled within in any one **Media Query**. These ensure that the site looks like it should from 240px in width to over 4000px. I would use the full gamut of responsivity in **Developer Tools**, but I also tested certain specific resolutions, as shown below.
 
 #### Mobile
 
@@ -342,7 +336,7 @@ Over 20 separate **Media Query** parameters were set in the [**CSS** Code](asset
 
 ### **User Scenarios**
 
-#### Listening to the New Album
+#### Seeking Fine Dining Information for Ireland
 
 - **Audio Player** (Tablet & Desktop):
     1. Go to the [**Home**](index.html) page.
@@ -353,13 +347,13 @@ Over 20 separate **Media Query** parameters were set in the [**CSS** Code](asset
     2. Look for the **Media** section farther down the page.
     3. Click on the new album **Teaser Video** at the top of the section.
 
-#### Finding out the Latest News
+#### Specifically Looking for Michelin Starred Restaurants
 
 - **News Section**:
     1. Go to the [**Home**](index.html) page.
     2. Scroll down to the **News Section**, just below the **Hero Image** and **CTA**.
 
-#### Purchasing Merchandise and CDs
+#### Locating the Six Restaurant Partners of Elite Gourmet
 
 - **Shop**:
     1. (This is a **Future Feature**).
@@ -372,14 +366,14 @@ Over 20 separate **Media Query** parameters were set in the [**CSS** Code](asset
     3. Click on the **Bandcamp** icon.
     4. Proceed to the **Corr Mhóna Bandcamp** site.
 
-#### Finding Out About the Band
+#### Booking a Fine Dining Experience
 
 - **Biography Section**:
     1. Go to the **Navbar** on any page.
     2. Click on the [**Biography**](bio.html) {'The Band'} link.
     3. Scroll down to the **Biography Section** of the page.
 
-#### Contacting the Band
+#### Finding Out About Elite Gourmet
 
 - **Contact Form**:
     1. (This is a **Future Feature**).
@@ -393,16 +387,9 @@ Over 20 separate **Media Query** parameters were set in the [**CSS** Code](asset
 
 There are a few errors and bugs that are worth noting. Some are due to a lack of functionality whereas others are due to a particular platform or medium reacting differently to the code.
 
-- **Contact Form Inactive**  
-    This is still currently inactive until more Javascript functionality is enabled on the site. The user can input data which will be validated, but there is no email or server set up to recieve the information.
-
 - **Galaxy A5 Scrolling Issue**  
 
     When scrolling down on the **Home** page, the **Hero Image** becomes larger in size as you scroll. This does not effect performance or the **User Experience**, but hasn't appeared on other platforms.
-
-- **Internet Explorer / Firefox Audio Player**  
-
-    The **Audio Player** is a simple HTML player, built using only the audio tag. On **Chrome** it looks well and matches the site aesthetics, but on Internet Explorer and Firefox, it is uglier and looks out of place.
 
 ___
 
@@ -410,10 +397,10 @@ ___
 
 ### **Local**
 
-- This project is deployed live on [**Github Pages**](https://an-slua-sidhe.github.io/milestone-1).
+- This project is deployed live on [**Github Pages**](https://an-slua-sidhe.github.io/milestone-2).
 
 - You can run the code in your chosen local **Integrated Development Environment** (**IDE**, e.g. [**VS Code**](https://code.visualstudio.com), [**AWS CLoud9**](https://aws.amazon.com/cloud9)).
-    1. Open the **Project Repository** in [**Github**](https://github.com/an-slua-sidhe/milestone-1).
+    1. Open the **Project Repository** in [**Github**](https://github.com/an-slua-sidhe/milestone-2).
     2. Look for the green *Clone or Download* button at the top right of the repository.
     3. If using [**Github Desktop**](https://desktop.github.com), chose to *Open in Desktop*.
     4. If you want to **Clone** the files into a **Git** repository, chose to copy the URL from the same menu (# 2.). Open your chosen **Command Line Interface** (**CLI**, e.g. [**Gitbash**](https://git-scm.com/downloads)) and use the following command:
@@ -431,7 +418,7 @@ ___
 
 ### **Remote**
 
-- To push to code to a remote repository, follow the steps below (I use **Github** as an example).
+- To push the code to a remote repository, follow the steps below (I use **Github** as an example).
 
     1. After using the command 'git status' (see step 6 above) in the command line, check that the console reads:
 
@@ -440,7 +427,7 @@ ___
         working tree clean
         ```
 
-    2. Next, link your remote repository. I will use **Github** as an example here. Open your Github account and select *Repositories*. At the top right of the screen select *New*.
+    2. Next, link your remote repository. For **Github**, open your Github account and select *Repositories*. At the top right of the screen select *New*.
 
     3. Give your repository a name. Keep it short and avoid underscores.
 
