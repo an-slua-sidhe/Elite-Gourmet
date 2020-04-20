@@ -27,7 +27,7 @@ I then needed subject material and a central concept for my project. As I am fro
         - [The Gourmand](#the-gourmand)
         - [The Local](#the-local)
         - [The Critic](#the-critic)
-    - [Wireframes](#wireframes)
+    - [Wireframes and Mockups](#wireframes-and-mockups)
         - [Basic Wireframes](#basic-wireframes)
         - [Full Asset Mockups](#full-asset-mockups)
     - [Design Choices](#design-choices)
@@ -123,33 +123,26 @@ There are a number of different types of user which may visit the site, each wit
 
 #### The Critic
 
-- As journalist,  I can get in contact with **ELite Gourmet** to get information about our restaurants and book an evening for a review by using the **Press** option in the **Contact Form** of the [**Booking Section**](#booking) .
+- As journalist,  I can get in contact with **Elite Gourmet** to get information about our restaurants and book an evening for a review by using the **Press** option in the **Contact Form** of the [**Booking Section**](#booking).
 
-### **Wireframes**
+### **Wireframes and Mockups**
 
 I used Adobe XD to design and create **Wireframes** and **Mock-ups** for this site. I decided to create a single page site and to follow the principal of **Mobile First**. I followed the usual method of keeping the basic wireframes extremely simple stylistically, mostly focusing on the form, location and interaction between the various elements of the site on each page. I then used the theme of culinary excellence to decide the colour palette and artistic direction of the site. The wireframes and mock-ups can be found as PDFs in this repository (see below for links).
 
 #### Basic Wireframes
 
-The basic **Wireframes** are available in three PDFs; one for [**Mobile**](assets/wireframes/wireframes-mobile.pdf), one for [**Tablet**](assets/wireframes/wireframes-tablet.pdf) and one for [**Desktop**](assets/wireframes/wireframes-desktop.pdf). Any colour used is for contrast only. Simple text headings were added to each element to denote its purpose. These overall [**Design Choices**](#design-choices) can be traced to the final deployed [**Website**](https://an-slua-sidhe.github.io/milestone-2), with some changes (see [**Design Changes**](#design-changes)).
+The basic **Wireframes** are available in three PNGs; one for [**Mobile**](assets/wireframes/mobile-wireframe.png), one for [**Tablet**](assets/wireframes/tablet-wireframe.png) and one for [**Desktop**](assets/wireframes/desktop-wireframe.png). Any colour used is for contrast only. Simple text headings were added to each element to denote its purpose. These overall [**Design Choices**](#design-choices) can be traced to the final deployed [**Website**](https://an-slua-sidhe.github.io/milestone-2), with some changes (see [**Design Changes**](#design-changes)).
 
 #### Full Asset Mockups
 
-PDFs of the full asset **Mockups** can also be found in the same folder. The **Mobile** mockup can be found [here](assets/wireframes/mockups-mobile.pdf), the **Tablet** version is [here](assets/wireframes/mockups-tablet.pdf) and the **Tablet** version is [here](assets/wireframes/mockups-desktop.pdf). 
-
-Wireframe choices followed, main body of work was deciding which assets to place where. The final mockup PDFs were of very high quality (due the size of the art assets), and it may be necessary to download them to view them.
-(PQ - Will I sort out these PDFs now?)
+PNGs of the full asset **Mockups** can also be found in this repository. The **Mobile** mockup can be found [here](assets/wireframes/mobile-mockup.png), the **Tablet** version is [here](assets/wireframes/tablet-mockup.png) and the **Desktop** version is [here](assets/wireframes/desktop-mockup.png).
 
 ### **Design Choices**
 
-The site was intended to have an aura of classy competence, a simplicity of design that didn't attempt to overwhelm the users senses.
-
-I have tried to use clear, simple and high quality images and textures when designing the site. I didn't want a site that contained to much clutter and text and that got across its message confidently, clearly and cleanly.
-
-As such a site would most likely be popular with visitors to our island, I decided to give the site multi-language fuctionality to broaden the possible user-base.
+The site was intended to have an aura of classy competence, a simplicity of design that didn't attempt to overwhelm the users senses. I have tried to use clear, simple and high quality images and textures when designing the site. I didn't want a site that contained too much clutter and text, but one that got across its message confidently, clearly and cleanly. Therefore, I decided to create a single-page site with a focused aesthetic. As such a site would most likely be popular with visitors to our island, I decided to give the site multi-language fuctionality to broaden the possible user-base (PQ - To be implemented).
 
 As this is a single page site...
-Mobile, tablet, desktop slightly different...
+Mobile, tablet, desktop reolutions are only slightly different...
 
 #### Colours
 
