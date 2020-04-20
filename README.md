@@ -31,8 +31,8 @@ I then needed subject material and a central concept for my project. As I am fro
         - [Basic Wireframes](#basic-wireframes)
         - [Full Asset Mockups](#full-asset-mockups)
     - [Design Choices](#design-choices)
-        - [Colours](#colours)
         - [Images](#images)
+        - [Colours](#colours)
         - [Fonts](#fonts)
         - [Icons](#icons)
     - [Design Changes](#design-changes)
@@ -80,8 +80,8 @@ I then needed subject material and a central concept for my project. As I am fro
     - [Remote](#remote)
 
 6. [Credits](#credits)
-    - [Content](#content)
-    - [Media](#media)
+    - [Images Used](#images-used)
+    - [Restaurants Used](#restaurants-used)
     - [Acknowledgements](#acknowledgements)
 
 ___
@@ -139,19 +139,49 @@ PNGs of the full asset **Mockups** can also be found in this repository. The **M
 
 ### **Design Choices**
 
-The site was intended to have an aura of classy competence, a simplicity of design that didn't attempt to overwhelm the users senses. I have tried to use clear, simple and high quality images and textures when designing the site. I didn't want a site that contained too much clutter and text, but one that got across its message confidently, clearly and cleanly. Therefore, I decided to create a single-page site with a focused aesthetic. As such a site would most likely be popular with visitors to our island, I decided to give the site multi-language fuctionality to broaden the possible user-base (PQ - To be implemented).
+The site was intended to have an aura of classy competence, a simplicity of design that didn't attempt to overwhelm the users senses. I have tried to use clear, simple and high quality images and textures when designing the site. I didn't want a site that contained too much clutter and text, but one that got across its message confidently, clearly and cleanly. Therefore, I decided to create a single-page site with a focused aesthetic. As such a site would most likely be popular with visitors to our island, I decided to give the site multi-language fuctionality to broaden the possible user-base (PQ - To be implemented). Mobile, tablet, desktop versions of the site are only very slightly different, basically invloving **Bootstrap** responsive breakpoint changes (details below).
 
-As this is a single page site...
-Mobile, tablet, desktop reolutions are only slightly different...
+#### Section by Section
 
-#### Colours
+!!!!!!!!!!!!!!!!!!!
 
-I was inspired by the new album's [**Cover Art**](assets/images/dair-art.jpg), and this is the basis for the colour scheme and palette for our site. I used [**Canva**](https://www.canva.com) to create a palette, and I added accent colours of forest green and maroon red so the site would engage the visitor at first glance. I sought a subtle contrast between the different element's shades, using maroon or forest green to accentuate elements on first glance or on hover (see the [**Home**](index.html) page **CTA** {Call to Action} for an example of this). **Navbar** & **Social Media** links transition to maroon on hover, whereas **in-line** links in the body of the text are initially maroon and hover to grey, so that they stand out from the surrounding text (all of these features can also be seen on the [**Home**](index.html) page). The **Navbar** has an opaque background on scroll for legibility, but a translucent background otherwise. The **Gaeilge** link in the **Navbar** is black and hovers to maroon, but this changes to a white which hovers to bright red when the **Navbar** is scrolled (so it continues to be visible).
+-  **Jumbotron Hero Image**     
+        asfdsadffsaf
+
+-  **Services Section**     
+    sdfsafd
+
+- **Booking Section**       
+    sdfsafd
+
+- **Restaurants Section**       	
+    sdfsafd
+
+- **About Us Section**      
+    sdfsafd
+
+- **Footer**        
+    sdfsafd
 
 #### Images
 
-As the band relates to and promotes natural imagery in their music and art, it was an obvious choice to do the same with the website. There was a substantial back catalogue of artwork, but the art for the new album was chosen as the foundation of the site, with other images used to enhance where necessary. The superb [__*Dair*__](assets/images/dair-art.jpg) album cover was used as the main **Hero Image** for the **Landing Page**, with a [**Banner Logo**](assets/images/banner-logo1.jpg) used at the top of the other pages. The new album [poster art](assets/images/dair-dryad.jpg) and a [live photo](assets/images/band-live2jpg) of the band were included in the [**Home**](index.html) page **Media** section. A photo of each band member was included in the **Band Member** section of the [**Biography**](bio.html) {'The Band'} page. All three Corr Mhóna CD covers were used in the [**Discography**](disc.html) page, whereas the new album poster art was used as a background image for the [**Contact**](contact.html) page.
-6
+I wanted a selection of high quality images for the site, which were uncluttered and depicted cooking scenes in an elegant way. Where these images would be used was already decided in the design **Wireframes** (see above). I found the assets I sought on [**Pixabay**](https://pixabay.com/). The main **Jumbotron Background Image** was very important for the site. I chose one that was tasteful, with a palette of muted, yet organic colours, and it can be found [here](assets/images/jumbotron.jpg). I selected an ephemeral image of fine dining for the **README Banner Logo** which can be found [here](assets/images/banner.png). The **Booking Section Background** (click [here](assets/images/bookings-background.jpg)) introduces a dash of brighter colour to the overall palette. This is expanded with the **About Us Background**, which you can see [here](assets/images/about-us-background.jpg). Finally, each culinary venue has an image that was sourced from the restaurant's own webpage; click on the restaurant name below to see the location of these files in this repository:
+- [Ichigo Ichie](assets/images/ichigo-ichie-cork.jpg)
+- [The Cliff House](assets/images/cliff-house-waterford.jpg)
+- [L'Ecrivain](assets/images/lecrivain-dublin.jpg)
+- [The Ox](assets/images/ox-belfast.jpg)
+- [Kai Restaurant](kai-restaurant-galway.jpg)
+- [The Chart House](assets/images/chart-house-dingle.jpg)
+
+#### Colours
+
+I used [**Canva**](https://www.canva.com) to create a palette from the **Jumbotron Background Image**. This understated and earthy palette suited the culinary nature of the site. I used contrasted each sections use of colour, with large high-res background images for the **Jumbotron**, **Booking** and **About Us** sections, and a simple chocolate coloured backdrop to the sections in between. 
+
+!!!!!!!!!!!!!!!!!
+
+
+between the different element's shades, using maroon or forest green to accentuate elements on first glance or on hover (see the [**Home**](index.html) page **CTA** {Call to Action} for an example of this). **Navbar** & **Social Media** links transition to maroon on hover, whereas **in-line** links in the body of the text are initially maroon and hover to grey, so that they stand out from the surrounding text (all of these features can also be seen on the [**Home**](index.html) page). The **Navbar** has an opaque background on scroll for legibility, but a translucent background otherwise. The **Gaeilge** link in the **Navbar** is black and hovers to maroon, but this changes to a white which hovers to bright red when the **Navbar** is scrolled (so it continues to be visible).
+
 #### Fonts
 
 I used [**Google Fonts**](https://fonts.google.com/) to find a font for the site. Handwritten or more natural looking fonts (such as the Irish language [*Cló Gaelach*](http://www.nualeargais.ie/foghlaim/seanchlo.php?teanga)) were considered first, as it was believed they would suit the band ethos more. However, these were not practical in execution, as the more detailed script was hard to read. [*Gafata*](https://fonts.google.com/specimen/Gafata) was chosen as the main font in the end, as it has some organic charateristics, but is clearly legible as either a heading or the main text of section. The back up font is *Sans-serif*.
@@ -176,7 +206,7 @@ A Corr Mhóna navicon was created for the site using the bands [Offical Logo](as
 #### Mobile Changes
 
 - **CTA Position**  
-    Though the original wireframe design had the molbile version of the **CTA** between the **Burger Menu Button** and the **Audio Player** at the top of the Landing Page, it didn't look well in practice. It was decided to keep the same **CTA** format throughout all resolutions.
+    Though the original wireframe design had the mobile version of the **CTA** between the **Burger Menu Button** and the **Audio Player** at the top of the Landing Page, it didn't look well in practice. It was decided to keep the same **CTA** format throughout all resolutions.
 
 - **Audio Player**  
     The **Audio Player** did not look well on mobile resolutions, and was removed.
@@ -273,6 +303,7 @@ ___
 
 ## **Technologies Used**
 
+(PQ - Check versions!! NB)
 All the technologies used to create this project are listed below, along with their usage. Simply click on the title for a link to the main site. When there were separate instances where a technology was used, I have listed each link below.
 
 [**HTML**](https://en.wikipedia.org/wiki/HTML5) - This project's structure is based on **HTML 5**.
@@ -284,22 +315,25 @@ All the technologies used to create this project are listed below, along with th
 [**VSCode**](https://code.visualstudio.com) - All code for this site (including this README file), and all **Github** versioning of this code, was done using **VSCode**.
 
 [**Git**](https://git-scm.com/) - I used **Git** to create this project's local repository and to maintain version conrtrol. 
- 
- - The remote repository was done through [**Github**](https://github.com).
+
+- The remote repository was done through [**Github**](https://github.com).
 
 [**Javascript**](https://en.wikipedia.org/wiki/JavaScript) -  This was used a couple of times when creating this site.
 
 - There were [three plugins](https://getbootstrap.com/docs/4.3/getting-started/introduction) required so that **Bootstrap** would function; **jQuery**, **Popper.js** and **Bootstrap's** own **min.js**.6
 - I also copied and modified **Javascript** code from [**Js Fiddle**](https://jsfiddle.net/wamosjk/ufhp9s15) to create transitions while scrolling.
 
-[**Bootstrap**](https://getbootstrap.com) - The site was built using **Bootstrap's** grid system. 
+[**Bootstrap**](https://getbootstrap.com) - The site was built using **Bootstrap's** grid system.
 
 - I also modified several **Bootstrap** components (e.g. **Navbar**, **Buttons**,**Contact Form**).
+
+[**Pixabay**](https://pixabay.com/) - I sourced all the images used in the sites construction from this royalty-free website.
 
 [**Canva**](https://www.canva.com) - I found my colour palette by uploading the new album [**Cover Art**](assets/images/dair-art.jpg) to **Canva**, and added to this with my own colours.
 
 [**Font Awesome**](https://fontawesome.com) - The **Social Media Icons** were supplied using **Font Awesome**. 
 
+(PQ - Is this still the case?)
 - I attempted to use the latest version of **Font Awesome** which is available on [**CDNJS**](https://cdnjs.com/libraries/font-awesome) (version 5.9.0) but it failed to deploy, so I reverted to the version available from the [**BootstrapCDN**](https://www.bootstrapcdn.com/fontawesome/) (version 4.7.0).
 
 [**HTML Code Checker**](https://validator.w3.org) - I checked my HTML with the **W3C Markup Validation Service**
@@ -472,18 +506,34 @@ ___
 
 ## **Credits**
 
-### **Content**
+### **Images Used**
 
-- All content for the site is **Copyright Corr Mhóna 2019**, and the band are the sole owners of this property.
-- The content was supplied by **Corr Mhóna** and this includes all text, articles, names, lyrics and headings.
+- All images were sourced from [**Pixabay**](To be added).
 
-### **Media**
+    1. For **README Banner** - see [here](https://pixabay.com/photos/dish-restaurant-dining-food-dinner-918613/).
 
-- All Media on site is wholly owned by the **Corr Mhóna**, and may not be used without their permission.
-- All music on site is supplied by **Corr Mhóna.**
-- The **Teaser Video** is property of **Corr Mhóna**.
-- The live photos of the band were provided by Corr Mhóna as well as [**Olga Kuzmenko Photography**](https://olgakuzmenko.com/) and [**Down the Barrel Photography**](https://downthebarrelphotography.com)
+    2. For main **Jumbotron** background - see [here]().
+    
+    3. For **Booking Section** background - see [here](https://pixabay.com/photos/olive-oil-tomatoes-basil-eat-1412361/).
+
+    4. For **About Us Section** background - see [here](https://pixabay.com/photos/mediterranean-cuisine-eat-food-2378758/).
+
+### **Restaurants Used**
+
+- Specific restaurant images were sourced from their respective sites.
+
+    1. The Ichigo Ichie image can be found [here](To be added).
+
+    2. The Cliff House image can be found [here](To be added).
+
+    3. The L'Ecrivain image can be found [here](To be added).
+
+    4. The Ox image can be found [here](To be added).
+
+    5. The Kai Restaurant image can be found [here](To be added).
+
+    6. The Chart House image can be found [here](To be added).
 
 ### **Acknowledgements**
 
-- I received inspiration for this project from my bandmates, our music and from the many band's websites I have visited over the years. I am grateful to my Mentor Maranatha for his help and guidance during the design and development of the site.
+- I received inspiration for this project from the many wonderful cafes, restaurants and bars that are thriving in Cork and the surrounding regions. The passion for food and the constant raising of standards that are displayed year-on-year by the indigenous hospitality industry are incredible. As this project was finalised during the pandemic of 2020, I think it is fitting to wish all culinary creatives a fruitful and prosperous future.
