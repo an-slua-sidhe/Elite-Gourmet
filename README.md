@@ -135,7 +135,7 @@ The basic **Wireframes** are available in three PNGs; one for [**Mobile**](asset
 
 #### Full Asset Mockups
 
-PNGs of the full asset **Mockups** can also be found in this repository. The **Mobile** mockup can be found [here](assets/wireframes/mobile-mockup.png), the **Tablet** version is [here](assets/wireframes/tablet-mockup.png) and the **Desktop** version is [here](assets/wireframes/desktop-mockup.png).
+PNGs of the full asset **Mockups** can also be found in this repository. The **Mobile** mockup can be found [here](assets/mockups/mobile-mockup.png), the **Tablet** version is [here](assets/mockups/tablet-mockup.png) and the **Desktop** version is [here](assets/mockups/desktop-mockup.png).
 
 ### **Design Choices**
 
