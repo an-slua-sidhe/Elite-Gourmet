@@ -8,9 +8,9 @@ This is the repository for the **Elite Gourmet** website.
 
 The **Deployed Version** of the site can be visited by clicking [**here**](https://an-slua-sidhe.github.io/milestone-2).
 
-My name is **Paul Quinn** and I designed and developed in its entirety as part of my [Fullstack Web Development Diploma](https://codeinstitute.net/courses) with the **Code Institute**, Ireland. I came up with the concept for Elite Gourmet while thinking of ideas for my Milestone 2 project. After completing modules in Javascript Fundamentals and Interactive Front-end Development, this project needed to showcase my newfound skills in Javascript powered website functionality.
+My name is **Paul Quinn** and I designed and developed this site in its entirety as part of my [Fullstack Web Development Diploma](https://codeinstitut#e.net/courses) with the **Code Institute**, Ireland. I came up with the concept for Elite Gourmet while thinking of ideas for my Milestone 2 project. After completing modules in Javascript Fundamentals and Interactive Front-end Development, this project needed to showcase my newfound skills in Javascript powered website functionality.
 
-I decided to use 2-3 APIs for the project; 2 certainties in the Google Maps and EmailJS APIs, with the possiblity of adding a third if time constraints allowed (this could also be added to a list of future features if necessary).
+I decided to use 2-3 APIs for the project; 2 certainties in Google Maps and EmailJS, with the possiblity of adding a third if time constraints allowed (this could also be added to a list of future features if necessary).
 
 I then needed subject material and a central concept for my project. As I am from West Cork and live in the city of Cork, I considered the explosion of culinary excellence in the region in the last 10-15 years. This also extends beyond Cork to the rest of Ireland, and includes several **Michelin** starred establishments. Combining **Google Maps** and **EmailJS** with this local fine dining landscape, I hit upon the idea of a website serving clients who wished to discover the finest culinary experience without the hassle of organising it.
 
@@ -22,6 +22,7 @@ I then needed subject material and a central concept for my project. As I am fro
 
 1. [User Experience](#user-experience)
     - [User Stories](#user-stories)
+        - [The Restaurateur](#the-restaurateur)
         - [The Tourist](#the-tourist)
         - [The Gourmand](#the-gourmand)
         - [The Local](#the-local)
@@ -30,8 +31,8 @@ I then needed subject material and a central concept for my project. As I am fro
         - [Basic Wireframes](#basic-wireframes)
         - [Full Asset Mockups](#full-asset-mockups)
     - [Design Choices](#design-choices)
-        - [Images](#images)
         - [Colours](#colours)
+        - [Images](#images)
         - [Fonts](#fonts)
         - [Icons](#icons)
     - [Design Changes](#design-changes)
@@ -48,7 +49,9 @@ I then needed subject material and a central concept for my project. As I am fro
         - [About Us](#about-us)
         - [Footer](#footer)
     - [Future Features](#future-features)
-        - [Not sure what else to add.](#??)
+        - [Flip cards](#flip-cards)
+        - [Another API?](#another-api?)
+
 
 3. [Technologies Used](#technologies-used)
 
@@ -85,66 +88,77 @@ ___
 
 ## **User Experience**
 
-**Elite Gourmet** was conceived as a site where a discerning customer could go to have their culinary needs taken care of. The site was intended to have an aura of classy competence, a simplicity of design that didn't attempt to overwhelm the users senses.
+**Elite Gourmet** was conceived as a site where a discerning customer could go to have their culinary needs taken care of. The **User Interface** (UI) is intended to be streamlined and intuitive, and to be easy and enjoyable to use.
+
+### **User Stories**
+
+There are a number of different types of user which may visit the site, each with different goals and motivations. I have listed their stories in five categories; The Restaurateur, The Tourist, The Gourmand, The Local, The Critic.
+
+#### The Restaurateur
+
+- As a Restaurateur, I can read about Elite Gourmet's philosophy and remit in the [**Services**](#services) and [**About Us**](#about-us) sections, to see if I would be intersted in a partnership with the site.
+- As a Restaurateur, I can get in touch with Eite Gourmet to set up a working relationship via the **Professional** option of the **Contact Form** in the [**Booking**](#booking) section, or through the phone number and email address available in the [**Contact Information**](#contact-information) in the [**Footer**](#footer).
+
+#### The Tourist
+
+- As a tourist, I can find the site while looking for holiday ideas on my web browser.
+- As a tourist, I can quickly discern whether or not the site is what I'm looking for (i.e. a budget or deluxe experience) through the language and imagery used.
+- As a tourist, I can see what options **Elite Gourmet** can offer me in the [**Services Section**](#services).
+- As a tourist, I can browse the restaurants that are available in the [**Restaurants Section**](#restaurants).
+- As a tourist, I can get in contact with **Elite Gourmet** to begin organising my culinary experience though the **Customer** option in the **Contact Form** of the [**Booking Section**](#booking).
+- As a tourist, I can choose which venue I would like to frequent, organise transport to and from the restaurant, and deal with any dietary issues, by selecting the appropriate option in the **Contact Form**.
+- As a tourist, I can get in contact with **Elite Gourmet** after booking to cancel, change my order or deal with any problems via the [**Contact Information**](#contact-information) in the [**Footer**](#footer).
+- As a non-English speaking tourist, I can utilise the foreign language options in the **Navbar** so I can browse the site in my native tongue (available in Spanish, French and German). (PQ - I have yet to implement this functionality)
+
+
+#### Gourmand
+
+- As a gourmand, I can see which of Ireland's **Michelin** starred restaurants are on offer in the [**Restaurants Section**](#restaurants).
+- As a gourmand, I can get in touch with **Elite Gourmet** to discuss the type of cuisine offered in each establishment, as well as the ethos of the head chef, by using the **Contact Form** in the [**Booking Section**](#booking).
+
+#### The Local
+
+- As a local, I can become informed about the growth of fine dining in my area by reading the [**Restaurants Section**](#restaurants).
+- As a local, I can get in touch with **Elite Gourmet** to see if our services would suit a local person with their own transport and possible prior knowledge of the locale in the [**Booking Section**](#booking) or by using the information avalable in the [**Contact Information**](#contact-information) in the [**Footer**](#footer).
+
+#### The Critic
+
+- As journalist,  I can get in contact with **ELite Gourmet** to get information about our restaurants and book an evening for a review by using the **Press** option in the **Contact Form** of the [**Booking Section**](#booking) .
+
+### **Wireframes**
+
+I used Adobe XD to design and create **Wireframes** and **Mock-ups** for this site. I decided to create a single page site and to follow the principal of **Mobile First**. I followed the usual method of keeping the basic wireframes extremely simple stylistically, mostly focusing on the form, location and interaction between the various elements of the site on each page. I then used the theme of culinary excellence to decide the colour palette and artistic direction of the site. The wireframes and mock-ups can be found as PDFs in this repository (see below for links).
+
+#### Basic Wireframes
+
+The basic **Wireframes** are available in three PDFs; one for [**Mobile**](assets/wireframes/wireframes-mobile.pdf), one for [**Tablet**](assets/wireframes/wireframes-tablet.pdf) and one for [**Desktop**](assets/wireframes/wireframes-desktop.pdf). Any colour used is for contrast only. Simple text headings were added to each element to denote its purpose. These overall [**Design Choices**](#design-choices) can be traced to the final deployed [**Website**](https://an-slua-sidhe.github.io/milestone-2), with some changes (see [**Design Changes**](#design-changes)).
+
+#### Full Asset Mockups
+
+PDFs of the full asset **Mockups** can also be found in the same folder. The **Mobile** mockup can be found [here](assets/wireframes/mockups-mobile.pdf), the **Tablet** version is [here](assets/wireframes/mockups-tablet.pdf) and the **Tablet** version is [here](assets/wireframes/mockups-desktop.pdf). 
+
+Wireframe choices followed, main body of work was deciding which assets to place where. The final mockup PDFs were of very high quality (due the size of the art assets), and it may be necessary to download them to view them.
+(PQ - Will I sort out these PDFs now?)
+
+### **Design Choices**
+
+The site was intended to have an aura of classy competence, a simplicity of design that didn't attempt to overwhelm the users senses.
 
 I have tried to use clear, simple and high quality images and textures when designing the site. I didn't want a site that contained to much clutter and text and that got across its message confidently, clearly and cleanly.
 
 As such a site would most likely be popular with visitors to our island, I decided to give the site multi-language fuctionality to broaden the possible user-base.
 
-### **User Stories**
-
-There are a number of different types of user which may visit the site, each with different goals and motivations. I have listed them below in four categories; The Tourist, The Gourmand, The Local, The Critic.
-
-#### The Tourist
-
-- As band member, I can easily put the latest information up on the **News** section of the [**Home**](index.html) page, so that fans and promoters are kept updated.
-- As band member, I can embed media from the latest project in the **Media** section of the [**Home**](index.html) page, to make the latest release more exciting and interesting for our fans.
-- As band member, I can advertise that the band is available for gigs and festivals through the [**Contact**](contact.html) page of the site.
-- As band member, I will eventually be able to add merchandise and CDs to the **Shop** page, so I can sell directly to the fans.
-
-#### Gourmand
-
-- As a music fan, I can find out everything I need to know about the band in one place, when I search for new music to listen to.
-- As a metal music fan specifically interested in Celtic/Gaelic/folk music, I can find the band site through certain keywords found throughout the site.
-- As a music fan who has been recommended the band by a friend, I can find everything I need on the site (through the [**Biography**](bio.html) {'The Band'} & [**Discography**](disc.html) pages) to decide whether the band is for me.
-- As a music fan who has seen the band live, I can get a clear idea of the bands sound through listening to music on the **Audio Player** or watching the **Teaser Video** in the **Media** section.
-- As a music fan who already knows/likes the band, I can check the **Home** page for the latest news on gigs and upcoming releases, and I will soon be able to visit the **Shop** page to puchase the latest merchandise and CDs.
-- As a music fan, I can get in touch with the band on the [**Contact**](contact.html) page and let the band know why I am making contact through the **Contact Form**.
-
-#### The Local
-
-- As promoter, I can check the **News** section to see if the band are currently active and looking for gigs.
-- As promoter, I can use the [**Contact**](contact.html) page to get in touch with the band, and specifically let them know that I am interested in booking them for gigs via the **Contact Form**.
-
-#### The Critic
-
-- As journalist who has been sent a copy of the latest CD to review, I can get more information about the band to complete my review by visiting the [**Home**](index.html), [**Biography**](bio.html) {'The Band'} & [**Discography**](disc.html) pages of the site.
-- As journalist who is completing a feature about the band, I can find more information from the same locations mentioned above, as well as finding extra musical and visual content in the **Media** section, as well as the [**Biography**](bio.html) {'The Band'} & [**Discography**](disc.html) pages.
-
-### **Wireframes**
-
-I used Adobe XD to design and create **Wireframes** for the site. It was decided to have a multi-page site from the beginning, as well as to follow the the principal of **Mobile First**. I followed the usual method of keeping the basic wireframes extremely simple stylistically, mostly focusing on the form, location and interaction between the various elements of the site on each page. I then used the band's assets to decide on the colour palette, theme and artistic direction of the site. The wireframes can be found as PDFs in this repository (see below for links).
-
-#### Basic Wireframes
-
-The basic **Wireframes** are available within this repository in two PDFs; one for [**Mobile**](assets/wireframes/wireframes-mobile.pdf) and one for [**Tablet & Desktop**](assets/wireframes/wireframes-tabletAndDesktop.pdf). There is a separate wireframe for each of the four site pages in each PDF. Any colour used is for contrast only. Simple text headings were added to each element to denote its purpose. These overall [**Design Choices**](#design-choices) can be traced to the final deployed [**Website**](https://an-slua-sidhe.github.io/milestone-1), with some changes (see [**Design Changes**](#design-changes)).
-
-#### Full Asset Mockups
-
-The full library of **Corr Mhóna** assets were added to the project when the **Mockups** were created. This gave me a clear art direction along with a library of high quality art and imagery which was ready to go. The **Mobile** mockup can be found [here](assets/wireframes/mockups-mobile.pdf) and the **Tablet & Desktop** version is [here](assets/wireframes/mockups-tabletAndDesktop.pdf). Wireframe choices followed, main body of work was deciding which assets to place where. The final mockup PDFs were of very high quality (due the size of the art assets), and it may be necessary to download them to view them.
-
-### **Design Choices**
-
-The **Tablet** and **Desktop** design for this site is identical, whereas the **Mobile** design is quite different. I will explain the reason behind my design choices below under four headings; **Images**, **Colours**, **Fonts** and **Icons**.
-
-#### Images
-
-As the band relates to and promotes natural imagery in their music and art, it was an obvious choice to do the same with the website. There was a substantial back catalogue of artwork, but the art for the new album was chosen as the foundation of the site, with other images used to enhance where necessary. The superb [__*Dair*__](assets/images/dair-art.jpg) album cover was used as the main **Hero Image** for the **Landing Page**, with a [**Banner Logo**](assets/images/banner-logo1.jpg) used at the top of the other pages. The new album [poster art](assets/images/dair-dryad.jpg) and a [live photo](assets/images/band-live2jpg) of the band were included in the [**Home**](index.html) page **Media** section. A photo of each band member was included in the **Band Member** section of the [**Biography**](bio.html) {'The Band'} page. All three Corr Mhóna CD covers were used in the [**Discography**](disc.html) page, whereas the new album poster art was used as a background image for the [**Contact**](contact.html) page.
+As this is a single page site...
+Mobile, tablet, desktop slightly different...
 
 #### Colours
 
 I was inspired by the new album's [**Cover Art**](assets/images/dair-art.jpg), and this is the basis for the colour scheme and palette for our site. I used [**Canva**](https://www.canva.com) to create a palette, and I added accent colours of forest green and maroon red so the site would engage the visitor at first glance. I sought a subtle contrast between the different element's shades, using maroon or forest green to accentuate elements on first glance or on hover (see the [**Home**](index.html) page **CTA** {Call to Action} for an example of this). **Navbar** & **Social Media** links transition to maroon on hover, whereas **in-line** links in the body of the text are initially maroon and hover to grey, so that they stand out from the surrounding text (all of these features can also be seen on the [**Home**](index.html) page). The **Navbar** has an opaque background on scroll for legibility, but a translucent background otherwise. The **Gaeilge** link in the **Navbar** is black and hovers to maroon, but this changes to a white which hovers to bright red when the **Navbar** is scrolled (so it continues to be visible).
 
+#### Images
+
+As the band relates to and promotes natural imagery in their music and art, it was an obvious choice to do the same with the website. There was a substantial back catalogue of artwork, but the art for the new album was chosen as the foundation of the site, with other images used to enhance where necessary. The superb [__*Dair*__](assets/images/dair-art.jpg) album cover was used as the main **Hero Image** for the **Landing Page**, with a [**Banner Logo**](assets/images/banner-logo1.jpg) used at the top of the other pages. The new album [poster art](assets/images/dair-dryad.jpg) and a [live photo](assets/images/band-live2jpg) of the band were included in the [**Home**](index.html) page **Media** section. A photo of each band member was included in the **Band Member** section of the [**Biography**](bio.html) {'The Band'} page. All three Corr Mhóna CD covers were used in the [**Discography**](disc.html) page, whereas the new album poster art was used as a background image for the [**Contact**](contact.html) page.
+6
 #### Fonts
 
 I used [**Google Fonts**](https://fonts.google.com/) to find a font for the site. Handwritten or more natural looking fonts (such as the Irish language [*Cló Gaelach*](http://www.nualeargais.ie/foghlaim/seanchlo.php?teanga)) were considered first, as it was believed they would suit the band ethos more. However, these were not practical in execution, as the more detailed script was hard to read. [*Gafata*](https://fonts.google.com/specimen/Gafata) was chosen as the main font in the end, as it has some organic charateristics, but is clearly legible as either a heading or the main text of section. The back up font is *Sans-serif*.
@@ -244,6 +258,10 @@ There are four pages on the site, with a number of features appearing on each pa
 - **Copyright Text**
     A basic footer can be found on each page. It contains two features, some **Copyright Text** and the **Social Media Links**. The **Copyright Text** is a simple part of the **Bootstrap** grid, and doesn't display on mobile.
 
+- **Contact Information**
+    Basic contact details can be found here, including **Elite Gourmet's** phone numbers and email address. (PQ - Display on Mobile??)
+
+
 - **Social Media Links**
     The **Social Media Links** are fully functional, and link to the band's previously existing online web presence on [**Bandcamp**](https://corrmona.bandcamp.com), [**Youtube**](https://www.youtube.com/watch?v=2wL0o1rxRLQ), [**Facebook**](https://www.facebook.com/corrmhona) and [**Instagram**](https://www.instagram.com/corrmhona). The icons for each social media platform were provided by [**Font Awesome**](https://fontawesome.com).
 
@@ -252,8 +270,12 @@ There are four pages on the site, with a number of features appearing on each pa
 
 #### Flip Cards
 
-This is another possible future feature for the site, though a purely aesthetic one; making images and photos function as **Flip Cards**. Each flip card would have extra information about whatever the image contained. This would make the site more dynamic and enjoyable for the user. (Possible here?)
+(This is may be a future feature for the site, or something I add now). This could be a way to put more content and information on the site, without cluttering up the clean design aesthetic. The cards for each restaurant in the Restaurants Section could function as **Flip Cards**. Each flip card would have extra information about the restaurant on the back, with the main image and title on the front. This would make the site more dynamic and enjoyable for the user.
 
+#### Another API?
+
+I might be good to use one more API considering the brief. But which one? :)
+Youtube is an obvious choice, but not sure how I would use it here. Video on hospitality industry?
 ___
 
 ## **Technologies Used**
