@@ -8,13 +8,13 @@ This is the repository for the **Elite Gourmet** website.
 
 The **Deployed Version** of the site can be visited by clicking [**here**](https://an-slua-sidhe.github.io/milestone-2).
 
-My name is **Paul Quinn** and I designed and developed this site in its entirety as part of my [Fullstack Web Development Diploma](https://codeinstitut#e.net/courses) with the **Code Institute**, Ireland. I came up with the concept for Elite Gourmet while thinking of ideas for my Milestone 2 project. After completing modules in Javascript Fundamentals and Interactive Front-end Development, this project needed to showcase my newfound skills in Javascript powered website functionality.
+My name is **Paul Quinn** and I designed and developed this site in its entirety as part of my [**Fullstack Web Development Diploma**](https://codeinstitut#e.net/courses) with the **Code Institute**, Ireland. I came up with the concept for Elite Gourmet while thinking of ideas for my Milestone 2 project. After completing modules in Javascript Fundamentals and Interactive Front-end Development, this project needed to showcase my newfound skills in Javascript powered website functionality.
 
-I decided to use 2-3 APIs for the project; 2 certainties in Google Maps and EmailJS, with the possiblity of adding a third if time constraints allowed (this could also be added to a list of future features if necessary).
+I decided to use 2-3 APIs for the project; 2 certainties in [**Google Maps**](https://developers.google.com/maps/documentation/javascript/tutorial) and [**EmailJS**](https://www.emailjs.com/), with the possiblity of adding a third if time constraints allowed (this could also be added to a list of future features if necessary).
 
 I then needed subject material and a central concept for my project. As I am from West Cork and live in the city of Cork, I considered the explosion of culinary excellence in the region in the last 10-15 years. This also extends beyond Cork to the rest of Ireland, and includes several **Michelin** starred establishments. Combining **Google Maps** and **EmailJS** with this local fine dining landscape, I hit upon the idea of a website serving clients who wished to discover the finest culinary experience without the hassle of organising it.
 
-**Elite Gourmet** is a site where the user can browse and select Michelin starred restaurants from the four corners of Ireland (via the Google Maps API) get in contact with the host (via the EmailJS API) and organise a trip to and from their chosen establishment, with all transport, dietary and booking concerns taken care of.
+**Elite Gourmet** is a site where the user can browse and select Michelin starred restaurants from the four corners of Ireland (via the **Google Maps API**) get in contact with the host (via the **EmailJS API**) and organise a trip to and from their chosen establishment, with all transport, dietary and booking concerns taken care of.
 
  There is a full overview of the design/development process below, along with an extensive outline of the testing process, future features, user stories, responsivity and deployment.
 
@@ -42,7 +42,7 @@ I then needed subject material and a central concept for my project. As I am fro
 
 2. [Features](#features)
     - [Existing Features](#existing-features)
-        - [Jumbotron](#jumbotron)
+        - [Landing Page](#landing-page)
         - [Services](#services)
         - [Booking](#booking)
         - [Restaurants](#restaurants)
@@ -50,7 +50,7 @@ I then needed subject material and a central concept for my project. As I am fro
         - [Footer](#footer)
     - [Future Features](#future-features)
         - [Flip cards](#flip-cards)
-        - [Another API?](#another-api?)
+        - [Another API?](#another-api?)6
 
 
 3. [Technologies Used](#technologies-used)
@@ -64,8 +64,8 @@ I then needed subject material and a central concept for my project. As I am fro
         - [Mobile](#mobile)
         - [Tablet](#tablet)
         - [Desktop](#desktop)
-    - [Jasmine](#Jasmine)
-        - [Not sure what to put here yet.](#??)
+    - [Jasmine](#jasmine)
+        - [Need to check parameters](#??)
     - [User Scenarios](#user-scenarios)
         - [Seeking Fine Dining Information for Ireland](#seeking-fine-dining-information-for-ireland)
         - [Specifically Looking for Michelin Starred Restaurants](#specifically-looking-for-michelin-starred-restaurants)
@@ -139,33 +139,12 @@ PNGs of the full asset **Mockups** can also be found in this repository. The **M
 
 ### **Design Choices**
 
-The site was intended to have an aura of classy competence, a simplicity of design that didn't attempt to overwhelm the users senses. I have tried to use clear, simple and high quality images and textures when designing the site. I didn't want a site that contained too much clutter and text, but one that got across its message confidently, clearly and cleanly. Therefore, I decided to create a single-page site with a focused aesthetic. As such a site would most likely be popular with visitors to our island, I decided to give the site multi-language fuctionality to broaden the possible user-base (PQ - To be implemented). Mobile, tablet, desktop versions of the site are only very slightly different, basically invloving **Bootstrap** responsive breakpoint changes (details below).
-
-#### Section by Section
-
-!!!!!!!!!!!!!!!!!!!
-
--  **Jumbotron Hero Image**     
-        asfdsadffsaf
-
--  **Services Section**     
-    sdfsafd
-
-- **Booking Section**       
-    sdfsafd
-
-- **Restaurants Section**       	
-    sdfsafd
-
-- **About Us Section**      
-    sdfsafd
-
-- **Footer**        
-    sdfsafd
+The site was intended to have an aura of classy competence, a simplicity of design that didn't attempt to overwhelm the users senses. I have tried to use clear, simple and high quality images and textures when designing the site. I didn't want a site that contained too much clutter and text, but one that got across its message confidently, clearly and cleanly. Therefore, I decided to create a single-page site with a focused aesthetic. As such a site would most likely be popular with visitors to our island, I decided to give the site multi-language fuctionality to broaden the possible user-base (PQ - To be implemented). Mobile, tablet, desktop versions of the site are only very slightly different, basically invloving **Bootstrap** responsive breakpoint changes (see [below](#features)).
 
 #### Images
 
-I wanted a selection of high quality images for the site, which were uncluttered and depicted cooking scenes in an elegant way. Where these images would be used was already decided in the design **Wireframes** (see above). I found the assets I sought on [**Pixabay**](https://pixabay.com/). The main **Jumbotron Background Image** was very important for the site. I chose one that was tasteful, with a palette of muted, yet organic colours, and it can be found [here](assets/images/jumbotron.jpg). I selected an ephemeral image of fine dining for the **README Banner Logo** which can be found [here](assets/images/banner.png). The **Booking Section Background** (click [here](assets/images/bookings-background.jpg)) introduces a dash of brighter colour to the overall palette. This is expanded with the **About Us Background**, which you can see [here](assets/images/about-us-background.jpg). Finally, each culinary venue has an image that was sourced from the restaurant's own webpage; click on the restaurant name below to see the location of these files in this repository:
+I wanted a selection of high quality images for the site, which were uncluttered and depicted cooking scenes in an elegant way. Where these images would be used was already decided in the design **Wireframes** (see [above](#basic-wireframes)). I found the assets I sought on [**Pixabay**](https://pixabay.com/). The main **Jumbotron Background Image** was very important for the site. I chose one that was tasteful, with a palette of muted, yet organic colours, and it can be found [here](assets/images/jumbotron.jpg). I selected an ephemeral image of fine dining for the **README Banner Logo** which can be found [here](assets/images/banner.png). The **Booking Section Background** (click [here](assets/images/bookings-background.jpg)) introduces a dash of brighter colour to the overall palette. This is expanded with the **About Us Background**, which you can see [here](assets/images/about-us-background.jpg). Finally, each culinary venue has an image that was sourced from the restaurant's own webpage; click on the restaurant name below to see the location of these files in this repository:
+
 - [Ichigo Ichie](assets/images/ichigo-ichie-cork.jpg)
 - [The Cliff House](assets/images/cliff-house-waterford.jpg)
 - [L'Ecrivain](assets/images/lecrivain-dublin.jpg)
@@ -173,137 +152,134 @@ I wanted a selection of high quality images for the site, which were uncluttered
 - [Kai Restaurant](kai-restaurant-galway.jpg)
 - [The Chart House](assets/images/chart-house-dingle.jpg)
 
+To see where these images appear on their respective webpages, see the [**Credits**](#credits) section below.
+
 #### Colours
 
-I used [**Canva**](https://www.canva.com) to create a palette from the **Jumbotron Background Image**. This understated and earthy palette suited the culinary nature of the site. I used contrasted each sections use of colour, with large high-res background images for the **Jumbotron**, **Booking** and **About Us** sections, and a simple chocolate coloured backdrop to the sections in between. 
+I used [**Canva**](https://www.canva.com) to create a palette from the **Jumbotron Background Image**. This understated and earthy palette suited the culinary nature of the site. I contrasted each section's use of colour, with large high-res background images for the **Jumbotron**, **Booking** and **About Us** sections, and a simple chocolate coloured backdrop to the sections in between. Two more main colours from the palette were used for the backgrounds of separate elements within the **Services** and **Restaurants** sections, a light brown and a moderate blue, which could be contrasted which each other. Variations on these colours where then used for the **anchor links** throughout the site, with changes on **hover**, **scroll** and other actions. The main text colour was a white or off-white, so as to be legible on the dark backgrounds. Variations on the main text colour were used in the Navbar and in various lists throughout for legibility and contrast. An opaque background colour was used in various elements to make text visible.
 
-!!!!!!!!!!!!!!!!!
-
-
-between the different element's shades, using maroon or forest green to accentuate elements on first glance or on hover (see the [**Home**](index.html) page **CTA** {Call to Action} for an example of this). **Navbar** & **Social Media** links transition to maroon on hover, whereas **in-line** links in the body of the text are initially maroon and hover to grey, so that they stand out from the surrounding text (all of these features can also be seen on the [**Home**](index.html) page). The **Navbar** has an opaque background on scroll for legibility, but a translucent background otherwise. The **Gaeilge** link in the **Navbar** is black and hovers to maroon, but this changes to a white which hovers to bright red when the **Navbar** is scrolled (so it continues to be visible).
+The colours used for the site are:
+- Main Text Colour - White
+- Navbar Text Colour - rgb(224, 223, 223)
+- Text Colour Variations - rgb(211, 229, 250) & #f1e5e5
+- Main Background Colour - #594C45
+- Opaque Background Colour - rgba(0, 0, 0, 0.5)
+- Element Background Colours - #C29C64 & #426A8C
+- Link Colour - rgb(247, 210, 156)
+- Link Hover Colour Variations - #C29C64 & Grey
 
 #### Fonts
 
-I used [**Google Fonts**](https://fonts.google.com/) to find a font for the site. Handwritten or more natural looking fonts (such as the Irish language [*Cló Gaelach*](http://www.nualeargais.ie/foghlaim/seanchlo.php?teanga)) were considered first, as it was believed they would suit the band ethos more. However, these were not practical in execution, as the more detailed script was hard to read. [*Gafata*](https://fonts.google.com/specimen/Gafata) was chosen as the main font in the end, as it has some organic charateristics, but is clearly legible as either a heading or the main text of section. The back up font is *Sans-serif*.
+The fonts I used were selected from [**Google Font's**](https://fonts.google.com/) array of options.  [_**Gafata**_](https://fonts.google.com/specimen/Gafata) was chosen as the main font of the site, as it has a simple yet classy look, and is clearly legible. [_**Cinzel**_](https://fonts.google.com/specimen/Cinzel) was chosen as the main heading font, and for the **Logo**. This font has an elegant look to it which suits the site's overall theme. The back up font is _**Sans-serif**_.
 
 #### Icons
 
-A Corr Mhóna navicon was created for the site using the bands [Offical Logo](assets/images/favicon.jpg). Social media link icons were supplied by [Font Awesome](https://fontawesome.com/).
+A navicon was created for the site using the font _**Cinzel**_ and [**Gimp**](https://www.gimp.org/) and can be viewed [here](assets/images/favicon.jpg) (PQ - To be completed). Social media link icons were supplied by [Font Awesome](https://fontawesome.com/).
 
 ### **Design Changes**
 
 #### General Changes
 
-- **Contact Page Background**  
-    The original [**Contact**](contact.html) page was considered unsatisying and boring in comparison to the other pages, once the site was fully constructed. A new style was chosen for the **Contact** page therefore, with the new album [Poster Art](assets/images/dair-dryad.jpg) being used as an atmospheric background for the page's **Section**.
-
-- **Corr Mhóna Live Photo**  
-    A different [**Live Photo**](assets/images/band-live2.jpg) was chosen, as this shows the band playing at the [**Siege of Limerick**](http://siegeoflimerick.net). This echoes the story in the **News** section about **Corr Mhóna** playing at the festival.
-
-- **Discography Order**  
-    The chronological order of the discography releases was swapped, with the earliest recording (__*An Chéad Thríail*__) appearing at the top of the [**Discography**](disc.html) page. This was becaue the art for __*Dair*__ has been used extensively elsewhere, and the so other covers can provide some variety here.
+(PQ - To be completed).
 
 #### Mobile Changes
 
-- **CTA Position**  
-    Though the original wireframe design had the mobile version of the **CTA** between the **Burger Menu Button** and the **Audio Player** at the top of the Landing Page, it didn't look well in practice. It was decided to keep the same **CTA** format throughout all resolutions.
+- **Google Maps API Section**
+    This element was initially supposed to appear above the **Services Section Text** element in the **Services Section**. This didn't really work in practice, however, as users would have been asked to browse the map without the context the **Services Text** provided. It was decided to use **Bootstrap's** inbuilt column ordering to make the Services Text appear before Google Maps on mobile, but to appear to the right of it on desktops and higher resolutions.
 
-- **Audio Player**  
-    The **Audio Player** did not look well on mobile resolutions, and was removed.
+#### Tablet Changes
 
-- **Irish Language Option**  
-    The **_Gaeilge_** (Irish language) link did not work well with the mobile **Burger Menu Button**, and now displays at higher resolutions only.
+- **Google Maps API Section**
+    Originally meant to appear above **Services Section Text** element in the **Services Section**, it was decided to use the **Desktop** layout here instead, where these two elements are side by side with **Google Maps** to the left.
 
-- **Copyright Text**  
-    This text only appears on tablet or desktop, as it was decided that the **Social Media** links looked better centralised by themeselves on mobile.
 
-#### Tablet & Desktop Changes
+#### Desktop Changes
 
-- **Translucent Navbar**  
-    Though the original wireframes show a cream-coloured background for the **Navbar**, a translucent background was chosen for the finished site, as this compliments the parchement style of the **Hero Image** and **Banner Logo**.  This is not visible on mobile, where the **Navbar** becomes a **Burger Menu Button**.
-
-- **Contact Page Navbar**  
-    On 1500px or higher the [**Contact**](contact.html) page **Navbar** become opaque as soon as the page loads, and the **Banner Logo** does not display. This showcases the background artwork on larger resolutions.
+(PQ - To be completed).
 
 ___
 
 ## **Features**
 
-There are four pages on the site, with a number of features appearing on each page and certain features being unique to one page. The basic layout of the site was created using the [**Bootstrap 4**](https://getbootstrap.com) grid system (which is based on [Flexbox](https://www.w3schools.com/css/css3_flexbox.asp)), with some alterations and additions.
+This is a single-page site with 6 main sections. The basic layout of the site was created using the [**Bootstrap 4**](https://getbootstrap.com) grid system (which is based on [Flexbox](https://www.w3schools.com/css/css3_flexbox.asp)), with some alterations and additions. The core of this is the use of containers,rows and columns. All **in-line** links within any section's text are fully navigable; they also change colour when hovered over (see [**Colours**](#colours)).
 
 ### **Existing Features**
 
-#### Common Features
-
-
-
-- **Section**  
-    There is a main section on each page, though the content is different each time (see below). These were created using the **Bootstrap** grid and are constructed with containers, rows and columns. The [**Home**](index.html) and [**Biography**](bio.html) pages main sections consist of two main containers which can display side by side or one beneath the other, depending on whether they are viewed in mobile or tablet/desktop (see [**Deployment**](#deployment)). The [**Contact**](contact.html) and [**Discography**](disc.html) pages have slightly different section layouts, however. All **in-line** links within any page's section text are fully navigable; they appear as maroon but change colour to grey when hovered over.
-
-- **Footer**
-    A basic footer can be found on each page. It contains two features, some **Copyright Text** and the **Social Media Links**. The **Copyright Text** is a simple part of the **Bootstrap** grid, and doesn't display on mobile. The **Social Media Links** are fully functional, and link to the band's previously existing online web presence on [**Bandcamp**](https://corrmona.bandcamp.com), [**Youtube**](https://www.youtube.com/watch?v=2wL0o1rxRLQ), [**Facebook**](https://www.facebook.com/corrmhona) and [**Instagram**](https://www.instagram.com/corrmhona). The icons for each social media platform were provided by [**Font Awesome**](https://fontawesome.com).
-
-#### Jumbotron
+#### Landing Page
 
 - **Hero Image**  
-    This [image](assets/images/dair-art.jpg) is the new album cover, and provides a stiking backdrop to the **Landing Page**. It is presented via a **Jumbotron**, and scales across all platorms.
+    This [image](assets/images/jumbotron.jpg) is a high quality file sourced on [**Pixabay**](https://pixabay.com/) which provides a stiking backdrop to the **Landing Page**. It is presented via a **Jumbotron**, and scales across all platforms.
 
-- **Banner Logo**  
-    All other pages besides the **Home** page display a [**Banner Logo**](assets/images/banner-logo1.jpg) instead of the **Hero Image**. On the [**Contact**](contact.html) page the **Banner Logo** is not displayed above 1500px (see [**Media Queries**](#media-queries) below).
+- **Main Logo**
+    As the concept of **Elite Gourmet** is one I come up with myself, I have no proprietary icons or images to use as a banner logo for the site. Therefore, I simply used the chosen **Heading** font (_**Cinzel**_) for the landing page's main title. This element has an opaque background to keep it legible on the dark backgound of the **Hero Image**.
 
 - **Navbar**
-    I modified the typical [**Bootstrap**](https://getbootstrap.com/docs/4.0/components/navbar) **Navbar** to suit the site, which included fixing it to top so it would remain there while scrolling, with a translucent background. I modified **Javascript** from [**JS Fiddle**](https://jsfiddle.net/wamosjk/ufhp9s15) to make an opaque background for when the page scrolled. The __*Gaeilge*__ (Irish language) link changes colour from black to white on scroll, whereas the **Audio Player** text does not display on scroll. All of these  keep the text legible when scrolling.
-    The **Navbar** turns into a **Burger Button Menu** on mobile, and this changes colour on scroll for visibility, also enabled with the same **Javascript** code.
+    I modified the typical [**Bootstrap**](https://getbootstrap.com/docs/4.0/components/navbar) **Navbar** to suit the site. This included collapsing the Navbar into a **Burger Button** and fixing it to top, so it would remain there while scrolling. I modified **Javascript** from [**JS Fiddle**](https://jsfiddle.net/wamosjk/ufhp9s15) to make an opaque Navbar background (rgba: 0, 0, 0, 0.5) for when the page scrolled. I also changed some of the styling to suit the site, selecting Bootstrap's 'navbar-dark' option so it could be seen over the muted colour palette, and changing the 'text-color'(rgb: 224, 223, 223) for the same reason (along with colour changes for 'hover': #C29C64). On **Mobile** and **Tablet** the Navbar goes to the top left of the screen, with the logo to the top right. These swap places for the **Desktop** version.
 
 - **Call to Action (CTA)**  
-    There is **CTA** at the bottom of the [**Landing Page**](index.html) envelope. This tells users that a new album is coming soon, and provides a link for them to click to get more information, bringing them to the **News Section** of the page.
+    There is **CTA** at the bottom of the **Landing Page** envelope. This tells users that there is 20% off all services at the moment, and provides a link for them to click to get more information, bringing them to the **Services Section** of the page. The anchor for this link is the '20% off!' text, which was styled in light brown (rgb: 247, 210, 156) to distinguish it from the main text (white). The CTA element has an opaque background to keep it legible on the dark backgound of the **Hero Image**.
 
 #### Services
 
+- **Services Section**  
+    There are two elements in this section: one for the **Google Maps API**  and one for **Services Text**. The background for this section is an earthy brown that fits with the images selected and the culinary theme of the site (#594C45). This colour is one of the ones taken from the jumbotron image when building a palette (see [above](#colours).
+
 - **Google Maps API**  
-    This [element](bio.html) contains photos of the four band members and their names. It displays to the left for desktop and to the bottom on mobile and tablet.
+    The **Google Maps** element has a light brown coloured background behind the map itself (#C29C64); it displays to the left of the **Services Section** for **Desktop** and to the bottom on **Mobile** and **Tablet**. The map uses [**JSON**](https://en.wikipedia.org/wiki/JSON) to communicate with the API, rendering the locations of the 6 chosen restaurants upon the initial loading of the site. These are numbered 1 to 6; their names are listed beneath the map, and each one contains a link to the appropriate part of the **Restaurants Section**. Google's [**Cluster**](https://developers.google.com/maps/documentation/javascript/marker-clustering) function is enabled, so several restaurants can be clustered together if the user zooms out on the map. The inital position of the map is focused on the centre of Ireland (lat: 53.4, lng: -7.9) at a zoom of 5.5.
 
 - **Services Text**  
-    This is an [element](bio.html) which contains a large amount of text. All links within the text navigate to their respective targets. The **Biography Section** displays to the top on mobile and to the right for tablet and desktop.
+    The **Services Text** element has a moderate blue background colour (#426A8C), in contrast to the **Google Maps** element. The text is white so as to be legible on this background. It outlines the services offered on the site. The list of services is styled in a different colour to the rest of the text to help it to stand out(#f1e5e5). There are two links in the final paragraph; one to the **Bookings Section** and one to the **Restaurants Section**. AS usual, these links are in light brown but turn dark brown when hovered.
 
 #### Booking
 
-- **EmailJS Booking Form**  
-    There is only one main section container in the [**Discography**](disc.html) page. There are three groups of elements within it, each group with an **Album Cover**, an **Album Title** and **Album Text**. These are displayed on a dark green background, from the oldest release to the newest. On higher resolutions, the three elements appear in a containing div with a sand-coloured background, whereas on mobile the appear separately from the top down (i.e. **Album Cover**, **Album Title**, **Album Text**).
+- **Booking Section Backgound**
+(PQ - To be completed).
+
+- **EmailJS Section**
+(PQ - To be completed).
 
 #### Restaurants
 
 - **Restaurant Cards**  
-    This section is different to the other three pages. There is a large background image (the new album [**Poster Art**](assets/images/dair-dryad.jpg)) and a central element on an opaque background. This contains a [**Contact Form**](contact.html) which is not functional yet, but will be in future. It is a modified version of the [**Bootstrap**](https://getbootstrap.com/docs/4.0/components/forms) form code. The form has several fields which ask the user to let the band know why they are getting in touch; an e-mail field, a set of three radio buttons, and a larger text input field. There is a [**Bootstrap**](https://getbootstrap.com/docs/4.0/components/buttons) button below these features, which has been modified so that its colours (maroon and cream) match the site.
+(PQ - To be completed).
+
 
 #### **Footer**
 
 - **Copyright Text**
-    A basic footer can be found on each page. It contains two features, some **Copyright Text** and the **Social Media Links**. The **Copyright Text** is a simple part of the **Bootstrap** grid, and doesn't display on mobile.
+    The **Copyright Text** is a simple part of the **Bootstrap** grid. It is a basic text element.
+(PQ - To be completed).
+
 
 - **Contact Information**
-    Basic contact details can be found here, including **Elite Gourmet's** phone numbers and email address. (PQ - Display on Mobile??)
-
+    This part of the **Footer** contains the company's contact details, including its fictional phone number and email address.
+(PQ - To be completed).
 
 - **Social Media Links**
-    The **Social Media Links** are fully functional, and link to the band's previously existing online web presence on [**Bandcamp**](https://corrmona.bandcamp.com), [**Youtube**](https://www.youtube.com/watch?v=2wL0o1rxRLQ), [**Facebook**](https://www.facebook.com/corrmhona) and [**Instagram**](https://www.instagram.com/corrmhona). The icons for each social media platform were provided by [**Font Awesome**](https://fontawesome.com).
+    The **Social Media Links** are fully functional, and link to fictional **Elite Gourmet** accounts on: [**Facebook**](https://www.facebook.com/??), [**Twitter**](??) and [**Instagram**](https://www.instagram.com/??). The icons for each social media platform were provided by [**Font Awesome**](https://fontawesome.com).
+(PQ - To be completed).
 
 
 ### **Future Features**
 
 #### Flip Cards
 
-(This is may be a future feature for the site, or something I add now). This could be a way to put more content and information on the site, without cluttering up the clean design aesthetic. The cards for each restaurant in the Restaurants Section could function as **Flip Cards**. Each flip card would have extra information about the restaurant on the back, with the main image and title on the front. This would make the site more dynamic and enjoyable for the user.
+(PQ - This is may be a future feature for the site, or something I add now). 
+This could be a way to put more content and information on the site, without cluttering up the clean design aesthetic. The cards for each restaurant in the **Restaurants Section** could function as **Flip Cards**. Each flip card would have extra information about the restaurant on the back, with the main image and title on the front. This would make the site more dynamic and enjoyable for the user.
+(PQ - To be completed).
 
 #### Another API?
 
-I might be good to use one more API considering the brief. But which one? :)
-Youtube is an obvious choice, but not sure how I would use it here. Video on hospitality industry?
+(It might be good to use one more API considering the brief. But which one? :)
+Youtube is an obvious choice, but not sure how I would use it here. Video on hospitality industry?)
+(PQ - To be completed).
+
 ___
 
 ## **Technologies Used**
 
-(PQ - Check versions!! NB)
+(PQ - Check most recent versions!! NB)
+
 All the technologies used to create this project are listed below, along with their usage. Simply click on the title for a link to the main site. When there were separate instances where a technology was used, I have listed each link below.
 
 [**HTML**](https://en.wikipedia.org/wiki/HTML5) - This project's structure is based on **HTML 5**.
@@ -316,31 +292,37 @@ All the technologies used to create this project are listed below, along with th
 
 [**Git**](https://git-scm.com/) - I used **Git** to create this project's local repository and to maintain version conrtrol. 
 
-- The remote repository was done through [**Github**](https://github.com).
+[**Github**](https://github.com) - The remote repository was done through **Github**.
 
-[**Javascript**](https://en.wikipedia.org/wiki/JavaScript) -  This was used a couple of times when creating this site.
+[**Javascript**](https://en.wikipedia.org/wiki/JavaScript) -   A number of elements on the site have **Javascipt** functionality.
 
-- There were [three plugins](https://getbootstrap.com/docs/4.3/getting-started/introduction) required so that **Bootstrap** would function; **jQuery**, **Popper.js** and **Bootstrap's** own **min.js**.6
-- I also copied and modified **Javascript** code from [**Js Fiddle**](https://jsfiddle.net/wamosjk/ufhp9s15) to create transitions while scrolling.
+- There were [three plugins](https://getbootstrap.com/docs/4.3/getting-started/introduction) required so that **Bootstrap** would function; **jQuery**, **Popper.js** and **Bootstrap's** own **min.js**.
+- I copied and modified **Javascript** code from [**Js Fiddle**](https://jsfiddle.net/wamosjk/ufhp9s15) to create transitions while scrolling.
+- I also used **Javascript** to get **Google API**, **EmailJS API** and ??? to function.
+(PQ - To be completed).
 
 [**Bootstrap**](https://getbootstrap.com) - The site was built using **Bootstrap's** grid system.
 
-- I also modified several **Bootstrap** components (e.g. **Navbar**, **Buttons**,**Contact Form**).
+- I also modified several **Bootstrap** components (e.g. **Navbar**, **Bootstrap Grid**, **Contact Form**).
 
-[**Pixabay**](https://pixabay.com/) - I sourced all the images used in the sites construction from this royalty-free website.
+[**Pixabay**](https://pixabay.com/) - I sourced all the images used in the site's construction from this royalty-free website.
 
-[**Canva**](https://www.canva.com) - I found my colour palette by uploading the new album [**Cover Art**](assets/images/dair-art.jpg) to **Canva**, and added to this with my own colours.
+[**Canva**](https://www.canva.com) - I found my colour palette by uploading the main landing page [**Hero Image**](assets/images/jumbotron.jpg) to **Canva** and I added to this with my own colours.
 
-[**Font Awesome**](https://fontawesome.com) - The **Social Media Icons** were supplied using **Font Awesome**. 
+[**Gimp**](https://www.gimp.org/) - I used this open-sourced image-manipulation program to create my **Navicon**.
 
-(PQ - Is this still the case?)
+[**Font Awesome**](https://fontawesome.com) - The **Social Media Icons** were supplied using **Font Awesome**.
+
 - I attempted to use the latest version of **Font Awesome** which is available on [**CDNJS**](https://cdnjs.com/libraries/font-awesome) (version 5.9.0) but it failed to deploy, so I reverted to the version available from the [**BootstrapCDN**](https://www.bootstrapcdn.com/fontawesome/) (version 4.7.0).
+(PQ - Is this still the case?)
 
 [**HTML Code Checker**](https://validator.w3.org) - I checked my HTML with the **W3C Markup Validation Service**
 
 [**CSS Code Checker**](https://jigsaw.w3.org/css-validator) - I checked my CSS with the **W3C CSS Validation Service**
 
 [**CSS Auto-prefixer**](https://autoprefixer.github.io) - The **Autoprefixer CSS Online** provided a **Vendor Prefix** check for my code.
+
+(PQ -  Need a Javascript checker?)
 
 [**ARIA Checker**](http://wave.webaim.org/) - I used **Wave** (Web Accessibility Evaluation Tool) to check that my code was accessible to all users.
 
@@ -350,7 +332,7 @@ ___
 
 ### **Developer Tools**
 
-I tested the site in **Developer Tools** on four internet browsers (**Chrome**, **Firefox**,  **Internet Explorer** & **Safari**). Bugs and errors were tackled successfully in this way throughout the development process, using **Live Server** in **VSCode**. I also tested the site with **Android OS** on a **Galaxy A5** and a **Huawei Lyo L01**.
+I tested the site in **Developer Tools** on four internet browsers (**Chrome**, **Firefox**,  **Internet Explorer** & **Safari**). Bugs and errors were tackled successfully in this way throughout the development process, using **Live Server** in **VSCode**. I also tested the site with **Android OS** on a **Galaxy A5** and a **??**.
 
 - [**Chrome**](https://www.google.com/chrome/?brand=CHBD&gclid=Cj0KCQjwkK_qBRD8ARIsAOteukDltqXTjp13--esZkC4d8eL6Ggma28pvUQiVvwnJwVA06i0YbiSIuwaArNOEALw_wcB&gclsrc=aw.ds)
 
@@ -362,7 +344,7 @@ I tested the site in **Developer Tools** on four internet browsers (**Chrome**, 
 
 ### **Media Queries**
 
-Over 20 separate **Media Query** parameters were set in the [**CSS**] code(assets/css/style.css). Every imaginable variation of resolution, from the smallest phone to the biggest 4K monitor, were used to test the responsivity of the site. There are often multiple elements, functions and attributes being targeted and styled within in any one **Media Query**. These ensure that the site looks like it should from 240px in width to over 4000px. I would use the full gamut of responsivity in **Developer Tools**, but I also tested certain specific resolutions, as shown below.
+Over 20 (??? Check) separate **Media Query** parameters were set in the [**CSS**] code(assets/css/style.css). Every imaginable variation of resolution, from the smallest phone to the biggest 4K monitor, were used to test the responsivity of the site. There are often multiple elements, functions and attributes being targeted and styled within in any one **Media Query**. These ensure that the site looks like it should from 240px in width to over 4000px. I use the full gamut of responsivity in **Developer Tools**, but I also tested certain specific resolutions, as shown below.
 
 #### Mobile
 
@@ -383,62 +365,51 @@ Over 20 separate **Media Query** parameters were set in the [**CSS**] code(asset
 - 4K Monitor (3840 x 2160)
 - 4k Plus (4000 x 2200)
 
+### Jasmine
+(PQ - Need to check what paramters are needed here)
+
+
 ### **User Scenarios**
 
 #### Seeking Fine Dining Information for Ireland
 
-- **Audio Player** (Tablet & Desktop):
-    1. Go to the [**Home**](index.html) page.
-    2. Click on the **Audio Player** on the top right of the screen.
+- **Navbar**
+    1. Go to the **Landing Page** section.
+    2. Click on the **Navbar** on the top left of the screen for **Mobile** and **Tablet**.
+    3. Click on the **Navbar** on the top right of the screen for **Desktop**.
+    4. Click on the links to either **Services**, **Restaurants** of **About Us** for more information.
 
-- **Teaser Video**:
-    1. Go to the [**Home**](index.html) page.
-    2. Look for the **Media** section farther down the page.
-    3. Click on the new album **Teaser Video** at the top of the section.
+- **Scroll**:
+    1. Go to the **Landing Page** section.
+    2. Scroll down the page to either the **Services**, **Restaurants** or **About Us** sections for information.
 
 #### Specifically Looking for Michelin Starred Restaurants
 
-- **News Section**:
-    1. Go to the [**Home**](index.html) page.
-    2. Scroll down to the **News Section**, just below the **Hero Image** and **CTA**.
+- **Restaurants Section**:
+    1. Use either the **Navbar** link to **Restaurants** or scroll down from the **Landing Page** to the **Restaurants Section**.
+    2. Read through the information for each restaurant partner, including their cuisine, philosophy and location.
 
 #### Locating the Six Restaurant Partners of Elite Gourmet
 
-- **Shop**:
-    1. (This is a **Future Feature**).
-    2. Go to the **Navbar** on any page.
-    3. Click on the **Shop** nav item.
-
-- **Bandcamp**:
-    1. (Until the **Shop** is functional).
-    2. Scroll down to the **Footer** on any page.
-    3. Click on the **Bandcamp** icon.
-    4. Proceed to the **Corr Mhóna Bandcamp** site.
+- **Google Maps API**:
+    1. Use either the **Navbar** link to **Services** or scroll down from the **Landing Page** to the **Services Section**.
+    2. Use the **Google Maps API** to locate the **Michelin** starred restaurants.
 
 #### Booking a Fine Dining Experience
 
-- **Biography Section**:
-    1. Go to the **Navbar** on any page.
-    2. Click on the [**Biography**](bio.html) {'The Band'} link.
-    3. Scroll down to the **Biography Section** of the page.
+- **Booking Section**:
+    1. Use either the **Navbar** link to **Booking** or scroll down from the **Landing Page** to the **Booking Section**.
+    2. Use the **Contact Form** in the **EmailJS Section** to contact **Elite Gourmet** and organise your culinary experience.
 
 #### Finding Out About Elite Gourmet
 
-- **Contact Form**:
-    1. (This is a **Future Feature**).
-    2. Go to the **Navbar** on any page.
-    3. Click on the [**Contact**](contact.html) link.
-    4. Go to the **Contact Form** at the centre of the page.
-    5. Fill in your email, reason for contacting the band and message into the appropriate fields.
-    6. Click on the **'Send it!' Button** at the bottom of the **Contact Form**.
+- **About Us**:
+    1. Use either the **Navbar** link to **Services** or scroll down from the **Landing Page** to the **About Us Section**.
+    2. Read the text outlining the origins and goals of **Elite Gourmet**. 
 
 ### **Outstanding Bugs**
 
-There are a few errors and bugs that are worth noting. Some are due to a lack of functionality whereas others are due to a particular platform or medium reacting differently to the code.
-
-- **Galaxy A5 Scrolling Issue**  
-
-    When scrolling down on the **Home** page, the **Hero Image** becomes larger in size as you scroll. This does not effect performance or the **User Experience**, but hasn't appeared on other platforms.
+(PQ - No issues as of yet. To be completed).
 
 ___
 
@@ -483,7 +454,7 @@ ___
     4. You can now choose a few different ways to link the local and remote repositories. The one we want here is "…*or push an existing repository from the command line*". Copy the code this option gives you and paste it into your command line. It should look something like this:
 
         ```
-        git remote add origin https://github.com/an-slua-sidhe/milestone-1
+        git remote add origin https://github.com/an-slua-sidhe/milestone-2
         git push -u origin master
         ```
 
@@ -508,12 +479,14 @@ ___
 
 ### **Images Used**
 
-- All images were sourced from [**Pixabay**](To be added).
+(PQ - Various image credits to be added)
+
+- All images were sourced from [**Pixabay**].
 
     1. For **README Banner** - see [here](https://pixabay.com/photos/dish-restaurant-dining-food-dinner-918613/).
 
     2. For main **Jumbotron** background - see [here]().
-    
+
     3. For **Booking Section** background - see [here](https://pixabay.com/photos/olive-oil-tomatoes-basil-eat-1412361/).
 
     4. For **About Us Section** background - see [here](https://pixabay.com/photos/mediterranean-cuisine-eat-food-2378758/).
