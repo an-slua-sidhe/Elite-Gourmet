@@ -16,8 +16,6 @@ h1, h2, h3, h4 {
     font-weight: 600;
 }
 
-
-
 /* Header */
 
 /* Jumbotron */
@@ -38,7 +36,6 @@ h1, h2, h3, h4 {
     font-size: 0.9em;
 }
 
-
 /* Logo */
 
 #logo {
@@ -58,7 +55,6 @@ h1, h2, h3, h4 {
 #logo p {
     margin-right: -0.3em;
 }
-
 
 /* CTA */
 
@@ -90,7 +86,6 @@ h1, h2, h3, h4 {
 #cta strong:hover {
     color: #C29C64;
 }
-
 
 /* Navbar */
 
@@ -130,8 +125,6 @@ h1, h2, h3, h4 {
     color: #C29C64;
 }
 
-
-
 /* Sections */
 
 /* General Styling */
@@ -158,7 +151,6 @@ h1, h2, h3, h4 {
     margin: 0;
 }
 
-
 /*Services Section */
 
 #services-section {
@@ -178,7 +170,7 @@ h1, h2, h3, h4 {
     background-color: #C29C64;
 }
 
- #google-api-card p {
+#google-api-card p {
     justify-content: left;
     color: rgb(211, 229, 250);
 }
@@ -190,7 +182,6 @@ h1, h2, h3, h4 {
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
-
 }
 
 #google-api-card p a:hover {
@@ -232,16 +223,11 @@ h1, h2, h3, h4 {
     color: #C29C64;
 }
 
-
 /* Booking Section */
-
 
 /* Restaurants Section */
 
-
 /* About Section */
-
-
 
 /* Footer */
 
@@ -252,8 +238,6 @@ h1, h2, h3, h4 {
     margin: 0;
     padding: 1.1em; 
 }   */
-
-
 
 /* .copyright-text {
     padding-top: 8px;
@@ -276,8 +260,6 @@ h1, h2, h3, h4 {
     color: #A51723;
 } */
 
-
-
 /* Media Queries */
 
 /* -Separated between Heights and Widths.
@@ -294,13 +276,20 @@ Footer etc.) are included within the Media Queries themselves. */
 
 /* Smaller Resolutions */
 
-@media (max-width: 767px) {
+@media (min-width: 992px) {
+    #logo  {
+        font-size: 2em;
+    }
+    .navbar button {
+        /* width: 120%; */
+    }
+}
 
+@media (max-width: 767px) {
     /* #services-section.section-container-row#services-text-container#services-text-card {
         margin-bottom: 0em;
     } */
     /* (Trying to give Services-text less of a margin-bottom in lower resoltions where it stacks on top of the google-api, which would then return when they are side by side.) */
-
 }
 
 @media (max-width: 340px) {

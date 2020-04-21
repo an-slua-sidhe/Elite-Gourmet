@@ -38,7 +38,9 @@ I then needed subject material and a central concept for my project. As I am fro
     - [Design Changes](#design-changes)
         - [General Changes](#general-changes)
         - [Mobile Changes](#mobile-changes)
-        - [Tablet & Desktop Changes](#tablet-&-desktop-changes)
+        - [Tablet Changes](#tablet-changes)
+        - [Desktop Changes](#desktop-changes)
+
 
 2. [Features](#features)
     - [Existing Features](#existing-features)
@@ -50,8 +52,7 @@ I then needed subject material and a central concept for my project. As I am fro
         - [Footer](#footer)
     - [Future Features](#future-features)
         - [Flip cards](#flip-cards)
-        - [Another API?](#another-api?)6
-
+        - [Another API?](#??)
 
 3. [Technologies Used](#technologies-used)
 
@@ -70,7 +71,6 @@ I then needed subject material and a central concept for my project. As I am fro
         - [Seeking Fine Dining Information for Ireland](#seeking-fine-dining-information-for-ireland)
         - [Specifically Looking for Michelin Starred Restaurants](#specifically-looking-for-michelin-starred-restaurants)
         - [Locating the Six Restaurant Partners of Elite Gourmet](#locating-the-six-restaurant-partners-of-elite-gourmet)
-        - [Contacting Elite Gourmet](#contacting-elite-gourmet)
         - [Booking a Fine Dining Experience](#booking-a-fine-dining-experience)
         - [Finding Out About Elite Gourmet](#finding-out-about-elite-gourmet)
     - [Outstanding Bugs](#outstanding-bugs)
@@ -228,7 +228,7 @@ This is a single-page site with 6 main sections. The basic layout of the site wa
     The **Google Maps** element has a light brown coloured background behind the map itself (#C29C64); it displays to the left of the **Services Section** for **Desktop** and to the bottom on **Mobile** and **Tablet**. The map uses [**JSON**](https://en.wikipedia.org/wiki/JSON) to communicate with the API, rendering the locations of the 6 chosen restaurants upon the initial loading of the site. These are numbered 1 to 6; their names are listed beneath the map, and each one contains a link to the appropriate part of the **Restaurants Section**. Google's [**Cluster**](https://developers.google.com/maps/documentation/javascript/marker-clustering) function is enabled, so several restaurants can be clustered together if the user zooms out on the map. The inital position of the map is focused on the centre of Ireland (lat: 53.4, lng: -7.9) at a zoom of 5.5.
 
 - **Services Text**  
-    The **Services Text** element has a moderate blue background colour (#426A8C), in contrast to the **Google Maps** element. The text is white so as to be legible on this background. It outlines the services offered on the site. The list of services is styled in a different colour to the rest of the text to help it to stand out(#f1e5e5). There are two links in the final paragraph; one to the **Bookings Section** and one to the **Restaurants Section**. AS usual, these links are in light brown but turn dark brown when hovered.
+    The **Services Text** element has a moderate blue background colour (#426A8C), in contrast to the **Google Maps** element. The text is white so as to be legible on this background. It outlines the services offered on the site. The list of services is styled in a different colour to the rest of the text to help it to stand out(#f1e5e5). There are two links in the final paragraph; one to the **Bookings Section** and one to the **Restaurants Section**. As usual, these links are in light brown but turn dark brown when hovered.
 
 #### Booking
 
@@ -298,7 +298,7 @@ All the technologies used to create this project are listed below, along with th
 
 - There were [three plugins](https://getbootstrap.com/docs/4.3/getting-started/introduction) required so that **Bootstrap** would function; **jQuery**, **Popper.js** and **Bootstrap's** own **min.js**.
 - I copied and modified **Javascript** code from [**Js Fiddle**](https://jsfiddle.net/wamosjk/ufhp9s15) to create transitions while scrolling.
-- I also used **Javascript** to get **Google API**, **EmailJS API** and ??? to function.
+- I also used **Javascript** to get **Google Maps API**, **EmailJS API** and ??? to function.
 (PQ - To be completed).
 
 [**Bootstrap**](https://getbootstrap.com) - The site was built using **Bootstrap's** grid system.
@@ -344,7 +344,7 @@ I tested the site in **Developer Tools** on four internet browsers (**Chrome**, 
 
 ### **Media Queries**
 
-Over 20 (??? Check) separate **Media Query** parameters were set in the [**CSS**] code(assets/css/style.css). Every imaginable variation of resolution, from the smallest phone to the biggest 4K monitor, were used to test the responsivity of the site. There are often multiple elements, functions and attributes being targeted and styled within in any one **Media Query**. These ensure that the site looks like it should from 240px in width to over 4000px. I use the full gamut of responsivity in **Developer Tools**, but I also tested certain specific resolutions, as shown below.
+Over 20 (??? Check) separate **Media Query** parameters were set in the [**CSS**](assets/css/style.css) code. Every imaginable variation of resolution, from the smallest phone to the biggest 4K monitor, were used to test the responsivity of the site. There are often multiple elements, functions and attributes being targeted and styled within in any one **Media Query**. These ensure that the site looks like it should from 240px in width to over 4000px. I use the full gamut of responsivity in **Developer Tools**, but I also tested certain specific resolutions, as shown below.
 
 #### Mobile
 
@@ -365,8 +365,8 @@ Over 20 (??? Check) separate **Media Query** parameters were set in the [**CSS**
 - 4K Monitor (3840 x 2160)
 - 4k Plus (4000 x 2200)
 
-### Jasmine
-(PQ - Need to check what paramters are needed here)
+### **Jasmine**
+(PQ - Need to check what parameters are needed here)
 
 
 ### **User Scenarios**
@@ -425,7 +425,7 @@ ___
     3. If using [**Github Desktop**](https://desktop.github.com), chose to *Open in Desktop*.
     4. If you want to **Clone** the files into a **Git** repository, chose to copy the URL from the same menu (# 2.). Open your chosen **Command Line Interface** (**CLI**, e.g. [**Gitbash**](https://git-scm.com/downloads)) and use the following command:
         ```
-        git clone https://github.com/an-slua-sidhe/milestone-1.git
+        git clone https://github.com/an-slua-sidhe/milestone-2.git
         ```
     5. To set up the files manually in a local repository, chose to **Download ZIP** and remove the files from the ZIP folder. Place them into the chosen location. If desired, set up a **Git** repository in this folder in your **CLI** with the following command:
         ```
