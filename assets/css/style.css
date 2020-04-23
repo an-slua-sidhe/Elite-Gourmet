@@ -166,8 +166,13 @@ h1, h2, h3, h4 {
     margin: 0;
 }
 
+#test1 {
+    height: 100%;
+} 
+
 #google-api-card {
     background-color: #C29C64;
+    /* height: 85%; */
 }
 
 #google-api-card p {
@@ -196,6 +201,7 @@ h1, h2, h3, h4 {
 
 #services-text-card {
     background-color: #426A8C;
+    /* height: 85%; */
 }
 
 #services-text-card ul {
@@ -277,19 +283,15 @@ Footer etc.) are included within the Media Queries themselves. */
 /* Smaller Resolutions */
 
 @media (min-width: 992px) {
-    #logo  {
-        font-size: 2em;
-    }
-    .navbar button {
-        /* width: 120%; */
-    }
+    /* body {
+        font-size: 150%;
+    } */
 }
 
-@media (max-width: 767px) {
-    /* #services-section.section-container-row#services-text-container#services-text-card {
-        margin-bottom: 0em;
+@media (min-width: 768px) {
+    /* .section-card {
+        height: 85%;
     } */
-    /* (Trying to give Services-text less of a margin-bottom in lower resoltions where it stacks on top of the google-api, which would then return when they are side by side.) */
 }
 
 @media (max-width: 340px) {

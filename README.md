@@ -481,15 +481,7 @@ ___
 
 (PQ - Various image credits to be added)
 
-- All images were sourced from [**Pixabay**].
-
-    1. For **README Banner** - see [here](https://pixabay.com/photos/dish-restaurant-dining-food-dinner-918613/).
-
-    2. For main **Jumbotron** background - see [here]().
-
-    3. For **Booking Section** background - see [here](https://pixabay.com/photos/olive-oil-tomatoes-basil-eat-1412361/).
-
-    4. For **About Us Section** background - see [here](https://pixabay.com/photos/mediterranean-cuisine-eat-food-2378758/).
+- All images were sourced from [**Pixabay**](https://pixabay.com/).
 
 ### **Restaurants Used**
 
