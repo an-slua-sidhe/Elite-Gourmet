@@ -194,9 +194,15 @@ h1, h2, h3, h4 {
 }
 
 #map {
+    color: black;
     min-height: 360px;
     border-radius: .4em;
     margin: 1.5em;
+}
+
+#map .icon {
+    width: 20px;
+    height: 20px;
 }
 
 #services-text-card {

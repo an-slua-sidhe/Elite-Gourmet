@@ -7,7 +7,7 @@
 //         }
 //     });
 
-//     var labels = "123456";
+//     var labels =  ["Ichigo Ichie", "Cliff House", "L'Ecrivain", "Ox", "Kai", "Chart House"];
 
 //     var locations = [
 //         { lat: 51.898235, lng: -8.479812 },
@@ -21,7 +21,7 @@
 //     var markers = locations.map(function (location, i) {
 //         return new google.maps.Marker({
 //             position: location,
-//             label: labels[i % labels.length]
+//             label: labels[i % labels.length],
 //         });
 //     });
 
@@ -30,6 +30,8 @@
 
 // }
 
+
+
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
       center: {lat: 53.4, lng: -7.9},
@@ -37,9 +39,10 @@ function initMap() {
     });
  
     var request = {
-      placeId: 'PzjLBVjC3aCHr8gq5',
+      placeId: ['ChIJQY0TFBeQREgRRBsH96D5y-M'],
       fields: ['name', 'formatted_address', 'place_id', 'geometry']
     };
+// Place IDs: Ichigo (ChIJQY0TFBeQREgRRBsH96D5y-M), Cliff House (ChIJiaHPag4SQ0gRPUUXBkU8krw), L'Ecrivain (ChIJ6SxgM5YOZ0gRrXEyYxPQHZU), Ox (ChIJtYvu31QIYUgRLtFOFF5F6hM), Kai (ChIJEb6cPPmWW0gRYHEPLdhRcJM), Chart House (ChIJTeNQycf7T0gRcsBRZ_W1Eo0)
 
     var infowindow = new google.maps.InfoWindow();
     var service = new google.maps.places.PlacesService(map);
@@ -48,7 +51,8 @@ function initMap() {
       if (status === google.maps.places.PlacesServiceStatus.OK) {
         var marker = new google.maps.Marker({
           map: map,
-          position: place.geometry.location
+          position: place.geometry.location,
+          icon: 'assets/images/marker.png'
         });
         google.maps.event.addListener(marker, 'click', function() {
           infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
