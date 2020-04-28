@@ -309,6 +309,8 @@ All the technologies used to create this project are listed below, along with th
 
 [**Canva**](https://www.canva.com) - I found my colour palette by uploading the main landing page [**Hero Image**](assets/images/jumbotron.jpg) to **Canva** and I added to this with my own colours.
 
+[**Flaticon**](https://www.flaticon.com/) - A food-themed map marker for Google Maps was found here.
+
 [**Gimp**](https://www.gimp.org/) - I used this open-sourced image-manipulation program to create my **Favicon**.
 
 [**Font Awesome**](https://fontawesome.com) - The **Social Media Icons** were supplied using **Font Awesome**.
@@ -482,6 +484,7 @@ ___
 (PQ - Various image credits to be added)
 
 - All images were sourced from [**Pixabay**](https://pixabay.com/).
+- Google Maps marker icon made by [Freepik](https://www.flaticon.com/authors/freepik) and sourced from [www.flaticon.com](https://www.flaticon.com/).
 
 ### **Restaurants Used**
 
