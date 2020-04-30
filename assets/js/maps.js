@@ -33,9 +33,9 @@ function initMap() {
         icon: 'assets/images/marker.png'
       });
       google.maps.event.addListener(marker, 'click', function () {
-        infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
-          'Place ID: ' + place.place_id + '<br>' +
-          place.formatted_address + '</div>');
+        infowindow.setContent('<div><strong>' + place.name + '</strong><br>' + '<br>' +
+          '<strong>Place ID:</strong> ' + place.place_id + '<br>' + '<br>' +
+          '<strong>Address:</strong> ' + place.formatted_address + '</div>');
         infowindow.open(map, this);
       });
     }
