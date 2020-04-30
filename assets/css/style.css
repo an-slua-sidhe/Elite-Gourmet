@@ -226,7 +226,19 @@ h1, h2, h3, h4 {
     color: #C29C64;
 }
 
-/* Booking Section */
+/* Bookings Section */
+
+#bookings-section {
+    position: relative;
+    background-attachment: fixed;
+    background-image: url('../images/bookings-background.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
 
 /* Restaurants Section */
 
