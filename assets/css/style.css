@@ -142,8 +142,8 @@ h1, h2, h3, h4 {
 .section-card {
     border-radius: .5em;
     width: 90%;
-    height: auto;
-    margin: 5% auto;
+    height: 85%;
+    margin: 13%;
     padding: 3%;
 }
 
@@ -229,15 +229,54 @@ h1, h2, h3, h4 {
 /* Bookings Section */
 
 #bookings-section {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-row {
+    height: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-background {
     position: relative;
     background-attachment: fixed;
     background-image: url('../images/bookings-background.jpg');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    overflow: hidden;
+    height: 100%;
+    width: 100vh;
     margin: 0;
     padding: 0;
+}
+
+.contact-form {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    width: 75%;
+    height: auto;
+    margin: 10% 13%;
+}
+
+.contact-form h4 {
+    font-family: 'Cinzel';
+}
+
+.form-group {
+    margin: auto;
+    width: 80%;
+}
+
+form button.btn {
+    color: rgb(236, 234, 234);
+    background-color: #426A8C;
+    font-weight: 700;
+    margin-bottom: 1.5em;
 }
 
 /* Restaurants Section */
@@ -246,23 +285,20 @@ h1, h2, h3, h4 {
 
 /* Footer */
 
-/* footer {
+footer {
+    height: 4em;
+    padding: 1.1em;
     background-color: #594C45;
-    height: 70em;
-    width: 100vw;
-    margin: 0;
-    padding: 1.1em; 
-}   */
+}
 
-/* .copyright-text {
+.copyright-text {
     padding-top: 8px;
-    color: #73715F;
-    opacity: 0.8;
+    color: #ffffff;
 }
 
 .social-media-links li a i {
-    color: #73715F;
-    background: #CFCDBF;
+    color: white;
+    /* background: #426A8C; */
     line-height: 10px;
     padding: 15px 12px 0px;
     transition: all 0.3s ease-in-out;
@@ -272,8 +308,8 @@ h1, h2, h3, h4 {
 }
 
 .social-media-links li a i:hover {
-    color: #A51723;
-} */
+    color: #C29C64;
+}
 
 /* Media Queries */
 
@@ -284,6 +320,12 @@ sections (e.g. Google API Section, Restaurants Section,
 Footer etc.) are included within the Media Queries themselves. */
 
 /* Heights */
+
+@media (max-width: 830px) {
+    /* #bookings-section {
+        height: 140vh;
+    } */
+}
 
 /* Widths */
 

@@ -76,7 +76,7 @@
     <section id="services-section" class="container-fluid section-container">
 
         <div class="row section-container-row">
-        
+
             <div class="col-12 col-md-6 order-2 order-md-1">
                 <div id="google-api-card" class="section-card mx-auto">
                     <h3>Our Restaurant Locations:</h3>
@@ -128,6 +128,77 @@
 
     <section id="bookings-section" class="container-fluid section-container">
 
+        <!--Contact Form-->
+        <div class="row contact-row">
+
+            <div class="col contact-background">
+
+                <div class="contact-form">
+
+                    <br>
+                    <h4 id="contact-form-heading">Contact Elite Gourmet</h4>
+                    <br>
+
+                    <form>
+
+                        <div class="form-group">
+                            <label for="input-email">Email address</label>
+                            <input type="email" class="form-control" id="input-email" aria-describedby="emailHelp"
+                                placeholder="What's your email?" required>
+                            <small id="emailHelp" class="form-text"><em>(We will never share your email with
+                                    anyone else!)</em></small>
+                        </div>
+                        <br><br>
+
+                        <h4>Your query:</h4>
+                        <br>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radio" id="radio1" value="option1"
+                                required>
+                            <label class="form-check-label" for="radio1">
+                                Book a Fine Dining Experience
+                            </label>
+                        </div>
+                        <br>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radio" id="radio2" value="option2"
+                                required>
+                            <label class="form-check-label" for="radio2">
+                                Become a Restaurant Partner
+                            </label>
+                        </div>
+                        <br>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radio" id="radio3" value="option3"
+                                required>
+                            <label class="form-check-label" for="radio3">
+                                Organise a Restaurant Review
+                            </label>
+                        </div>
+                        <br><br>
+
+                        <div class="form-group">
+                            <label for="text-input"><b>Please write your message
+                                    below:</b></label>
+                            <textarea class="form-control" id="text-input" rows="4" placeholder="What's on your mind?"
+                                required></textarea>
+                        </div>
+                        <br>
+
+                        <div id="contact-btn">
+                            <button type="submit" class="btn">Send it!</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
     </section>
 
     <!-- <section id="restaurants-section" class="container-fluid">
@@ -138,9 +209,50 @@
 
     </section> -->
 
-    <!-- <footer>
+	<footer>
 
-    </footer> -->
+		<div class="container-fluid">
+			<div class="row justify-content-between">
+
+				<!--Copyright Text-->
+				<div class="col-sm-6 d-none d-sm-block copyright-text">
+					Copyright Corr Mhóna 2019
+				</div>
+
+				<!--Social Media Links-->
+				<div class="col-sm-6 text-right">
+					<ul class="list-inline social-media-links">
+						<li class="list-inline-item">
+							<a target="_blank" href="https://corrmona.bandcamp.com/">
+								<i class="fa fa-bandcamp fa-2x" aria-hidden="true"></i>
+								<span class="sr-only">Bandcamp</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="https://www.youtube.com/watch?v=2wL0o1rxRLQ">
+								<i class="fa fa-youtube fa-2x" aria-hidden="true"></i>
+								<span class="sr-only">Youtube</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="https://www.facebook.com/corrmhona/">
+								<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+								<span class="sr-only">Facebook</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="https://www.instagram.com/corrmhona/">
+								<i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+								<span class="sr-only">Instagram</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+	</footer>
 
     <!-- Javascript -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
