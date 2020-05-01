@@ -62,7 +62,6 @@ h1, h2, h3, h4 {
     position: absolute;
     top: 92vh;
     text-align: center;
-    background: rgba(0, 0, 0, 0.5);
     height: 5vh;
     width: 90%;
     margin-left: 5%;
@@ -85,6 +84,10 @@ h1, h2, h3, h4 {
 
 #cta strong:hover {
     color: #C29C64;
+}
+
+#cta-background {
+    background: rgba(0, 0, 0, 0.5);
 }
 
 /* Navbar */
@@ -314,14 +317,11 @@ footer {
 /* Media Queries */
 
 /* -Separated between Heights and Widths.
--Widths are divided into larger and and Smaller Widths.
--Comment headings for styles that target specific pages or 
-sections (e.g. Google API Section, Restaurants Section, 
-Footer etc.) are included within the Media Queries themselves. */
+-Widths are divided into larger and and Smaller Widths.*/
 
 /* Heights */
 
-@media (max-width: 830px) {
+@media (max-height: 830px) {
     /* #bookings-section {
         height: 140vh;
     } */
@@ -331,22 +331,292 @@ Footer etc.) are included within the Media Queries themselves. */
 
 /* Larger Resolutions */
 
+@media (min-width: 4000px) {
+    body {
+        font-size: 3em;
+    }
+    h1, h2, h3, h4 {
+        font-size: 1.6em;
+    }
+    nav {
+        margin-top: .5em;
+        margin-left: .5em;
+    }
+    nav .navbar-toggler {
+        font-size: 110%;
+    }
+    h4#contact-form-heading {
+        font-size: 200%;
+    }
+    #input-email {
+        font-size: .7em;
+        margin: auto;
+        width: 40%;
+    }
+    #text-input {
+        font-size: .7em;
+        margin: auto;
+        width: 50%;
+    }
+    #contact-btn button {
+        font-size: .7em;
+    }
+    .social-media-links li a i {
+        margin-top: .3em;
+        margin-left: .8em;
+    }
+}
+
+@media (min-width: 3500px) and (max-width: 3999px) {}
+
+@media (min-width: 3000px) and (max-width: 3999px) {
+    body {
+        font-size: 2.5em;
+    }
+    h1, h2, h3, h4 {
+        font-size: 1.5em;
+    }
+    nav {
+        margin-top: .5em;
+        margin-left: .5em;
+    }
+    nav .navbar-toggler {
+        font-size: 110%;
+    }
+    h4#contact-form-heading {
+        font-size: 200%;
+    }
+    #input-email {
+        font-size: .6em;
+        margin: auto;
+        width: 40%;
+    }
+    #text-input {
+        font-size: .6em;
+        margin: auto;
+        width: 55%;
+    }
+    #contact-btn button {
+        font-size: .7em;
+    }
+    .social-media-links li a i {
+        margin-top: .2em;
+        margin-left: .6em;
+    }
+}
+
+@media (min-width: 3000px) and (max-width: 3499px) {}
+
+@media (min-width: 2500px) and (max-width: 2999px) {}
+
+@media (min-width: 2000px) and (max-width: 2999px) {
+    body {
+        font-size: 2em;
+    }
+    h1, h2, h3, h4 {
+        font-size: 1.4em;
+    }
+    nav {
+        margin-top: .5em;
+        margin-left: .5em;
+    }
+    nav .navbar-toggler {
+        font-size: 110%;
+    }
+    h4#contact-form-heading {
+        font-size: 180%;
+    }
+    #input-email {
+        font-size: .6em;
+        margin: auto;
+        width: 50%;
+    }
+    #text-input {
+        font-size: .6em;
+        margin: auto;
+        width: 65%;
+    }
+    #contact-btn button {
+        font-size: .7em;
+    }
+    .social-media-links li a i {
+        margin-top: .1em;
+        margin-left: .5em;
+    }
+}
+
+@media (min-width: 1750px) and (max-width: 1999px) {}
+
+@media (min-width: 1500px) {
+    .social-media-links li a i {
+        font-size: 160%;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 1999px) {
+    body {
+        font-size: 1.5em;
+    }
+    h1, h2, h3, h4 {
+        font-size: 1.3em;
+    }
+    nav {
+        margin-top: .5em;
+        margin-left: .5em;
+    }
+    nav .navbar-toggler {
+        font-size: 115%;
+    }
+    h4#contact-form-heading {
+        font-size: 180%;
+    }
+    #input-email {
+        font-size: .7em;
+        margin: auto;
+        width: 55%;
+    }
+    #text-input {
+        font-size: .7em;
+        margin: auto;
+        width: 70%;
+    }
+    #contact-btn button {
+        font-size: .8em;
+    }
+    .social-media-links li a i {
+        margin-left: .3em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1499px) {}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+    nav .navbar-toggler {
+        font-size: 120%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1499px) {
+    #input-email {
+        margin: auto;
+        width: 55%;
+    }
+    #text-input {
+        margin: auto;
+        width: 65%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #cta {
+        /* font-size: 1.5em; */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1499px) {
+    .copyright-text {
+        padding-top: 2px;
+    }
+    .social-media-links li a i {
+        padding-top: 12px;
+    }
+}
+
 /* Smaller Resolutions */
 
 @media (min-width: 992px) {
-    /* body {
-        font-size: 150%;
+    #cta {
+        font-size: 1.3em;
+        height: 5.5%;
+        margin-bottom: 1em;
+    }
+    #cta-background {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .section-card {
+        height: 80%;
+    }
+}
+
+@media (max-width: 991px) {
+    #input-email {
+        margin: auto;
+        width: 70%;
+    }
+    #text-input {
+        margin: auto;
+        width: 80%;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 991px) {
+    /* #logo {
+        font-size: 1.2em;
     } */
+    .section-card {
+        height: 83%;
+    }
 }
 
 @media (min-width: 768px) {
-    /* .section-card {
-        height: 85%;
-    } */
+    #logo {
+        font-size: 1.4em;
+    }
+    #logo h1 {
+        font-size: 1.6em
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #cta {
+        font-size: 1.1em;
+        height: auto;
+    }
+    #cta-background {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-card {
+        height: auto;
+    }
+    #services-section .section-container-row #services-text-card {
+        margin-bottom: 0;
+    }
+    .copyright-text {
+        padding-top: 0px;
+    }
+    .social-media-links li a i {
+        font-size: 1.5em;
+        padding: 7px 10px 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #cta-background {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media (max-width: 575px) {
+    .social-media-links {
+        text-align: center;
+    }
+    .social-media-links li a i {
+        font-size: 1.3em;
+        padding: 7px 10px 10px;
+    }
 }
 
 @media (max-width: 340px) {
     #cta {
         font-size: 0.9em;
+    }
+    #text-input {
+        font-size: .9em;
     }
 }
