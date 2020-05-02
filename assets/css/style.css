@@ -345,6 +345,9 @@ footer {
     nav .navbar-toggler {
         font-size: 110%;
     }
+    .section-card {
+        height: 70%;
+    }
     h4#contact-form-heading {
         font-size: 200%;
     }
@@ -367,7 +370,11 @@ footer {
     }
 }
 
-@media (min-width: 3500px) and (max-width: 3999px) {}
+@media (min-width: 3500px) and (max-width: 3999px) {
+    .section-card {
+        height: 70%;
+    }
+}
 
 @media (min-width: 3000px) and (max-width: 3999px) {
     body {
@@ -405,7 +412,11 @@ footer {
     }
 }
 
-@media (min-width: 3000px) and (max-width: 3499px) {}
+@media (min-width: 3000px) and (max-width: 3499px) {
+    .section-card {
+        height: 72%;
+    }
+}
 
 @media (min-width: 2500px) and (max-width: 2999px) {}
 
@@ -422,6 +433,9 @@ footer {
     }
     nav .navbar-toggler {
         font-size: 110%;
+    }
+    .section-card {
+        height: 74%;
     }
     h4#contact-form-heading {
         font-size: 180%;
@@ -448,6 +462,9 @@ footer {
 @media (min-width: 1750px) and (max-width: 1999px) {}
 
 @media (min-width: 1500px) {
+    .form-check-input {
+        margin-top: .6em;
+    }
     .social-media-links li a i {
         font-size: 160%;
     }
@@ -466,6 +483,9 @@ footer {
     }
     nav .navbar-toggler {
         font-size: 115%;
+    }
+    .section-card {
+        height: 77%;
     }
     h4#contact-form-heading {
         font-size: 180%;
@@ -488,9 +508,10 @@ footer {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1499px) {}
-
 @media (min-width: 1200px) and (max-width: 1499px) {
+    .section-card {
+        height: 75%;
+    }
     nav .navbar-toggler {
         font-size: 120%;
     }
@@ -508,14 +529,17 @@ footer {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    #cta {
-        /* font-size: 1.5em; */
+    .section-card {
+        height: 80%;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1499px) {
     .copyright-text {
         padding-top: 2px;
+    }
+    .social-media-links {
+        font-size: .7em;
     }
     .social-media-links li a i {
         padding-top: 12px;
@@ -533,9 +557,6 @@ footer {
     #cta-background {
         margin-left: 25%;
         margin-right: 25%;
-    }
-    .section-card {
-        height: 80%;
     }
 }
 
