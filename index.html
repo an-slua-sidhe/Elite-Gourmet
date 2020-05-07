@@ -5,11 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_sidwnvCWhgSDRphSQk7JI");
+        })();
+    </script>
 
     <title>ELITE GOURMET</title>
 </head>
@@ -142,11 +151,18 @@
                     <h4 id="contact-form-heading">Contact Elite Gourmet</h4>
                     <br>
 
-                    <form>
+                    <form onsubmit="return sendMail(this);">
+
+                        <div class="form-group">
+                            <label for="input-name">Name</label>
+                            <input type="text" name="name" class="form-control" id="input-name"
+                                placeholder="Type your name here..." required>
+                        </div>
+                        <br><br>
 
                         <div class="form-group">
                             <label for="input-email">Email address</label>
-                            <input type="email" class="form-control" id="input-email" aria-describedby="emailHelp"
+                            <input type="email" name="email" class="form-control" id="input-email" aria-describedby="emailHelp"
                                 placeholder="What's your email?" required>
                             <small id="emailHelp" class="form-text"><em>(We will never share your email with
                                     anyone else!)</em></small>
@@ -186,7 +202,7 @@
                         <div class="form-group">
                             <label for="text-input"><b>Please write your message
                                     below:</b></label>
-                            <textarea class="form-control" id="text-input" rows="4" placeholder="What's on your mind?"
+                            <textarea name="message" class="form-control" id="text-input" rows="4" placeholder="What's on your mind?"
                                 required></textarea>
                         </div>
                         <br>
@@ -262,7 +278,6 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 
-
     <!-- Javascript for style changes on scroll. Code modified from a snippet found at Jsfiddle (https://jsfiddle.net/wamosjk/ufhp9s15/)-->
     <script>
         $(window).scroll(function () {
@@ -277,6 +292,9 @@
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1OKxPBZfYMGUQaGOmz3OHTGB-oJXEIr8&libraries=places&callback=initMap"></script>
 
     <script src="assets/js/maps.js"></script>
+  
+    <!-- Javascript for EmailJS -->
+    <script src="assets/js/sendEmail.js"></script>
 
 </body>
 

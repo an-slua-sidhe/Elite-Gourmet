@@ -41,7 +41,7 @@ h1, h2, h3, h4 {
 #logo {
     text-align: right;
     float: right;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     padding: 0.5em 1em 0em 0.5em;
 }
 
@@ -87,7 +87,8 @@ h1, h2, h3, h4 {
 }
 
 #cta-background {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 3px;;
 }
 
 /* Navbar */
@@ -170,26 +171,7 @@ h1, h2, h3, h4 {
 }
 
 #google-api-card {
-    background-color: #C29C64;
-    /* height: 85%; */
-}
-
-#google-api-card p {
-    justify-content: left;
-    color: rgb(211, 229, 250);
-}
-
-#google-api-card p a {
-    text-decoration: none;
-    color: white;
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-}
-
-#google-api-card p a:hover {
-    color: grey;
+    background-color: #426A8C;
 }
 
 #map {
@@ -215,6 +197,10 @@ h1, h2, h3, h4 {
 
 #services-text-card span {
     color: rgb(247, 210, 156);
+}
+
+#services-text-card a {
+    text-decoration: none;
 }
 
 #services-text-card strong {
@@ -351,6 +337,11 @@ footer {
     h4#contact-form-heading {
         font-size: 200%;
     }
+    #input-name {
+        font-size: .6em;
+        margin: auto;
+        width: 35%;
+    }
     #input-email {
         font-size: .7em;
         margin: auto;
@@ -392,6 +383,11 @@ footer {
     }
     h4#contact-form-heading {
         font-size: 200%;
+    }
+    #input-name {
+        font-size: .6em;
+        margin: auto;
+        width: 35%;
     }
     #input-email {
         font-size: .6em;
@@ -439,6 +435,11 @@ footer {
     }
     h4#contact-form-heading {
         font-size: 180%;
+    }
+    #input-name {
+        font-size: .6em;
+        margin: auto;
+        width: 40%;
     }
     #input-email {
         font-size: .6em;
@@ -490,6 +491,10 @@ footer {
     h4#contact-form-heading {
         font-size: 180%;
     }
+    #input-name {
+        margin: auto;
+        width: 50%;
+    }
     #input-email {
         font-size: .7em;
         margin: auto;
@@ -518,6 +523,10 @@ footer {
 }
 
 @media (min-width: 992px) and (max-width: 1499px) {
+    #input-name {
+        margin: auto;
+        width: 50%;
+    }
     #input-email {
         margin: auto;
         width: 55%;
@@ -561,6 +570,10 @@ footer {
 }
 
 @media (max-width: 991px) {
+    #input-name {
+        margin: auto;
+        width: 70%;
+    }
     #input-email {
         margin: auto;
         width: 70%;
@@ -624,6 +637,9 @@ footer {
 }
 
 @media (max-width: 575px) {
+    #emailHelp {
+        display: none;
+    }
     .social-media-links {
         text-align: center;
     }
