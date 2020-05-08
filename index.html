@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
-    
+
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
     </script>
     <script type="text/javascript">
@@ -26,11 +26,10 @@
 <body>
 
     <header>
-
         <div id="jumbotron" class="container-fluid">
 
             <!-- Main Logo -->
-            <div id="logo" class="">
+            <div id="logo">
                 <h1><strong>ELITE GOURMET</strong></h1>
                 <br>
                 <p>Serving the finest <strong>Michelin Star</strong>
@@ -39,14 +38,12 @@
 
             <!-- Navbar -->
             <nav class="navbar navbar-default navbar-dark bg-transparent">
-
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-
                     <ul class="navbar-nav">
                         <li class="nav-item ">
                             <a class="nav-link" href="#jumbotron">Home<span class="sr-only">(current)</span></a>
@@ -64,9 +61,7 @@
                             <a class="nav-link" href="#about-section">About Us</a>
                         </li>
                     </ul>
-
                 </div>
-
             </nav>
 
             <!-- CTA -->
@@ -78,26 +73,23 @@
                     </p>
                 </div>
             </div>
-
         </div>
-
     </header>
 
     <!-- Services Section -->
     <section id="services-section" class="container-fluid section-container">
-
         <div class="row section-container-row">
 
             <div class="col-12 col-md-6 order-2 order-md-1">
                 <div id="google-api-card" class="section-card mx-auto">
                     <h3>Our Restaurant Locations:</h3>
+
                     <div id="map"></div>
                 </div>
             </div>
 
             <div class="col-12 col-md-6 order-1 order-md-2">
                 <div id="services-text-card" class="section-card mx-auto">
-
                     <h3>Excellence is a choice.</h3>
                     <br>
 
@@ -129,10 +121,8 @@
                         Book <a href="#bookings-section"><strong>HERE</strong></a>, or find more information
                         on each restaurant <a href="#restaurants-section"><strong>HERE</strong></a>.
                     </p>
-
                 </div>
             </div>
-
         </div>
 
     </section>
@@ -141,12 +131,9 @@
     <section id="bookings-section" class="container-fluid section-container">
 
         <!--Contact Form-->
-        <div class="row contact-row">
-
-            <div class="col contact-background">
-
+        <div id="contact-row" class="row">
+            <div id="contact-background" class="col">
                 <div class="contact-form">
-
                     <br>
                     <h4 id="contact-form-heading">Contact Elite Gourmet</h4>
                     <br>
@@ -156,14 +143,14 @@
                         <div class="form-group">
                             <label for="input-name">Name</label>
                             <input type="text" name="name" class="form-control" id="input-name"
-                                placeholder="Type your name here..." required>
+                                placeholder="Your name..." required>
                         </div>
                         <br><br>
 
                         <div class="form-group">
                             <label for="input-email">Email address</label>
-                            <input type="email" name="email" class="form-control" id="input-email" aria-describedby="emailHelp"
-                                placeholder="What's your email?" required>
+                            <input type="email" name="email" class="form-control" id="input-email"
+                                aria-describedby="emailHelp" placeholder="What's your email?" required>
                             <small id="emailHelp" class="form-text"><em>(We will never share your email with
                                     anyone else!)</em></small>
                         </div>
@@ -202,17 +189,120 @@
                         <div class="form-group">
                             <label for="text-input"><b>Please write your message
                                     below:</b></label>
-                            <textarea name="message" class="form-control" id="text-input" rows="4" placeholder="What's on your mind?"
-                                required></textarea>
+                            <textarea name="message" class="form-control" id="text-input" rows="4"
+                                placeholder="What's on your mind?" required></textarea>
                         </div>
                         <br>
 
                         <div id="contact-btn">
                             <button type="submit" class="btn">Send it!</button>
                         </div>
-
                     </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Restaurants Section -->
+    <section id="restaurants-section" class="container-fluid section-container">
+
+        <div class="row section-container-row">
+
+            <div class="col-12 col-md-6 col-lg-4 restaurants-section-card ">
+
+                <div class="flip-card-container">
+                    <div class="flip-card">
+
+                        <div id="ichigo-ichie-background" class="flip-card-front">
+                            <h1>ICHIGO ICHIE</h1>
+                        </div>
+
+                        <div class="flip-card-back">
+                            <h1>ICHIGO ICHIE</h1>
+                            <p>
+                                Japanese cuisine at its finest.
+                                Since taking over the iconic
+                                premises on Fenn's Quay in
+                                the centre of Cork City,
+                                Ichigo Ichie has gone from
+                                strength to strength. Chef
+                                Miyazaki has excelled himself,
+                                serving set menus for groups of
+                                6-10, with 7 courses of traditional
+                                Japanese food and drink.
+                            </p>
+                            <p>
+                                <a target="_blank" href="https://ichigoichie.ie/">
+                                    <strong>Ichigo Ichie Website</strong></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 restaurants-section-card ">
+
+                <div class="flip-card-container">
+                    <div class="flip-card">
+
+                        <div id="cliff-house-background" class="flip-card-front">
+                            <h1>CLIFF HOUSE</h1>
+                        </div>
+
+                        <div class="flip-card-back">
+                            <h1>CLIFF HOUSE</h1>
+                            <p>
+                                Japanese cuisine at its finest.
+                                Since taking over the iconic
+                                premises on Fenn's Quay in
+                                the centre of Cork City,
+                                Ichigo Ichie has gone from
+                                strength to strength. Chef
+                                Miyazaki has excelled himself,
+                                serving set menus for groups of
+                                6-10, with 7 courses of traditional
+                                Japanese food and drink.
+                            </p>
+                            <p>
+                                <a target="_blank" href="https://ichigoichie.ie/">
+                                    <strong>Ichigo Ichie Website</strong></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 restaurants-section-card ">
+
+                <div class="flip-card-container">
+                    <div class="flip-card">
+
+                        <div id="lecrivain-background" class="flip-card-front">
+                            <h1>L'ECRIVAIN</h1>
+                        </div>
+
+                        <div class="flip-card-back">
+                            <h1>L'ECRIVAIN</h1>
+                            <p>
+                                Japanese cuisine at its finest.
+                                Since taking over the iconic
+                                premises on Fenn's Quay in
+                                the centre of Cork City,
+                                Ichigo Ichie has gone from
+                                strength to strength. Chef
+                                Miyazaki has excelled himself,
+                                serving set menus for groups of
+                                6-10, with 7 courses of traditional
+                                Japanese food and drink.
+                            </p>
+                            <p>
+                                <a target="_blank" href="https://ichigoichie.ie/">
+                                    <strong>Ichigo Ichie Website</strong></a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -220,13 +310,28 @@
         </div>
     </section>
 
-    <!-- <section id="restaurants-section" class="container-fluid">
+    <!-- About Section -->
+    <section id="about-section" class="container-fluid section-container">
+        <div id="about-row" class="row">
+            <div id="about-background" class="col ">
+                <div id="about-text-section" class="section-card">
+                    <h1>ABOUT US...</h1>
+                    <p>
 
-    </section> -->
-
-    <!-- <section id="about-section" class="container-fluid">
-
-    </section> -->
+                        Elite Gourmet was founded in the Spring of 2020.
+                        The concept sprung from the vibrant food and hospitality scene in the Cork region.
+                        There was a continuous rising tide of excellence among the various eateries in and around the city.
+                        As this was also reflected across the country, and with more Michelin starred establishments
+                        appearing every year, there was a need for a conduit towards this culinary renaissance.
+                        We made real connections with the best quality venues across the whole island of Ireland, 
+                        and seek to organise the perfect dining experience for the decerning customer, 
+                        be they local or a vistor to these shores.
+                        
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
 
@@ -292,7 +397,7 @@
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1OKxPBZfYMGUQaGOmz3OHTGB-oJXEIr8&libraries=places&callback=initMap"></script>
 
     <script src="assets/js/maps.js"></script>
-  
+
     <!-- Javascript for EmailJS -->
     <script src="assets/js/sendEmail.js"></script>
 
