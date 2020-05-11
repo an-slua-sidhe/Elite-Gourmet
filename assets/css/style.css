@@ -431,6 +431,10 @@ form button.btn:hover {
     padding: .5em;
 }
 
+#about-text-section p:nth-child(3) {
+    font-size: 1.2em;
+}
+
 /* Footer */
 
 footer {
