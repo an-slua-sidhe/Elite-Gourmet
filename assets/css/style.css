@@ -50,11 +50,19 @@ h1, h2, h3, h4 {
     font-family: 'Cinzel';
     font-size: 1.5em;
     margin-right: -0.3em;
-    margin-bottom: -0.5em;
+    padding-bottom: -0.5em;
 }
 
 #logo p {
     margin-right: -0.3em;
+}
+
+#logo p:nth-child(2) {
+    margin-bottom: 0;
+}
+
+#logo p:nth-child(3) {
+    margin-bottom: .5em;
 }
 
 /* CTA */
@@ -187,6 +195,14 @@ h1, h2, h3, h4 {
     background-color: #426A8C;
 }
 
+#services-text-card h3 {
+    margin-bottom: .5em;
+}
+
+#services-text-card p {
+    margin-bottom: .6em;
+}
+
 #services-text-card ul {
     justify-content: left;
     text-align: left;
@@ -251,14 +267,21 @@ h1, h2, h3, h4 {
     width: 75%;
     height: auto;
     margin: 10% 13%;
+    padding: 2em;
+}
+
+.contact-form div {
+    padding: 1em;
 }
 
 .contact-form h4 {
     font-family: 'Cinzel';
+    padding-top: .7em;
 }
 
 .form-group {
     margin: auto;
+    /* padding-bottom: .5em; */
     width: 80%;
 }
 
@@ -266,7 +289,6 @@ form button.btn {
     color: rgb(236, 234, 234);
     background-color: #426A8C;
     font-weight: 700;
-    margin-bottom: 1.5em;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -284,10 +306,22 @@ form button.btn:hover {
     padding: 2em 0;
 }
 
+#restaurants-section-header h1 {
+    font-family: 'Cinzel';
+    font-size: 1.5em;
+    padding: 1em 0 .5em 0;
+}
+
+#restaurants-section-header p {
+    font-size: 1em;
+}
+
 .restaurants-section-card {
     margin: 0;
     padding: 0;
 }
+
+/* Flip-card CSS modified from code by Arjun Khara (found here: https://www.youtube.com/watch?v=OV8MVmtgmoY). */
 
 .flip-card-container {
     width: auto;
@@ -311,8 +345,8 @@ form button.btn:hover {
 
 .flip-card h1 {
     font-family: 'Cinzel';
-    font-size: 2em;
-    padding-top: .3em;
+    font-size: 1.5em;
+    padding-top: .5em;
 }
 
 .flip-card:hover {
@@ -398,7 +432,6 @@ form button.btn:hover {
 }
 
 #about-row {
-    /* height: 80%; */
     margin: 0;
     padding: 0;
 }
@@ -465,21 +498,6 @@ footer {
 }
 
 /* Media Queries */
-
-/* 
--Separated between Heights and Widths.
--Widths are divided into larger and and Smaller Widths.
-*/
-
-/* Heights */
-
-@media (max-height: 830px) {
-    /* #bookings-section {
-        height: 140vh;
-    } */
-}
-
-/* Widths */
 
 /* Larger Resolutions */
 
@@ -580,8 +598,6 @@ footer {
     }
 }
 
-@media (min-width: 2500px) and (max-width: 2999px) {}
-
 @media (min-width: 2000px) and (max-width: 2999px) {
     body {
         font-size: 2em;
@@ -628,8 +644,6 @@ footer {
         margin-left: .5em;
     }
 }
-
-@media (min-width: 1750px) and (max-width: 1999px) {}
 
 @media (min-width: 1500px) {
     .form-check-input {
@@ -691,6 +705,12 @@ footer {
     }
     nav .navbar-toggler {
         font-size: 120%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .flip-card-back p {
+        padding-top: .4em;
     }
 }
 
@@ -765,15 +785,6 @@ footer {
     }
 }
 
-@media (min-width: 768px) {
-    #logo {
-        font-size: 1.5em;
-    }
-    #logo h1 {
-        font-size: 1.6em
-    }
-}
-
 @media (min-width: 768px) and (max-width: 991px) {
     #cta {
         font-size: 1.1em;
@@ -782,6 +793,18 @@ footer {
     #cta-background {
         margin-left: 25%;
         margin-right: 25%;
+    }
+    .flip-card-back p {
+        padding-top: .2em;
+    }
+}
+
+@media (min-width: 768px) {
+    #logo {
+        font-size: 1.5em;
+    }
+    #logo h1 {
+        font-size: 1.6em
     }
 }
 
@@ -821,6 +844,12 @@ footer {
     #emailHelp {
         display: none;
     }
+    #restaurants-section-header h1 {
+        font-size: 1.5em;
+    }
+    #restaurants-section-header p {
+        font-size: .8em;
+    }
     .social-media-links {
         text-align: center;
     }
@@ -842,5 +871,8 @@ footer {
     }
     #text-input {
         font-size: .9em;
+    }
+    #restaurants-section-header h1 {
+        font-size: 1.4em;
     }
 }

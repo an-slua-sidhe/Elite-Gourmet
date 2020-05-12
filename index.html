@@ -25,15 +25,17 @@
 
 <body>
 
+    <!-- Landing Page -->
     <header>
         <div id="jumbotron" class="container-fluid">
 
             <!-- Main Logo -->
             <div id="logo">
                 <h1><strong>ELITE GOURMET</strong></h1>
-                <br>
-                <p>Serving the finest <strong>Michelin Star</strong>
-                    <br>Dining Experiences since 2020</p>
+
+                <p>Serving the finest <strong>Michelin Star</strong></p>
+
+                <p>Dining Experiences since 2020</p>
             </div>
 
             <!-- Navbar -->
@@ -91,7 +93,6 @@
             <div class="col-12 col-md-6 order-1 order-md-2">
                 <div id="services-text-card" class="section-card mx-auto">
                     <h3>Excellence is a choice</h3>
-                    <br>
 
                     <p> Here at ELITE GOURMET
                         we believe our discerning customers would
@@ -113,12 +114,11 @@
                         <li>Organising transport to
                             and from the venue.</li>
                     </ul>
-                    <br>
 
                     <p>Get in touch today and begin your culinary journey -
                         <span>20% OFF</span> all services for the month of January!
-                        <br>
-                        Book <a href="#bookings-section"><strong>HERE</strong></a>, or find more information
+                    </p>
+                        <p>Book <a href="#bookings-section"><strong>HERE</strong></a>, or find more information
                         on each restaurant <a href="#restaurants-section"><strong>HERE</strong></a>.
                     </p>
                 </div>
@@ -134,9 +134,7 @@
         <div id="contact-row" class="row">
             <div id="contact-background" class="col">
                 <div class="contact-form">
-                    <br>
                     <h4 id="contact-form-heading">Contact Elite Gourmet</h4>
-                    <br>
 
                     <form onsubmit="return sendMail(this);">
 
@@ -145,7 +143,6 @@
                             <input type="text" name="name" class="form-control" id="input-name"
                                 placeholder="Your name..." required>
                         </div>
-                        <br><br>
 
                         <div class="form-group">
                             <label for="input-email">Email address</label>
@@ -154,10 +151,8 @@
                             <small id="emailHelp" class="form-text"><em>(We will never share your email with
                                     anyone else!)</em></small>
                         </div>
-                        <br><br>
 
                         <h4>Your query:</h4>
-                        <br>
 
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="radio" id="radio1" value="option1"
@@ -166,7 +161,6 @@
                                 Book a Fine Dining Experience
                             </label>
                         </div>
-                        <br>
 
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="radio" id="radio2" value="option2"
@@ -175,7 +169,6 @@
                                 Become a Restaurant Partner
                             </label>
                         </div>
-                        <br>
 
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="radio" id="radio3" value="option3"
@@ -184,7 +177,6 @@
                                 Organise a Restaurant Review
                             </label>
                         </div>
-                        <br><br>
 
                         <div class="form-group">
                             <label for="text-input"><b>Please write your message
@@ -192,10 +184,9 @@
                             <textarea name="message" class="form-control" id="text-input" rows="4"
                                 placeholder="What's on your mind?" required></textarea>
                         </div>
-                        <br>
 
                         <div id="contact-btn">
-                            <button type="submit" class="btn">Send it!</button>
+                            <button type="submit" class="btn">Send</button>
                         </div>
                     </form>
                 </div>
@@ -205,6 +196,11 @@
 
     <!-- Restaurants Section -->
     <section id="restaurants-section" class="container-fluid section-container">
+
+        <div id="restaurants-section-header">
+            <h1>OUR RESTAURANT PARTNERS:</h1>
+            <P class="d-block d-xl-none">(Please select a venue below for more information)</P>
+        </div>
 
         <div class="row section-container-row">
 
@@ -419,7 +415,6 @@
                 <div id="about-text-section" class="section-card">
                     <h1>ABOUT US...</h1>
                     <p>
-
                         Elite Gourmet was founded in the Spring of 2020.
                         The concept sprung from the vibrant food and hospitality scene in the Cork region.
                         There was a continuously rising tide of excellence among the various eateries in and around the
