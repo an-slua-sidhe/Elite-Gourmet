@@ -274,6 +274,10 @@ h1, h2, h3, h4 {
     padding: 1em;
 }
 
+.content-separator {
+    height: .8em;
+}
+
 .contact-form h4 {
     font-family: 'Cinzel';
     padding-top: .7em;
@@ -281,8 +285,11 @@ h1, h2, h3, h4 {
 
 .form-group {
     margin: auto;
-    /* padding-bottom: .5em; */
-    width: 80%;
+    width: 60%;
+}
+
+form div.form-check {
+    padding-top: .5em;
 }
 
 form button.btn {
@@ -337,10 +344,10 @@ form button.btn:hover {
     margin: 0;
     border-radius: 10px;
     transform-style: preserve-3d;
-    transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -webkit-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
+    transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -webkit-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
 }
 
 .flip-card h1 {
@@ -387,6 +394,7 @@ form button.btn:hover {
     -webkit-backface-visibility: hidden;
     overflow: hidden;
     background-size: cover;
+    transform: rotateY(0deg);
 }
 
 .flip-card-back {
@@ -521,20 +529,11 @@ footer {
     h4#contact-form-heading {
         font-size: 200%;
     }
-    #input-name {
-        font-size: .6em;
-        margin: auto;
-        width: 35%;
-    }
-    #input-email {
-        font-size: .7em;
-        margin: auto;
-        width: 40%;
-    }
-    #text-input {
-        font-size: .7em;
-        margin: auto;
+    .form-group {
         width: 50%;
+    }
+    #input-name, #input-email, #text-input {
+        font-size: .7em;
     }
     #contact-btn button {
         font-size: .7em;
@@ -568,20 +567,11 @@ footer {
     h4#contact-form-heading {
         font-size: 200%;
     }
-    #input-name {
-        font-size: .6em;
-        margin: auto;
-        width: 35%;
+    .form-group {
+        width: 45%;
     }
-    #input-email {
+    #input-name, #input-email, #text-input {
         font-size: .6em;
-        margin: auto;
-        width: 40%;
-    }
-    #text-input {
-        font-size: .6em;
-        margin: auto;
-        width: 55%;
     }
     #contact-btn button {
         font-size: .7em;
@@ -618,20 +608,8 @@ footer {
     h4#contact-form-heading {
         font-size: 180%;
     }
-    #input-name {
+    #input-name, #input-email, #text-input {
         font-size: .6em;
-        margin: auto;
-        width: 40%;
-    }
-    #input-email {
-        font-size: .6em;
-        margin: auto;
-        width: 50%;
-    }
-    #text-input {
-        font-size: .6em;
-        margin: auto;
-        width: 65%;
     }
     #contact-btn button {
         font-size: .7em;
@@ -674,19 +652,8 @@ footer {
     h4#contact-form-heading {
         font-size: 180%;
     }
-    #input-name {
-        margin: auto;
-        width: 50%;
-    }
-    #input-email {
+    #input-name, #input-email, #text-input {
         font-size: .7em;
-        margin: auto;
-        width: 55%;
-    }
-    #text-input {
-        font-size: .7em;
-        margin: auto;
-        width: 70%;
     }
     #contact-btn button {
         font-size: .8em;
@@ -711,21 +678,6 @@ footer {
 @media (min-width: 1200px) {
     .flip-card-back p {
         padding-top: .4em;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1499px) {
-    #input-name {
-        margin: auto;
-        width: 50%;
-    }
-    #input-email {
-        margin: auto;
-        width: 55%;
-    }
-    #text-input {
-        margin: auto;
-        width: 65%;
     }
 }
 
@@ -765,17 +717,8 @@ footer {
 }
 
 @media (max-width: 991px) {
-    #input-name {
-        margin: auto;
+    .form-group {
         width: 70%;
-    }
-    #input-email {
-        margin: auto;
-        width: 70%;
-    }
-    #text-input {
-        margin: auto;
-        width: 80%;
     }
 }
 
@@ -805,6 +748,9 @@ footer {
     }
     #logo h1 {
         font-size: 1.6em
+    }
+    #map {
+        min-height: 80%;
     }
 }
 
@@ -841,6 +787,9 @@ footer {
 }
 
 @media (max-width: 575px) {
+    .form-group {
+        width: 100%;
+    }
     #emailHelp {
         display: none;
     }
@@ -869,7 +818,7 @@ footer {
     #cta {
         font-size: 0.9em;
     }
-    #text-input {
+    #input-name, #input-email, #text-input {
         font-size: .9em;
     }
     #restaurants-section-header h1 {

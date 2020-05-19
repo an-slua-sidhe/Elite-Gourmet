@@ -6,10 +6,10 @@ function sendMail(contactForm) {
         "request_message": contactForm.message.value
     }).then(
         function (response) {
-            console.log("Go maith!", response);
+            console.log("Email Sent!", response);
         },
         function (error) {
-            console.log("Go donna!", error);
+            console.log("Email Not Sent...", error);
         });
     return false;
 }

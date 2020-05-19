@@ -10,7 +10,7 @@ The **Deployed Version** of the site can be visited by clicking [**here**](https
 
 My name is **Paul Quinn** and I designed and developed this site in its entirety as part of my [**Fullstack Web Development Diploma**](https://codeinstitut#e.net/courses) with the **Code Institute**, Ireland. I came up with the concept for Elite Gourmet while thinking of ideas for my Milestone 2 project. After completing modules in Javascript Fundamentals and Interactive Front-end Development, this project needed to showcase my newfound skills in Javascript powered website functionality.
 
-I decided to use 2-3 APIs for the project; 2 certainties in [**Google Maps**](https://developers.google.com/maps/documentation/javascript/tutorial) and [**EmailJS**](https://www.emailjs.com/), with the possiblity of adding a third if time constraints allowed (this could also be added to a list of future features if necessary).
+I decided to use 2 APIs for the project; [**Google Maps**](https://developers.google.com/maps/documentation/javascript/tutorial) and [**EmailJS**](https://www.emailjs.com/).
 
 I then needed subject material and a central concept for my project. As I am from West Cork and live in the city of Cork, I considered the explosion of culinary excellence in the region in the last 10-15 years. This also extends beyond Cork to the rest of Ireland, and includes several **Michelin** starred establishments. Combining **Google Maps** and **EmailJS** with this local fine dining landscape, I hit upon the idea of a website serving clients who wished to discover the finest culinary experience without the hassle of organising it.
 
