@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
 body {
     font-family: 'Gafata', sans-serif;
-    color: #ffffff;
+    color: #FFF;
 }
 
 html body header div {
@@ -84,7 +84,7 @@ h1, h2, h3, h4 {
 
 #cta strong {
     font-size: 1.1em;
-    color: rgb(247, 210, 156);
+    color: #F7D29C;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -123,7 +123,7 @@ h1, h2, h3, h4 {
 }
 
 .navbar .navbar-nav .nav-item a {
-    color: rgb(224, 223, 223);
+    color: #E0DFDF;
     background-color: rgba(0, 0, 0, 0.6);
     padding-left: 0.12em;
     width: 5.8em;
@@ -185,7 +185,7 @@ h1, h2, h3, h4 {
 }
 
 #map {
-    color: black;
+    color: 	#000;
     min-height: 360px;
     border-radius: .4em;
     margin: 1.5em;
@@ -208,12 +208,12 @@ h1, h2, h3, h4 {
     text-align: left;
     -webkit-box-pack: left;
     -ms-flex-pack: left;
-    color: #f1e5e5;
+    color: #F1E5E5;
     padding-right: .4em;
 }
 
 #services-text-card span {
-    color: rgb(247, 210, 156);
+    color: #F7D29C;
 }
 
 #services-text-card a {
@@ -221,7 +221,7 @@ h1, h2, h3, h4 {
 }
 
 #services-text-card strong {
-    color: rgb(247, 210, 156);
+    color: #F7D29C;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -293,7 +293,7 @@ form div.form-check {
 }
 
 form button.btn {
-    color: rgb(236, 234, 234);
+    color: #ECEAEA;
     background-color: #426A8C;
     font-weight: 700;
     transition: all 0.3s ease-in-out;
@@ -492,11 +492,11 @@ footer {
 
 .copyright-text {
     padding-top: 8px;
-    color: #ffffff;
+    color: #FFF;
 }
 
 .social-media-links li a i {
-    color: white;
+    color: #FFF;
     line-height: 10px;
     padding: 15px 12px 0px;
     transition: all 0.3s ease-in-out;

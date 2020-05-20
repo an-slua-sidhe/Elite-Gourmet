@@ -35,24 +35,22 @@ I then needed subject material and a central concept for my project. As I am fro
         - [Colours](#colours)
         - [Fonts](#fonts)
         - [Icons](#icons)
+        - [Google Map Markers](#google-map-markers)
     - [Design Changes](#design-changes)
         - [General Changes](#general-changes)
         - [Mobile Changes](#mobile-changes)
         - [Tablet Changes](#tablet-changes)
         - [Desktop Changes](#desktop-changes)
 
-
 2. [Features](#features)
     - [Existing Features](#existing-features)
         - [Landing Page](#landing-page)
-        - [Services](#services)
-        - [Booking](#booking)
-        - [Restaurants](#restaurants)
-        - [About Us](#about-us)
+        - [Services Section](#services-section)
+        - [Bookings Section](#bookings-section)
+        - [Restaurants Section](#restaurants-section)
+        - [About Us Section](#about-us-section)
         - [Footer](#footer)
     - [Future Features](#future-features)
-        - [Flip cards](#flip-cards)
-        - [Another API?](#??)
 
 3. [Technologies Used](#technologies-used)
 
@@ -60,13 +58,18 @@ I then needed subject material and a central concept for my project. As I am fro
     - [Developer Tools](#developer-tools)
         - [Chrome](#chrome)
         - [Firefox](#firefox)
+        - [Opera](#opera)
+        - [Edge](#edge)
         - [Internet Explorer](#internet-explorer)
+        - [Safari](#safari)
+
     - [Media Queries](#media-queries)
         - [Mobile](#mobile)
         - [Tablet](#tablet)
         - [Desktop](#desktop)
-    - [Jasmine](#jasmine)
-        - [Need to check parameters](#??)
+
+    - [Dashboard](#dashboard)
+
     - [User Scenarios](#user-scenarios)
         - [Seeking Fine Dining Information for Ireland](#seeking-fine-dining-information-for-ireland)
         - [Specifically Looking for Michelin Starred Restaurants](#specifically-looking-for-michelin-starred-restaurants)
@@ -96,34 +99,31 @@ There are a number of different types of user which may visit the site, each wit
 
 #### The Restaurateur
 
-- As a Restaurateur, I can read about Elite Gourmet's philosophy and remit in the [**Services**](#services) and [**About Us**](#about-us) sections, to see if I would be intersted in a partnership with the site.
-- As a Restaurateur, I can get in touch with Eite Gourmet to set up a working relationship via the **Professional** option of the **Contact Form** in the [**Booking**](#booking) section, or through the phone number and email address available in the [**Contact Information**](#contact-information) in the [**Footer**](#footer).
+- As a Restaurateur, I can read about Elite Gourmet's philosophy and remit in the [**Services**](#services-section) and [**About Us**](#about-us-section) sections, to see if I would be interested in a partnership with the site.
+- As a Restaurateur, I can get in touch with Elite Gourmet to set up a working relationship via the **Become a Restaurant Partner** option in the **Contact Form** in the [**Bookings**](#bookings-section) section.
 
 #### The Tourist
 
 - As a tourist, I can find the site while looking for holiday ideas on my web browser.
 - As a tourist, I can quickly discern whether or not the site is what I'm looking for (i.e. a budget or deluxe experience) through the language and imagery used.
-- As a tourist, I can see what options **Elite Gourmet** can offer me in the [**Services Section**](#services).
-- As a tourist, I can browse the restaurants that are available in the [**Restaurants Section**](#restaurants).
-- As a tourist, I can get in contact with **Elite Gourmet** to begin organising my culinary experience though the **Customer** option in the **Contact Form** of the [**Booking Section**](#booking).
-- As a tourist, I can choose which venue I would like to frequent, organise transport to and from the restaurant, and deal with any dietary issues, by selecting the appropriate option in the **Contact Form**.
-- As a tourist, I can get in contact with **Elite Gourmet** after booking to cancel, change my order or deal with any problems via the [**Contact Information**](#contact-information) in the [**Footer**](#footer).
-- As a non-English speaking tourist, I can utilise the foreign language options in the **Navbar** so I can browse the site in my native tongue (available in Spanish, French and German). (PQ - I have yet to implement this functionality)
-
+- As a tourist, I can see what options **Elite Gourmet** can offer me in the [**Services Section**](#services-section).
+- As a tourist, I can browse the restaurants that are available in the [**Restaurants Section**](#restaurants-section).
+- As a tourist, I can get in contact with **Elite Gourmet** to begin organising my culinary experience though the **Book a Fine Dining Experience** option in the **Contact Form** of the [**Bookings Section**](#bookings-section).
+- As a tourist, I can choose which venue I would like to frequent, organise transport to and from the restaurant, and deal with any dietary issues, by filling in the **Message Section** in the **Contact Form**.
 
 #### Gourmand
 
-- As a gourmand, I can see which of Ireland's **Michelin** starred restaurants are on offer in the [**Restaurants Section**](#restaurants).
-- As a gourmand, I can get in touch with **Elite Gourmet** to discuss the type of cuisine offered in each establishment, as well as the ethos of the head chef, by using the **Contact Form** in the [**Booking Section**](#booking).
+- As a gourmand, I can see which of Ireland's **Michelin** starred restaurants are on offer in the [**Restaurants Section**](#restaurants-section).
+- As a gourmand, I can get in touch with **Elite Gourmet** to discuss the type of cuisine offered in each establishment, as well as the ethos of the head chef, via the **Book a Fine Dining Experience** option in the [**Bookings Section**](#bookings-section).
 
 #### The Local
 
-- As a local, I can become informed about the growth of fine dining in my area by reading the [**Restaurants Section**](#restaurants).
-- As a local, I can get in touch with **Elite Gourmet** to see if our services would suit a local person with their own transport and possible prior knowledge of the locale in the [**Booking Section**](#booking) or by using the information avalable in the [**Contact Information**](#contact-information) in the [**Footer**](#footer).
+- As a local, I can become informed about the growth of fine dining in my area by reading the [**Restaurants Section**](#restaurants-section).
+- As a local, I can get in touch with **Elite Gourmet** to see if our services would suit a local person with their own transport and possible prior knowledge of the locale by filling in the **Message Section** in the [**Bookings Section**](#bookings-section).
 
 #### The Critic
 
-- As journalist,  I can get in contact with **Elite Gourmet** to get information about our restaurants and book an evening for a review by using the **Press** option in the **Contact Form** of the [**Booking Section**](#booking).
+- As journalist,  I can get in contact with **Elite Gourmet** to get information about our restaurants and book an evening for a review by using the **Organise a Restaurant Review** option in the **Contact Form** of the [**Booking Section**](#booking).
 
 ### **Wireframes and Mockups**
 
@@ -139,7 +139,7 @@ PNGs of the full asset **Mockups** can also be found in this repository. The **M
 
 ### **Design Choices**
 
-The site was intended to have an aura of classy competence, a simplicity of design that didn't attempt to overwhelm the users senses. I have tried to use clear, simple and high quality images and textures when designing the site. I didn't want a site that contained too much clutter and text, but one that got across its message confidently, clearly and cleanly. Therefore, I decided to create a single-page site with a focused aesthetic. As such a site would most likely be popular with visitors to our island, I decided to give the site multi-language fuctionality to broaden the possible user-base (PQ - To be implemented). Mobile, tablet, desktop versions of the site are only very slightly different, basically invloving **Bootstrap** responsive breakpoint changes (see [below](#features)).
+The site was intended to have an aura of classy competence, a simplicity of design that didn't attempt to overwhelm the users senses. I have tried to use clear, simple and high quality images and textures when designing the site. I didn't want a site that contained too much clutter and text, but one that got across its message confidently, clearly and cleanly. Therefore, I decided to create a single-page site with a focused aesthetic. Mobile, tablet and desktop versions of the site are only very slightly different, basically invloving **Bootstrap** responsive breakpoint changes (see the [**Restaurants Section**](#restaurants-section) below).
 
 #### Images
 
@@ -149,24 +149,26 @@ I wanted a selection of high quality images for the site, which were uncluttered
 - [The Cliff House](assets/images/cliff-house-waterford.jpg)
 - [L'Ecrivain](assets/images/lecrivain-dublin.jpg)
 - [The Ox](assets/images/ox-belfast.jpg)
-- [Kai Restaurant](kai-restaurant-galway.jpg)
+- [Kai Restaurant](assets/images/kai-restaurant-galway.jpg)
 - [The Chart House](assets/images/chart-house-dingle.jpg)
 
 To see where these images appear on their respective webpages, see the [**Credits**](#credits) section below.
 
 #### Colours
 
-I used [**Canva**](https://www.canva.com) to create a palette from the **Jumbotron Background Image**. This understated and earthy palette suited the culinary nature of the site. I contrasted each section's use of colour, with large high-res background images for the **Jumbotron**, **Booking** and **About Us** sections, and a simple chocolate coloured backdrop to the sections in between. Two more main colours from the palette were used for the backgrounds of separate elements within the **Services** and **Restaurants** sections, a light brown and a moderate blue, which could be contrasted which each other. Variations on these colours where then used for the **anchor links** throughout the site, with changes on **hover**, **scroll** and other actions. The main text colour was a white or off-white, so as to be legible on the dark backgrounds. Variations on the main text colour were used in the Navbar and in various lists throughout for legibility and contrast. An opaque background colour was used in various elements to make text visible.
+I used [**Canva**](https://www.canva.com) to create a palette from the **Jumbotron Background Image**. This understated and earthy palette suited the culinary nature of the site. I contrasted e6ch section's use of colour, with large high-res background images for the **Jumbotron**, **Booking** and **About Us** sections, and a simple chocolate coloured backdrop to the sections in between. One more main colour from the palette was used for the backgrounds of separate elements within the **Services** and **Restaurants** sections, a moderate blue which could be contrasted with the chocolate background of the overall sections. Variations on these colours where then used for the **anchor links** throughout the site, with changes on **hover**, **scroll** and other actions. The main text colour was a white or off-white, so as to be legible on the dark backgrounds. Variations on the main text colour were used in the Navbar and in various elements throughout for legibility and contrast. An opaque background colour was used in various elements to make text visible.
 
 The colours used for the site are:
-- Main Text Colour - White
-- Navbar Text Colour - rgb(224, 223, 223)
-- Text Colour Variations - rgb(211, 229, 250) & #f1e5e5
+- Main Text Colour - #FFF
+- Navbar Text Colour - #E0DFDF
+- Text Colour Variations - #F1E5E5
 - Main Background Colour - #594C45
-- Opaque Background Colour - rgba(0, 0, 0, 0.5)
-- Element Background Colours - #C29C64 & #426A8C
-- Link Colour - rgb(247, 210, 156)
-- Link Hover Colour Variations - #C29C64 & Grey
+- Opaque Background Colour - rgba(0, 0, 0, 0.6)
+- Element Background Colour - #426A8C
+- Link Colour - #F7D29C
+- Link Hover Colour - #C29C64
+- Google Maps Colour - #000
+- Form Button Colour - #ECEAEA
 
 #### Fonts
 
@@ -174,13 +176,17 @@ The fonts I used were selected from [**Google Font's**](https://fonts.google.com
 
 #### Icons
 
-A navicon was created for the site using the font _**Cinzel**_ and [**Gimp**](https://www.gimp.org/) and can be viewed [here](assets/images/favicon.jpg) (PQ - To be completed). Social media link icons were supplied by [Font Awesome](https://fontawesome.com/).
+A navicon was created for the site using the font _**Cinzel**_ and [**Gimp**](https://www.gimp.org/) and can be viewed [here](assets/images/favicon.png) (PQ - To be completed). Social media link icons were supplied by [Font Awesome](https://fontawesome.com/).
+
+#### Google Map Markers
+
+I sourced a unique marker for the **Google Maps API** from [**Flaticon**](https://www.flaticon.com/). This marker contains a knife and fork to suit the culinary theme, and the detail and colour of the marker combine well with the sites aesthetic.
 
 ### **Design Changes**
 
 #### General Changes
 
-(PQ - To be completed).
+There were very little general changes from the original design. Some font colours were changed when it became apparent that they didn't work as expected; an example of this is in the **CTA**, where the '20% OFF' text was meant to be red, but was changed to a lighter brown colour as the red was too dark. One major change was the introduction of **Flipcards** into the **Restaurants Section** (see [**below**](#flipcards)). This allowed me to have the restaurant image on the front of the card and the information on the back, saving space and making for a better looking UI. In turn, this impacted on the original **Mobile** and **Tablet** design for this section, which tried to force the images and information into one card. The original design, and its **Desktop** variant, can still be seen in the [**Mock-ups**](#full-asset-mockups). The final general change was in the background colours for the elements in the **Services** and **Restaurants** sections. Initial there was supposed to be a contrast between elements, using a light brown (#C29C64) and a blue colour (#594C45) (see for example the contrasting backgrounds of the different Restaurants Section cards in the mockups). This didn't look well in practice, however, and it was decided to just use the blue colour, as it was more understated.
 
 #### Mobile Changes
 
@@ -195,7 +201,13 @@ A navicon was created for the site using the font _**Cinzel**_ and [**Gimp**](ht
 
 #### Desktop Changes
 
-(PQ - To be completed).
+- **Logo**
+    The **Logo** was initially supposed to swap corners with the **Navbar** on **Desktop** resolutions. It was believed that the Logo might clash with the lighter section of the **Landing Page** background image on higher resolutions. It did not clash, however, and so it was decided to use the same Landing Page layout for all platforms.
+
+
+
+# **FROM HEEEEEEEEEEEEERRRRRRRRRRRRRRRRRRREEEEEEEEEEEEEEEEEEEEEE!!!!!!!!!!!!!!**
+
 
 ___
 
@@ -219,7 +231,7 @@ This is a single-page site with 6 main sections. The basic layout of the site wa
 - **Call to Action (CTA)**  
     There is **CTA** at the bottom of the **Landing Page** envelope. This tells users that there is 20% off all services at the moment, and provides a link for them to click to get more information, bringing them to the **Services Section** of the page. The anchor for this link is the '20% off!' text, which was styled in light brown (rgb: 247, 210, 156) to distinguish it from the main text (white). The CTA element has an opaque background to keep it legible on the dark backgound of the **Hero Image**.
 
-#### Services
+#### Services Section
 
 - **Services Section**  
     There are two elements in this section: one for the **Google Maps API**  and one for **Services Text**. The background for this section is an earthy brown that fits with the images selected and the culinary theme of the site (#594C45). This colour is one of the ones taken from the jumbotron image when building a palette (see [above](#colours).
@@ -230,7 +242,7 @@ This is a single-page site with 6 main sections. The basic layout of the site wa
 - **Services Text**  
     The **Services Text** element has a moderate blue background colour (#426A8C), in contrast to the **Google Maps** element. The text is white so as to be legible on this background. It outlines the services offered on the site. The list of services is styled in a different colour to the rest of the text to help it to stand out(#f1e5e5). There are two links in the final paragraph; one to the **Bookings Section** and one to the **Restaurants Section**. As usual, these links are in light brown but turn dark brown when hovered.
 
-#### Booking
+#### Bookings Section
 
 - **Booking Section Backgound**
 (PQ - To be completed).
@@ -238,11 +250,19 @@ This is a single-page site with 6 main sections. The basic layout of the site wa
 - **EmailJS Section**
 (PQ - To be completed).
 
-#### Restaurants
+#### Restaurants Section
+
+- **Flipcards**
+    This could be a way to put more content and information on the site, without cluttering up the clean design aesthetic. The cards for each restaurant in the **Restaurants Section** could function as **Flip Cards**. Each flip card would have extra information about the restaurant on the back, with the main image and title on the front. This would make the site more dynamic and enjoyable for the user.
+(PQ - To be completed).
 
 - **Restaurant Cards**  
 (PQ - To be completed).
 
+#### About Us Section
+
+- **About Us Text**  
+(PQ - To be completed).
 
 #### **Footer**
 
@@ -262,19 +282,8 @@ This is a single-page site with 6 main sections. The basic layout of the site wa
 
 ### **Future Features**
 
-Internationalisation (Using Crowdin 'I18n')
- 
-#### Flip Cards
-
-(PQ - This is may be a future feature for the site, or something I add now). 
-This could be a way to put more content and information on the site, without cluttering up the clean design aesthetic. The cards for each restaurant in the **Restaurants Section** could function as **Flip Cards**. Each flip card would have extra information about the restaurant on the back, with the main image and title on the front. This would make the site more dynamic and enjoyable for the user.
-(PQ - To be completed).
-
-#### Another API?
-
-(It might be good to use one more API considering the brief. But which one? :)
-Youtube is an obvious choice, but not sure how I would use it here. Video on hospitality industry?)
-(PQ - To be completed).
+- **Internationalisation** 
+    (Using Crowdin 'I18n')
 
 ___
 
@@ -342,13 +351,17 @@ I tested the site in **Developer Tools** on four internet browsers (**Chrome**, 
 
 - [**Firefox**](https://www.mozilla.org/en-US/firefox/new/)
 
+- [**Opera**](https://www.mozilla.org/en-US/firefox/new/)
+
+- [**Edge**](https://www.mozilla.org/en-US/firefox/new/)
+
 - [**Internet Explorer**](https://www.microsoft.com/en-ie/download/internet-explorer.aspx)
 
 - [**Safari**](https://www.apple.com/lae/safari/)
 
 ### **Media Queries**
 
-Over 20 (??? Check) separate **Media Query** parameters were set in the [**CSS**](assets/css/style.css) code. Every imaginable variation of resolution, from the smallest phone to the biggest 4K monitor, were used to test the responsivity of the site. There are often multiple elements, functions and attributes being targeted and styled within in any one **Media Query**. These ensure that the site looks like it should from 240px in width to over 4000px. I use the full gamut of responsivity in **Developer Tools**, but I also tested certain specific resolutions, as shown below.
+Over 20 (??? Check) separate **Media Query** resolutions were set in the [**CSS**](assets/css/style.css) code. Every imaginable variation, from the smallest phone to the largest 4K monitor, were used to test the responsivity of the site. There are often multiple elements, functions and attributes being targeted and styled within in any one **Media Query**. These ensure that the site looks like it should from 240px in width to over 4000px. I use the full gamut of responsivity in **Developer Tools**, but I also tested certain specific resolutions, as shown below.
 
 #### Mobile
 
@@ -369,9 +382,13 @@ Over 20 (??? Check) separate **Media Query** parameters were set in the [**CSS**
 - 4K Monitor (3840 x 2160)
 - 4k Plus (4000 x 2200)
 
-### **Jasmine**
-(PQ - Need to check what parameters are needed here)
+### **Dashboard**
 
+I used this website to test on a number of platforms which I didn't have physical access to. I also tested the above bugs against these devices. The platforms which I tested on **Dashboard** were:
+
+- sfjlsafj
+- lsadjfjhsdaf
+- kjsaljkfd
 
 ### **User Scenarios**
 
@@ -413,6 +430,7 @@ Over 20 (??? Check) separate **Media Query** parameters were set in the [**CSS**
 
 ### **Outstanding Bugs**
 
+HEERREE!!!!
 (PQ - No issues as of yet. To be completed).
 
 ___
@@ -490,7 +508,7 @@ ___
 
 ### **Restaurants Used**
 
-- Specific restaurant images were sourced from their respective sites.
+- Specific restaurant images and all restaurant information was sourced from the respective sites.
 
     1. The Ichigo Ichie image can be found [here](To be added).
 
