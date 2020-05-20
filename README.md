@@ -262,6 +262,8 @@ This is a single-page site with 6 main sections. The basic layout of the site wa
 
 ### **Future Features**
 
+Internationalisation (Using Crowdin 'I18n')
+ 
 #### Flip Cards
 
 (PQ - This is may be a future feature for the site, or something I add now). 

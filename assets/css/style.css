@@ -344,6 +344,7 @@ form button.btn:hover {
     margin: 0;
     border-radius: 10px;
     transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     transition: all .7s ease-in-out;
     -moz-transition: all .7s ease-in-out;
     -webkit-transition: all .7s ease-in-out;
@@ -358,6 +359,7 @@ form button.btn:hover {
 
 .flip-card:hover {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
 }
 
 #ichigo-ichie-background {
@@ -395,6 +397,7 @@ form button.btn:hover {
     overflow: hidden;
     background-size: cover;
     transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
 }
 
 .flip-card-back {
@@ -408,6 +411,7 @@ form button.btn:hover {
     background: #426A8C;
     text-align: center;
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
 }
 
 .flip-card-back p {
