@@ -83,6 +83,7 @@ I then needed subject material and a central concept for my project. As I am fro
     - [Remote](#remote)
 
 6. [Credits](#credits)
+    - [Code Used](#code-used)
     - [Images Used](#images-used)
     - [Restaurants Used](#restaurants-used)
     - [Acknowledgements](#acknowledgements)
@@ -139,11 +140,11 @@ PNGs of the full asset **Mockups** can also be found in this repository. The **M
 
 ### **Design Choices**
 
-The site was intended to have an aura of classy competence, a simplicity of design that didn't attempt to overwhelm the users senses. I have tried to use clear, simple and high quality images and textures when designing the site. I didn't want a site that contained too much clutter and text, but one that got across its message confidently, clearly and cleanly. Therefore, I decided to create a single-page site with a focused aesthetic. Mobile, tablet and desktop versions of the site are only very slightly different, basically invloving **Bootstrap** responsive breakpoint changes (see the [**Restaurants Section**](#restaurants-section) below).
+The site was intended to have an aura of classy competence, a simplicity of design that didn't attempt to overwhelm the users senses. I have tried to use clear, simple and high quality images and textures when designing the site. I didn't want a site that contained too much clutter and text, but one that got across its message confidently, clearly and cleanly. Therefore, I decided to create a single-page site with a focused aesthetic. Mobile, tablet and desktop versions of the site are only very slightly different, basically involving **Bootstrap** responsive break-point changes (see the [**Restaurants Section**](#restaurants-section) below).
 
 #### Images
 
-I wanted a selection of high quality images for the site, which were uncluttered and depicted cooking scenes in an elegant way. Where these images would be used was already decided in the design **Wireframes** (see [above](#basic-wireframes)). I found the assets I sought on [**Pixabay**](https://pixabay.com/). The main **Jumbotron Background Image** was very important for the site. I chose one that was tasteful, with a palette of muted, yet organic colours, and it can be found [here](assets/images/jumbotron.jpg). I selected an ephemeral image of fine dining for the **README Banner Logo** which can be found [here](assets/images/banner.png). The **Booking Section Background** (click [here](assets/images/bookings-background.jpg)) introduces a dash of brighter colour to the overall palette. This is expanded with the **About Us Background**, which you can see [here](assets/images/about-us-background.jpg). Finally, each culinary venue has an image that was sourced from the restaurant's own webpage; click on the restaurant name below to see the location of these files in this repository:
+I wanted a selection of high quality images for the site, which were uncluttered and depicted cooking scenes in an elegant way. Where these images would be used was already decided in the design **Wireframes** (see [above](#basic-wireframes)). I found the assets I sought on [**Pixabay**](https://pixabay.com/). The main **Jumbotron Background Image** was very important for the site. I chose one that was tasteful, with a palette of muted, yet organic colours, and it can be found [here](assets/images/jumbotron.jpg). I selected an ephemeral image of fine dining for the **README Banner Logo** which can be found [here](assets/images/banner.png). The **Booking Section Background** (click [here](assets/images/bookings-background.jpg)) introduces a dash of brighter colour to the overall palette. This is expanded with the **About Us Background**, which you can see [here](assets/images/about-us-background.jpg). Finally, each culinary venue has an image that was sourced from the restaurant's own web page; click on the restaurant name below to see the location of these files in this repository:
 
 - [Ichigo Ichie](assets/images/ichigo-ichie-cork.jpg)
 - [The Cliff House](assets/images/cliff-house-waterford.jpg)
@@ -152,19 +153,19 @@ I wanted a selection of high quality images for the site, which were uncluttered
 - [Kai Restaurant](assets/images/kai-restaurant-galway.jpg)
 - [The Chart House](assets/images/chart-house-dingle.jpg)
 
-To see where these images appear on their respective webpages, see the [**Credits**](#credits) section below.
+To see where these images appear on their respective web pages, see the [**Credits**](#credits) section below. All images were resized with the  [**Jpeg Optimizer**](http://jpeg-optimizer.com/) so that the site would load more quickly. The original size of the images was massive and led to stuttering when the page was scrolled.
 
 #### Colours
 
-I used [**Canva**](https://www.canva.com) to create a palette from the **Jumbotron Background Image**. This understated and earthy palette suited the culinary nature of the site. I contrasted e6ch section's use of colour, with large high-res background images for the **Jumbotron**, **Booking** and **About Us** sections, and a simple chocolate coloured backdrop to the sections in between. One more main colour from the palette was used for the backgrounds of separate elements within the **Services** and **Restaurants** sections, a moderate blue which could be contrasted with the chocolate background of the overall sections. Variations on these colours where then used for the **anchor links** throughout the site, with changes on **hover**, **scroll** and other actions. The main text colour was a white or off-white, so as to be legible on the dark backgrounds. Variations on the main text colour were used in the Navbar and in various elements throughout for legibility and contrast. An opaque background colour was used in various elements to make text visible.
+I used [**Canva**](https://www.canva.com) to create a palette from the **Jumbotron Background Image**. This understated and earthy palette suited the culinary nature of the site. I contrasted each section's use of colour, with large high-res background images for the **Jumbotron**, **Booking** and **About Us** sections, and a simple chocolate coloured backdrop to the sections in between. One more main colour from the palette was used for the backgrounds of separate elements within the **Services** and **Restaurants** sections, a moderate blue which could be contrasted with the chocolate background of the overall sections. Variations on these colours where then used for the **anchor links** throughout the site, with changes on **hover**, **scroll** and other actions. The main text colour was a white or off-white, so as to be legible on the dark backgrounds. Variations on the main text colour were used in the Navbar and in various elements throughout for legibility and contrast. An opaque background colour was used in various elements to make text visible.
 
 The colours used for the site are:
 - Main Text Colour - #FFF
 - Navbar Text Colour - #E0DFDF
-- Text Colour Variations - #F1E5E5
+- Text Colour Variation - #F1E5E5
 - Main Background Colour - #594C45
 - Opaque Background Colour - rgba(0, 0, 0, 0.6)
-- Element Background Colour - #426A8C
+- Contrasting Background Colour - #426A8C
 - Link Colour - #F7D29C
 - Link Hover Colour - #C29C64
 - Google Maps Colour - #000
@@ -176,7 +177,7 @@ The fonts I used were selected from [**Google Font's**](https://fonts.google.com
 
 #### Icons
 
-A navicon was created for the site using the font _**Cinzel**_ and [**Gimp**](https://www.gimp.org/) and can be viewed [here](assets/images/favicon.png) (PQ - To be completed). Social media link icons were supplied by [Font Awesome](https://fontawesome.com/).
+A **Navicon** was created for the site using the font _**Cinzel**_ and [**Gimp**](https://www.gimp.org/) and can be viewed [here](assets/images/favicon.png) (PQ - To be completed). Social media link icons were supplied by [Font Awesome](https://fontawesome.com/).
 
 #### Google Map Markers
 
@@ -190,12 +191,12 @@ There were very little general changes from the original design. Some font colou
 
 #### Mobile Changes
 
-- **Google Maps API Section**
+- **Google Maps API Section**  
     This element was initially supposed to appear above the **Services Section Text** element in the **Services Section**. This didn't really work in practice, however, as users would have been asked to browse the map without the context the **Services Text** provided. It was decided to use **Bootstrap's** inbuilt column ordering to make the Services Text appear before Google Maps on mobile, but to appear to the right of it on desktops and higher resolutions.
 
 #### Tablet Changes
 
-- **Google Maps API Section**
+- **Google Maps API Section**  
     Originally meant to appear above **Services Section Text** element in the **Services Section**, it was decided to use the **Desktop** layout here instead, where these two elements are side by side with **Google Maps** to the left.
 
 
@@ -204,16 +205,11 @@ There were very little general changes from the original design. Some font colou
 - **Logo**
     The **Logo** was initially supposed to swap corners with the **Navbar** on **Desktop** resolutions. It was believed that the Logo might clash with the lighter section of the **Landing Page** background image on higher resolutions. It did not clash, however, and so it was decided to use the same Landing Page layout for all platforms.
 
-
-
-# **FROM HEEEEEEEEEEEEERRRRRRRRRRRRRRRRRRREEEEEEEEEEEEEEEEEEEEEE!!!!!!!!!!!!!!**
-
-
 ___
 
 ## **Features**
 
-This is a single-page site with 6 main sections. The basic layout of the site was created using the [**Bootstrap 4**](https://getbootstrap.com) grid system (which is based on [Flexbox](https://www.w3schools.com/css/css3_flexbox.asp)), with some alterations and additions. The core of this is the use of containers,rows and columns. All **in-line** links within any section's text are fully navigable; they also change colour when hovered over (see [**Colours**](#colours)).
+This is a single-page site with 6 main sections. The basic layout of the site was created using the [**Bootstrap 4**](https://getbootstrap.com) grid system (which is based on [Flexbox](https://www.w3schools.com/css/css3_flexbox.asp)), with alterations and additions. The core of this is the use of containers, rows and columns as classes for elements. All **anchor** links within text are fully navigable; they also change colour when hovered over (see [**Colours**](#colours)). The sections alternate between ones with large and detailed fixed backgrounds and ones with the more muted dark brown (#594C45) background that scrolls.
 
 ### **Existing Features**
 
@@ -222,68 +218,59 @@ This is a single-page site with 6 main sections. The basic layout of the site wa
 - **Hero Image**  
     This [image](assets/images/jumbotron.jpg) is a high quality file sourced on [**Pixabay**](https://pixabay.com/) which provides a stiking backdrop to the **Landing Page**. It is presented via a **Jumbotron**, and scales across all platforms.
 
-- **Main Logo**
-    As the concept of **Elite Gourmet** is one I come up with myself, I have no proprietary icons or images to use as a banner logo for the site. Therefore, I simply used the chosen **Heading** font (_**Cinzel**_) for the landing page's main title. This element has an opaque background to keep it legible on the dark backgound of the **Hero Image**.
+- **Main Logo**  
+    As the concept of **Elite Gourmet** is one I come up with myself, I have no proprietary icons or images to use as a banner logo for the site. Therefore, I simply used the chosen **Heading** font (_**Cinzel**_) for the landing page's main title. This element has an opaque background to keep it legible on the dark background of the **Hero Image**.
 
-- **Navbar**
-    I modified the typical [**Bootstrap**](https://getbootstrap.com/docs/4.0/components/navbar) **Navbar** to suit the site. This included collapsing the Navbar into a **Burger Button** and fixing it to top, so it would remain there while scrolling. I modified **Javascript** from [**JS Fiddle**](https://jsfiddle.net/wamosjk/ufhp9s15) to make an opaque Navbar background (rgba: 0, 0, 0, 0.5) for when the page scrolled. I also changed some of the styling to suit the site, selecting Bootstrap's 'navbar-dark' option so it could be seen over the muted colour palette, and changing the 'text-color'(rgb: 224, 223, 223) for the same reason (along with colour changes for 'hover': #C29C64). On **Mobile** and **Tablet** the Navbar goes to the top left of the screen, with the logo to the top right. These swap places for the **Desktop** version.
+- **Navbar**  
+    I modified the typical [**Bootstrap**](https://getbootstrap.com/docs/4.0/components/navbar) **Navbar** to suit the site. This included collapsing the Navbar into a **Burger Button** and fixing it to top left, so it would remain there while scrolling. I modified **Javascript** from [**JS Fiddle**](https://jsfiddle.net/wamosjk/ufhp9s15) to make an opaque Navbar background (rgba: 0, 0, 0, 0.6) for when the page scrolled. I also changed some of the styling to suit the site, selecting Bootstrap's 'navbar-dark' option so it could be seen over the muted colour palette, and changing the 'text-color' (#E0DFDF) for the same reason (along with colour changes for 'hover': #C29C64). On all platforms the Navbar goes to the top left of the screen, with the logo to the top right. It was initially planned that they would swap places for the **Desktop** version, but this was not deemed necessary (see [**Desktop Changes**](#desktop-changes) above).
 
 - **Call to Action (CTA)**  
-    There is **CTA** at the bottom of the **Landing Page** envelope. This tells users that there is 20% off all services at the moment, and provides a link for them to click to get more information, bringing them to the **Services Section** of the page. The anchor for this link is the '20% off!' text, which was styled in light brown (rgb: 247, 210, 156) to distinguish it from the main text (white). The CTA element has an opaque background to keep it legible on the dark backgound of the **Hero Image**.
+    There is a **CTA** at the bottom of the **Landing Page** envelope. This tells users that there is 20% off all services at the moment, and provides a link for them to click to get more information, bringing them to the **Services Section** of the page. The anchor for this link is the '20% off!' text, which was styled in light brown (#F7D29C, 'hover': #C29C64) to distinguish it from the main text (#FFF). The CTA element has an opaque background (rgba: 0, 0, 0, 0.6) to keep it legible over the darker colours of the **Hero Image**.
 
 #### Services Section
 
 - **Services Section**  
-    There are two elements in this section: one for the **Google Maps API**  and one for **Services Text**. The background for this section is an earthy brown that fits with the images selected and the culinary theme of the site (#594C45). This colour is one of the ones taken from the jumbotron image when building a palette (see [above](#colours).
+    There are two elements in this section: one for the **Google Maps API**  and one for **Services Text**. The background for this section is an earthy brown that fits with the images selected and the culinary theme of the site (#594C45). This colour is one of the ones taken from the **Jumbotron** image when building a palette (see [above](#colours).
 
 - **Google Maps API**  
-    The **Google Maps** element has a light brown coloured background behind the map itself (#C29C64); it displays to the left of the **Services Section** for **Desktop** and to the bottom on **Mobile** and **Tablet**. The map uses [**JSON**](https://en.wikipedia.org/wiki/JSON) to communicate with the API, rendering the locations of the 6 chosen restaurants upon the initial loading of the site. These are numbered 1 to 6; their names are listed beneath the map, and each one contains a link to the appropriate part of the **Restaurants Section**. Google's [**Cluster**](https://developers.google.com/maps/documentation/javascript/marker-clustering) function is enabled, so several restaurants can be clustered together if the user zooms out on the map. The inital position of the map is focused on the centre of Ireland (lat: 53.4, lng: -7.9) at a zoom of 5.5.
+    The **Google Maps** element has a blue coloured background behind the map itself (#426A8C); it displays to the left of the **Services Section** for **Desktop** and to the bottom on **Mobile** and **Tablet**. The map uses [**Javascript**](https://en.wikipedia.org/wiki/JavaScript) to communicate with the API, rendering the locations of the 6 chosen restaurants upon the initial loading of the site. The **Javascript** I used for **Google Maps** can be found in [**maps.js**](assets/js/maps.js). I started with code from Google's documentation on [**Place Details**](https://developers.google.com/maps/documentation/javascript/examples/place-details) and accessed the API through the [**Google Maps API CDN**](https://developers.google.com/maps/documentation/javascript/tutorial). I then amended this so it would iterate through the six restaurant locations in a loop, and present the **Place ID** information in an **Info Window** to the user. I created an array of restaurant Place IDs to facilitate this. The **Marker Pin** indicating these locations is a unique one I found on [**Flaticon**](https://www.flaticon.com/) and I included this in the 'addMarker' function. The initial position of the map is focused on the centre of Ireland (lat: 53.4, lng: -7.9) at a zoom of 5.5. The map is fully functional, with 'Map', 'Satellite', 'Streetview' and 'Fullscreen' option buttons, along with the ability to focus in or out.
 
 - **Services Text**  
-    The **Services Text** element has a moderate blue background colour (#426A8C), in contrast to the **Google Maps** element. The text is white so as to be legible on this background. It outlines the services offered on the site. The list of services is styled in a different colour to the rest of the text to help it to stand out(#f1e5e5). There are two links in the final paragraph; one to the **Bookings Section** and one to the **Restaurants Section**. As usual, these links are in light brown but turn dark brown when hovered.
+    The **Services Text** element has a blue background colour (#426A8C). The text is white so as to be legible on this background. It outlines the services offered on the site. The list of services is styled in a different colour to the rest of the text to help it to stand out(#F1E5E5). There are two links in the final paragraph; one to the **Bookings Section** and one to the **Restaurants Section**. As usual, these links are in light brown but turn dark brown when hovered.
 
 #### Bookings Section
 
-- **Booking Section Backgound**
-(PQ - To be completed).
+- **Booking Section Background**  
+    The colourful image used [here](assets/images/bookings-background.jpg) is fixed when scrolled, similar to the **Land Page Hero Image**.
 
-- **EmailJS Section**
-(PQ - To be completed).
+- **EmailJS Section**  
+    The main feature of the **Bookings Section** is the central **Contact Form**. This was created using [**Bootstrap's Form Component**](https://getbootstrap.com/docs/4.5/components/forms/) which I amended to suit the site. The **Form** consists of 'input-name', 'input-email' and 'text-input' '**form-groups**', along with a '**Form-Check**' radio section with three options. All of these input fields validate and the information will not send unless each field has been filled out correctly. Email contact functionality was set up through the [**EmailJS CSN**](https://www.emailjs.com/docs/sdk/installation/). The **Javascript** I used for **EmailJS** can be found in [**sendEmail.js**](assets/js/sendEmail.js). A **Template Email** was created, with all information from the separate form input fields feeding directly into the template's parameters. The email's 'response' or 'error' is logged to the **Console**. I used code from [**SweetAlert**](https://sweetalert.js.org/guides/) to create a dynamic and colourful success or failure alert for the user, letting them know how their email has fared upon clicking the 'Send' button at the bottom of the form. This was made possible through **SweetAlert's** 'swal' function, which I placed into the 'response' and 'error' functions in the **EMailJS** code.
 
 #### Restaurants Section
 
-- **Flipcards**
-    This could be a way to put more content and information on the site, without cluttering up the clean design aesthetic. The cards for each restaurant in the **Restaurants Section** could function as **Flip Cards**. Each flip card would have extra information about the restaurant on the back, with the main image and title on the front. This would make the site more dynamic and enjoyable for the user.
-(PQ - To be completed).
-
-- **Restaurant Cards**  
-(PQ - To be completed).
+- **Restaurant Flipcards**  
+    These were chosen as a way to put more content and information on the site, without cluttering up the clean design aesthetic. The cards for each restaurant in the **Restaurants Section** have 3-D transition 'flip' functionality.  The code I used to create the flipcard effect was amended from code by Arjun Khara (found [here](https://www.youtube.com/watch?v=OV8MVmtgmoY)). Each flip card has extra information about the restaurant on the back, with the main image and title on the front. This makes the site more dynamic and visually enjoyable for the user. The restaurant name is in the exact same position on both sides for visual continuity. The colourful and striking images chosen for each restaurant stand out clearly on the muted dark brown background (#594C45) of the **Restaurants Section** (see [**Images**](#images)). The usual contrasting background colour (#426A8C) was used for the rear of the flipcards. On touchscreen devices the cards flip when selected, on all other devices they flip when hovered. The 'background-position' of the [**Cliff House Image**](assets/images/cliff-house-waterford.jpg) was set to 'bottom', so the tables and restaurant elements at the bottom of the image would not be lost. Using the **Bootstrap Grid Break-points**, the cards display in one single-card vertical column on **Mobile**, two-abreast on **Tablet**, whereas there are three columns of cards on **Desktop**. By setting up the grid in this way, all six restaurant cards are continuously displayed in a way that looks good on any device. There are links to each restaurant's web page on the rear of the cards; these links were styled in a slightly different colour (#F1E5E5) to the other text so as to make them stand out for the user.
 
 #### About Us Section
 
+- **About Us Section Background**  
+    The colourful image used [here](assets/images/about-us-background.jpg) is fixed when scrolled, similar to the **Land Page Hero Image** and the **Bookings Section**.
+
 - **About Us Text**  
-(PQ - To be completed).
+    This is a simple biography of the site and how it came about. It uses the main text colour and the same header and paragraph fonts used elsewhere. There is an opaque background behind the text.
 
 #### **Footer**
 
-- **Copyright Text**
-    The **Copyright Text** is a simple part of the **Bootstrap** grid. It is a basic text element.
-(PQ - To be completed).
+- **Copyright Text**  
+    The **Copyright Text** is a simple part of the **Bootstrap** grid, occupying the left-hand side of the **Footer** on small device sizes and up. It is a basic text element and does not display on XS resolutions. This de-clutters the screen on mobile devices.
 
-
-- **Contact Information**
-    This part of the **Footer** contains the company's contact details, including its fictional phone number and email address.
-(PQ - To be completed).
-
-- **Social Media Links**
-    The **Social Media Links** are fully functional, and link to fictional **Elite Gourmet** accounts on: [**Facebook**](https://www.facebook.com/??), [**Twitter**](??) and [**Instagram**](https://www.instagram.com/??). The icons for each social media platform were provided by [**Font Awesome**](https://fontawesome.com).
-(PQ - To be completed).
-
+- **Social Media Links**  
+    These are fully functional, and link to Cork food culture media on various platforms: the [**Facebook**](https://www.facebook.com/) icon links to this [page](https://www.facebook.com/groups/882760828536963/), the [**Instagram**](https://www.instagram.com) icon links to this [page](https://www.instagram.com/corkfood/) and the [**YouTube**](https://www.youtube.com/) icon links to this [video](https://www.youtube.com/watch?v=KjJXnRuTr1s). The icons for each social media platform were provided by [**Font Awesome**](https://fontawesome.com). Media links display to the middle of the **Footer** on XS devices, and then to the right on all sizes from small upwards.
 
 ### **Future Features**
 
-- **Internationalisation** 
-    (Using Crowdin 'I18n')
+- **Internationalisation**  
+    As this site would be popular with tourists, a useful future feature would be to add language functionality to the site. It would be possible to use a platform such as [**Crowdin**](https://crowdin.com/) to give the site **Internationalisation** (i18n), so that a user in another region would get the site automatically translated into their own language.
 
 ___
 
@@ -297,26 +284,30 @@ All the technologies used to create this project are listed below, along with th
 
 [**CSS**](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - This project's style was created using **CSS 3**.
 
+[**Javascript**](https://en.wikipedia.org/wiki/JavaScript) -   A number of elements on the site have **Javascript** functionality (**JS 1.8.5**).
+
+- There were [three plugins](https://getbootstrap.com/docs/4.5/getting-started/introduction) required so that **Bootstrap** would function; **jQuery**, **Popper.js** and **Bootstrap's** own **min.js**.
+- I copied and modified **Javascript** code from [**Js Fiddle**](https://jsfiddle.net/wamosjk/ufhp9s15) to create transitions while scrolling.
+- I  used **Javascript** to get the [**Google Maps API**](https://developers.google.com/maps/documentation/javascript/tutorial) to function in the **Services Section**.
+- I also used **Javascript** to give [**EmailJS**](https://www.emailjs.com/docs/sdk/installation/) functionality to my **Bookings Section**.
+
+[**SweetAlert**](https://sweetalert.js.org/guides/) - I found a dynamic alert for the **Contact Form** on SweetAlert's website.
+
 [**Adobe XD**](https://www.adobe.com/ie/products/xd.html) - The wireframes and mockups for this site were designed in **Adobe XD**.
 
 [**VSCode**](https://code.visualstudio.com) - All code for this site (including this README file), and all **Github** versioning of this code, was done using **VSCode**.
 
-[**Git**](https://git-scm.com/) - I used **Git** to create this project's local repository and to maintain version conrtrol. 
+[**Git**](https://git-scm.com/) - I used **Git** to create this project's local repository and to maintain version control.
 
 [**Github**](https://github.com) - The remote repository was done through **Github**.
 
-[**Javascript**](https://en.wikipedia.org/wiki/JavaScript) -   A number of elements on the site have **Javascipt** functionality.
+[**Bootstrap**](https://getbootstrap.com) - The site was built using **Bootstrap's** grid system (**Bootstrap 4.5.0**).
 
-- There were [three plugins](https://getbootstrap.com/docs/4.3/getting-started/introduction) required so that **Bootstrap** would function; **jQuery**, **Popper.js** and **Bootstrap's** own **min.js**.
-- I copied and modified **Javascript** code from [**Js Fiddle**](https://jsfiddle.net/wamosjk/ufhp9s15) to create transitions while scrolling.
-- I also used **Javascript** to get **Google Maps API**, **EmailJS API** and ??? to function.
-(PQ - To be completed).
-
-[**Bootstrap**](https://getbootstrap.com) - The site was built using **Bootstrap's** grid system.
-
-- I also modified several **Bootstrap** components (e.g. **Navbar**, **Bootstrap Grid**, **Contact Form**).
+- I also modified several **Bootstrap** components with my own targeted styles (e.g. **Navbar** & **Contact Form**).
 
 [**Pixabay**](https://pixabay.com/) - I sourced all the images used in the site's construction from this royalty-free website.
+
+[**JPEG Optimizer**](http://jpeg-optimizer.com/) - The site's images were compressed here.
 
 [**Canva**](https://www.canva.com) - I found my colour palette by uploading the main landing page [**Hero Image**](assets/images/jumbotron.jpg) to **Canva** and I added to this with my own colours.
 
@@ -324,20 +315,19 @@ All the technologies used to create this project are listed below, along with th
 
 [**Gimp**](https://www.gimp.org/) - I used this open-sourced image-manipulation program to create my **Favicon**.
 
-[**Font Awesome**](https://fontawesome.com) - The **Social Media Icons** were supplied using **Font Awesome**.
+[**Font Awesome**](https://fontawesome.com) - The **Social Media Icons** were supplied using **Font Awesome** (version 5).
 
-- I attempted to use the latest version of **Font Awesome** which is available on [**CDNJS**](https://cdnjs.com/libraries/font-awesome) (version 5.9.0) but it failed to deploy, so I reverted to the version available from the [**BootstrapCDN**](https://www.bootstrapcdn.com/fontawesome/) (version 4.7.0).
-(PQ - Is this still the case?)
+[**HTML Code Checker**](https://validator.w3.org) - I checked my HTML with the **W3C Markup Validation Service**.
 
-[**HTML Code Checker**](https://validator.w3.org) - I checked my HTML with the **W3C Markup Validation Service**
+[**CSS Code Checker**](https://jigsaw.w3.org/css-validator) - I checked my CSS with the **W3C CSS Validation Service**.
 
-[**CSS Code Checker**](https://jigsaw.w3.org/css-validator) - I checked my CSS with the **W3C CSS Validation Service**
+[**CSS Auto-prefixer**](https://autoprefixer.github.io) - The **CSS Online Auto-prefixer** provided a **Vendor Prefix** check for my code.
 
-[**CSS Auto-prefixer**](https://autoprefixer.github.io) - The **Autoprefixer CSS Online** provided a **Vendor Prefix** check for my code.
-
-(PQ -  Need a Javascript checker?)
+[**Javascript Code Checker**](https://jshint.com/) - I checked my Javascript with the **JS Hint**.
 
 [**ARIA Checker**](http://wave.webaim.org/) - I used **Wave** (Web Accessibility Evaluation Tool) to check that my code was accessible to all users.
+
+[**BrowserStack**](https://www.browserstack.com/) - Any platform that I couldn't test in developer tools or on my own devices, I tested here.
 
 ___
 
@@ -345,7 +335,7 @@ ___
 
 ### **Developer Tools**
 
-I tested the site in **Developer Tools** on four internet browsers (**Chrome**, **Firefox**,  **Internet Explorer** & **Safari**). Bugs and errors were tackled successfully in this way throughout the development process, using **Live Server** in **VSCode**. I also tested the site with **Android OS** on a **Galaxy A5** and a **??**.
+I tested the site in **Developer Tools** on six internet browsers (**Chrome**, **Firefox**, **Opera**, **Edge**, **Internet Explorer** & **Safari**). Bugs and errors were tackled successfully in this way throughout the development process, using **Live Server** in **VSCode**. I also tested the site with **Android OS** on a **Galaxy A5** and a **??**.
 
 - [**Chrome**](https://www.google.com/chrome/?brand=CHBD&gclid=Cj0KCQjwkK_qBRD8ARIsAOteukDltqXTjp13--esZkC4d8eL6Ggma28pvUQiVvwnJwVA06i0YbiSIuwaArNOEALw_wcB&gclsrc=aw.ds)
 
@@ -382,9 +372,9 @@ Over 20 (??? Check) separate **Media Query** resolutions were set in the [**CSS*
 - 4K Monitor (3840 x 2160)
 - 4k Plus (4000 x 2200)
 
-### **Dashboard**
+### **BrowserStack**
 
-I used this website to test on a number of platforms which I didn't have physical access to. I also tested the above bugs against these devices. The platforms which I tested on **Dashboard** were:
+I used this website to test on a number of platforms which I didn't have physical access to. I also tested the above bugs against these devices. The platforms which I tested on **BrowserStack** were:
 
 - sfjlsafj
 - lsadjfjhsdaf
@@ -430,7 +420,7 @@ I used this website to test on a number of platforms which I didn't have physica
 
 ### **Outstanding Bugs**
 
-HEERREE!!!!
+
 (PQ - No issues as of yet. To be completed).
 
 ___
@@ -499,9 +489,15 @@ ___
 
 ## **Credits**
 
-### **Images Used**
+### **Code Used**
 
-(PQ - Various image credits to be added)
+- **Styling on Scroll**  
+    I found and modified code found [here](https://jsfiddle.net/wamosjk/ufhp9s15/) to create style changes on scroll.
+
+- **Flipcards**  
+    I modified code by **Arjun Khara** to create a flipcard transition, which I found [here](https://www.youtube.com/watch?v=OV8MVmtgmoY).
+
+### **Images Used**
 
 - All images were sourced from [**Pixabay**](https://pixabay.com/).
 - Google Maps marker icon made by [Freepik](https://www.flaticon.com/authors/freepik) and sourced from [www.flaticon.com](https://www.flaticon.com/).

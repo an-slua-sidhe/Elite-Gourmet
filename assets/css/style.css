@@ -425,7 +425,7 @@ form button.btn:hover {
 .flip-card-back strong {
     text-decoration: none;
     font-size: 1.1em;
-    color: #f1e5e5;
+    color: #F1E5E5;
     transition: all .6s ease-in-out;
     -moz-transition: all .6s ease-in-out;
     -webkit-transition: all .6s ease-in-out;
