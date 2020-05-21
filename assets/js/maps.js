@@ -1,4 +1,5 @@
-// (Javascript to initialise Google Maps and add the 6 restaurant markers and their information below. This is based on code I found in the documentation for Google Maps API (at https://developers.google.com/maps/documentation/javascript/examples/place-details). I added a food 'icon' to the code. It worked perfectly, but only for one location. I ammended it with a solution for multiple Place Id requests I found on Stack Overflow (https://stackoverflow.com/questions/34035826/multiple-google-places-request-function-dispensary-locator).
+// Javascript to initialise Google Maps and add the 6 restaurant markers and their information below. 
+// This is based on code I found in the Google Maps API documentation (https://developers.google.com/maps/documentation/javascript/examples/place-details). 
 
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {

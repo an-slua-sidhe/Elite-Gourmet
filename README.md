@@ -55,6 +55,10 @@ I then needed subject material and a central concept for my project. As I am fro
 3. [Technologies Used](#technologies-used)
 
 4. [Testing](#testing)
+    - [Testing Devices](#testing-devices)
+        - [Mobile Devices](#mobile-devices)
+        - [Laptop Devices](#laptop-devices)
+        - [Desktop Devices](#desktop-devices)
     - [Developer Tools](#developer-tools)
         - [Chrome](#chrome)
         - [Firefox](#firefox)
@@ -62,14 +66,11 @@ I then needed subject material and a central concept for my project. As I am fro
         - [Edge](#edge)
         - [Internet Explorer](#internet-explorer)
         - [Safari](#safari)
-
+        - [Mobile Resolutions](#mobile-resolutions)
+        - [Tablet Resolutions](#tablet-resolutions)
+        - [Desktop Resolutions](#desktop-resolutions)
     - [Media Queries](#media-queries)
-        - [Mobile](#mobile)
-        - [Tablet](#tablet)
-        - [Desktop](#desktop)
-
     - [Dashboard](#dashboard)
-
     - [User Scenarios](#user-scenarios)
         - [Seeking Fine Dining Information for Ireland](#seeking-fine-dining-information-for-ireland)
         - [Specifically Looking for Michelin Starred Restaurants](#specifically-looking-for-michelin-starred-restaurants)
@@ -301,6 +302,8 @@ All the technologies used to create this project are listed below, along with th
 
 [**Github**](https://github.com) - The remote repository was done through **Github**.
 
+[**Github Pages**](https://pages.github.com/) - The site was deployed live on **Github Pages**.
+
 [**Bootstrap**](https://getbootstrap.com) - The site was built using **Bootstrap's** grid system (**Bootstrap 4.5.0**).
 
 - I also modified several **Bootstrap** components with my own targeted styles (e.g. **Navbar** & **Contact Form**).
@@ -333,38 +336,58 @@ ___
 
 ## **Testing**
 
+### **Testing Devices**
+The site was tested on various devices, including on mobile, laptop and desktop platforms. I list these below:
+
+#### **Mobile Devices**
+
+- Galaxy A5 (Running Android Oreo 8.0.0)
+- Fairphone 3 (Running Fairphone OS C20134228)
+- iPhone XR (Running iOS 13)
+- iPhone SE (Running iOS 13)
+- iPhone 7 (Running iOS 13.4.1)
+- iPhone 6 (Running iOS 12.4.4)
+
+#### **Laptop Devices**
+
+- HP Pavilion (Running Windows 10)
+- Dell Latitude (Running Windows 10)
+- MacBook Air (Running Mojave)
+
+#### **Desktop Devices**
+
+- Asus G20CB-UK032T Core i7-6700 (Running Windows 10)
+
 ### **Developer Tools**
 
-I tested the site in **Developer Tools** on six internet browsers (**Chrome**, **Firefox**, **Opera**, **Edge**, **Internet Explorer** & **Safari**). Bugs and errors were tackled successfully in this way throughout the development process, using **Live Server** in **VSCode**. I also tested the site with **Android OS** on a **Galaxy A5** and a **??**.
+I tested the site in **Developer Tools** on six internet browsers (**Chrome**, **Firefox**, **Opera**, **Edge**, **Internet Explorer** & **Safari**). Bugs and errors were tackled successfully in this way throughout the development process, using **Live Server** in **VSCode** and the deployed version of the site on **Github Pages**.
 
-- [**Chrome**](https://www.google.com/chrome/?brand=CHBD&gclid=Cj0KCQjwkK_qBRD8ARIsAOteukDltqXTjp13--esZkC4d8eL6Ggma28pvUQiVvwnJwVA06i0YbiSIuwaArNOEALw_wcB&gclsrc=aw.ds)
+- [**Chrome**](https://www.google.com/chrome/?brand=CHBD&gclid=Cj0KCQjwkK_qBRD8ARIsAOteukDltqXTjp13--esZkC4d8eL6Ggma28pvUQiVvwnJwVA06i0YbiSIuwaArNOEALw_wcB&gclsrc=aw.ds) (Version 81.0.4044.138)
 
-- [**Firefox**](https://www.mozilla.org/en-US/firefox/new/)
+- [**Firefox**](https://www.mozilla.org/en-US/firefox/new/) (Version 76.0.1)
 
-- [**Opera**](https://www.mozilla.org/en-US/firefox/new/)
+- [**Opera**](https://www.mozilla.org/en-US/firefox/new/) (Version 68.0.3618.104)
 
-- [**Edge**](https://www.mozilla.org/en-US/firefox/new/)
+- [**Edge**](https://www.mozilla.org/en-US/firefox/new/) (Version 44.18362.449.0)
 
-- [**Internet Explorer**](https://www.microsoft.com/en-ie/download/internet-explorer.aspx)
+- [**Internet Explorer**](https://www.microsoft.com/en-ie/download/internet-explorer.aspx) (Version 11.836.18362.0)
 
-- [**Safari**](https://www.apple.com/lae/safari/)
+- [**Safari**](https://www.apple.com/lae/safari/) (Version 13.1)
 
-### **Media Queries**
+I used the full gamut of responsivity in **Developer Tools**, but I also tested on the specific resolutions shown below:
 
-Over 20 (??? Check) separate **Media Query** resolutions were set in the [**CSS**](assets/css/style.css) code. Every imaginable variation, from the smallest phone to the largest 4K monitor, were used to test the responsivity of the site. There are often multiple elements, functions and attributes being targeted and styled within in any one **Media Query**. These ensure that the site looks like it should from 240px in width to over 4000px. I use the full gamut of responsivity in **Developer Tools**, but I also tested certain specific resolutions, as shown below.
-
-#### Mobile
+#### **Mobile Resolutions**
 
 - iPhone 4 (320 x 480)
 - Galaxy S5 (360 x 640)
 - iPhone X (375 x 812)
 
-#### Tablet
+#### **Tablet Resolutions**
 
 - iPad (768 x 1024)
 - iPad Pro (1024 x 1366)
 
-#### Desktop
+#### **Desktop Resolutions**
 
 - Laptop with MDPI Screen (1280 x 800)
 - Laptop with HiDPI Screen (1440 x 900)
@@ -372,13 +395,9 @@ Over 20 (??? Check) separate **Media Query** resolutions were set in the [**CSS*
 - 4K Monitor (3840 x 2160)
 - 4k Plus (4000 x 2200)
 
-### **BrowserStack**
+### **Media Queries**
 
-I used this website to test on a number of platforms which I didn't have physical access to. I also tested the above bugs against these devices. The platforms which I tested on **BrowserStack** were:
-
-- sfjlsafj
-- lsadjfjhsdaf
-- kjsaljkfd
+There are 21 separate **Media Queries** in the [**CSS**](assets/css/style.css) code. Every imaginable variation, from the smallest phone to the largest 4K monitor, was used to test the responsivity of the site. There are often multiple elements, functions and attributes being targeted and styled within in any one **Media Query**. These ensure that the site looks like it should from 240px in width to over 4000px.
 
 ### **User Scenarios**
 
@@ -386,9 +405,8 @@ I used this website to test on a number of platforms which I didn't have physica
 
 - **Navbar**
     1. Go to the **Landing Page** section.
-    2. Click on the **Navbar** on the top left of the screen for **Mobile** and **Tablet**.
-    3. Click on the **Navbar** on the top right of the screen for **Desktop**.
-    4. Click on the links to either **Services**, **Restaurants** of **About Us** for more information.
+    2. Click on the **Navbar** on the top left of the screen.
+    3. Click on the links to either **Services**, **Restaurants** of **About Us** for more information.
 
 - **Scroll**:
     1. Go to the **Landing Page** section.
@@ -405,6 +423,7 @@ I used this website to test on a number of platforms which I didn't have physica
 - **Google Maps API**:
     1. Use either the **Navbar** link to **Services** or scroll down from the **Landing Page** to the **Services Section**.
     2. Use the **Google Maps API** to locate the **Michelin** starred restaurants.
+    3. Click on each location Marker Pin for a Google Maps Place ID and the restaurant address.
 
 #### Booking a Fine Dining Experience
 
@@ -416,12 +435,25 @@ I used this website to test on a number of platforms which I didn't have physica
 
 - **About Us**:
     1. Use either the **Navbar** link to **Services** or scroll down from the **Landing Page** to the **About Us Section**.
-    2. Read the text outlining the origins and goals of **Elite Gourmet**. 
+    2. Read the text outlining the origins and goals of **Elite Gourmet**.
 
 ### **Outstanding Bugs**
 
+#### Mobile Bugs
 
-(PQ - No issues as of yet. To be completed).
+- **iPhones Using iOS** - **Extremely Focused Background Images**  
+    On a number of **iPhones** running **Safari** or **Chrome** on **iOS** (12 & 13) the large background images were focused in extremely closely, so that very little detail could be made out. There was no such problem on **Android** or **Fairphone OS** phones or on **Mac OS** or **Windows** laptops. This is probably because **iOS** does not support 'background-image fixed' as a value, and can only do this through workarounds. The appropriate **Vendor Prefixes** were used throughout. Some of the possible solutions are listed [here](https://www.joomshaper.com/forums/background-fixed-image-on-ios-mobile-devices?__cf_chl_jschl_tk__=5b7b340b82b582380f470f8cae95350aa400eb10-1590082286-0-AezR3cT2MLVMLKL2QwpP2VpOCg2p6vVzdwBuppviThp-c6FbjpM4xxTAvKMBvIwrtd-E9CyI6Kw4G8XVvpAdYX4J99lsrnxrlEwN2KGhT2fzPNkVo38fBi_NsRK9ogA8J5u3Y5y65OWfgnPCSBe0JOeONQ-1iwpan4GO2GkcMKZ0GPD7Gbo3iAYZAxdvz5vPJdREjA-xpAfT1nUL-d6roaXHGDaihLkTj6szJCrYd5BKqVcXATOnawy53gCyubcl9GMJCAuIdy0ocF-a707x-xHZKR5HoBYzBekuqXy9ESfBKURYx9MaldX3fGmeYeX9G_uXR8KVb9jsXKexirn92jk), but it was decided not to use them, as they would effect code for other platforms which were working perfectly.
+
+- **Galaxy A5 Using Android** - **Stutter on Scroll**  
+    On a **Galaxy A5** running **Samsung's Internet Browser** on **Android Oreo** (8.0.0) there was a strange stutter effect on scroll. This seemed to be caused by the main **Hero Image** which forms the background for the landing page. It appears as if the image resizes as the user scrolls. I was unable to find a fix for this, or to find reference to it elsewhere. This did not happen on other devices, and did not greatly impact on the UI.
+
+#### Desktop Bugs
+
+- **Internet Explorer** - **Radio Selection Buttons Pushed to Far Left**  
+    On an **Asus G20CB-UK032T** running **Internet Explorer** on **Windows 10** there was a problem with the **Radio Selection Buttons**, which appeared to the extreme left of the element. This happened on no other browser, and is probably caused by **Internet Explorer's** lack of compatibility with the most recent effects and transitions.
+
+- **Internet Explorer** - **Flipcards Not Working**  
+    On an **Asus G20CB-UK032T** running **Internet Explorer** on **Windows 10** there was a problem with the **Restaurant Section Flipcards**, where the flip effect wouldn't work at all. This happened on no other browser, and occurs because **Internet Explorer** does not currently support the **3-D Transform** effect.
 
 ___
 
@@ -465,19 +497,20 @@ ___
 
     4. You can now choose a few different ways to link the local and remote repositories. The one we want here is "…*or push an existing repository from the command line*". Copy the code this option gives you and paste it into your command line. It should look something like this:
 
-        ```
+        ```bash
         git remote add origin https://github.com/an-slua-sidhe/milestone-2
         git push -u origin master
         ```
 
     5. Now you can push any changes from the command line with:
 
-        ```
+        ```bash
         git push
         ```
+
     6. If you check the status of of your local repository now (using 'git status') it should give you something like this:
 
-        ```
+        ```bash
         On branch master
         Your branch is up-to-date with 'origin/master'.
         nothing to commit, working tree clean
@@ -506,17 +539,17 @@ ___
 
 - Specific restaurant images and all restaurant information was sourced from the respective sites.
 
-    1. The Ichigo Ichie image can be found [here](To be added).
+    1. The Ichigo Ichie site can be found [here](https://ichigoichie.ie/).
 
-    2. The Cliff House image can be found [here](To be added).
+    2. The Cliff House site can be found [here](https://cliffhousehotel.ie/food-drink/).
 
-    3. The L'Ecrivain image can be found [here](To be added).
+    3. The L'Ecrivain site can be found [here](http://lecrivain.com/).
 
-    4. The Ox image can be found [here](To be added).
+    4. The Ox site can be found [here](https://oxbelfast.com/).
 
-    5. The Kai Restaurant image can be found [here](To be added).
+    5. The Kai Restaurant site can be found [here](https://www.kairestaurant.ie/).
 
-    6. The Chart House image can be found [here](To be added).
+    6. The Chart House site can be found [here](https://www.thecharthousedingle.com/).
 
 ### **Acknowledgements**
 
