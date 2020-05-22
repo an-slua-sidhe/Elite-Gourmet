@@ -20,6 +20,10 @@ h1, h2, h3, h4 {
 
 /* Jumbotron */
 
+.jumbotron-wrapper {
+    position: fixed;
+}
+
 #jumbotron {
     position: relative;
     background-attachment: fixed;

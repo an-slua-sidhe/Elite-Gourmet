@@ -19,52 +19,54 @@
 
     <!-- Landing Page -->
     <header>
-        <div id="jumbotron" class="container-fluid">
+        <div id="jumbotron-wrapper">
+            <div id="jumbotron" class="container-fluid">
 
-            <!-- Main Logo -->
-            <div id="logo">
-                <h1><strong>ELITE GOURMET</strong></h1>
+                <!-- Main Logo -->
+                <div id="logo">
+                    <h1><strong>ELITE GOURMET</strong></h1>
 
-                <p>Serving the finest <strong>Michelin Star</strong></p>
+                    <p>Serving the finest <strong>Michelin Star</strong></p>
 
-                <p>Dining Experiences since 2020</p>
-            </div>
-
-            <!-- Navbar -->
-            <nav class="navbar navbar-default navbar-dark bg-transparent">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item ">
-                            <a class="nav-link" href="#jumbotron">Home<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services-section">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#bookings-section">Booking</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#restaurants-section">Restaurants</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about-section">About Us</a>
-                        </li>
-                    </ul>
+                    <p>Dining Experiences since 2020</p>
                 </div>
-            </nav>
 
-            <!-- CTA -->
-            <div id="cta" class="my-auto">
-                <div id="cta-background">
-                    <p>
-                        Book your fine dining experience today! &nbsp;
-                        <a href="#services-section"><strong>20% OFF</strong></a>
-                    </p>
+                <!-- Navbar -->
+                <nav class="navbar navbar-default navbar-dark bg-transparent">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#jumbotron">Home<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services-section">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#bookings-section">Booking</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#restaurants-section">Restaurants</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about-section">About Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- CTA -->
+                <div id="cta" class="my-auto">
+                    <div id="cta-background">
+                        <p>
+                            Book your fine dining experience today! &nbsp;
+                            <a href="#services-section"><strong>20% OFF</strong></a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -479,7 +481,15 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 
-    <!-- Javascript for style changes on scroll. Code modified from a snippet found at Jsfiddle (https://jsfiddle.net/wamosjk/ufhp9s15/)-->
+
+    <!-- Javascript for Navbar Collapse when link selected. From a snippet found on Stack Overflow (https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click) -->
+    <script>
+        $('.navbar-nav>li>a').on('click', function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+    </script>
+
+    <!-- Javascript for style changes on scroll. Code modified from a snippet found on Jsfiddle (https://jsfiddle.net/wamosjk/ufhp9s15/)-->
     <script>
         $(window).scroll(function () {
             $('nav, .navbar-toggler, .nav-item').toggleClass('scrolled', $(this).scrollTop() > 400);

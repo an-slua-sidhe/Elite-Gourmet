@@ -289,6 +289,7 @@ All the technologies used to create this project are listed below, along with th
 
 - There were [three plugins](https://getbootstrap.com/docs/4.5/getting-started/introduction) required so that **Bootstrap** would function; **jQuery**, **Popper.js** and **Bootstrap's** own **min.js**.
 - I copied and modified **Javascript** code from [**Js Fiddle**](https://jsfiddle.net/wamosjk/ufhp9s15) to create transitions while scrolling.
+- I copied **Javascript** code from [**Stack Overflow**](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click) to make the Navbar collapse after an option was selected.
 - I  used **Javascript** to get the [**Google Maps API**](https://developers.google.com/maps/documentation/javascript/tutorial) to function in the **Services Section**.
 - I also used **Javascript** to give [**EmailJS**](https://www.emailjs.com/docs/sdk/installation/) functionality to my **Bookings Section**.
 
@@ -524,8 +525,11 @@ ___
 
 ### **Code Used**
 
+- **Navbar Collapse when link selected** 
+    Copied from a snippet found on [**Stack Overflow**](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click).
+
 - **Styling on Scroll**  
-    I found and modified code found [here](https://jsfiddle.net/wamosjk/ufhp9s15/) to create style changes on scroll.
+    I found and modified code found on [**JS Fiddle**](https://jsfiddle.net/wamosjk/ufhp9s15/) to create style changes on scroll.
 
 - **Flipcards**  
     I modified code by **Arjun Khara** to create a flipcard transition, which I found [here](https://www.youtube.com/watch?v=OV8MVmtgmoY).
