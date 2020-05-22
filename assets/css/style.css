@@ -20,10 +20,6 @@ h1, h2, h3, h4 {
 
 /* Jumbotron */
 
-.jumbotron-wrapper {
-    position: fixed;
-}
-
 #jumbotron {
     position: relative;
     background-attachment: fixed;
@@ -721,6 +717,13 @@ footer {
     #cta-background {
         margin-left: 25%;
         margin-right: 25%;
+    }
+}
+
+/* To disable 'background-attchment: fixed' on mobile devices */
+@media (max-width: 1050px) {
+    #jumbotron, #contact-background, #about-background {
+        background-attachment: scroll;
     }
 }
 
