@@ -720,7 +720,7 @@ footer {
     }
 }
 
-/* To disable 'background-attchment: fixed' on mobile devices */
+/* To disable 'background-attachment: fixed;' on mobile devices */
 @media (max-width: 1050px) {
     #jumbotron, #contact-background, #about-background {
         background-attachment: scroll;

@@ -210,14 +210,14 @@ ___
 
 ## **Features**
 
-This is a single-page site with 6 main sections. The basic layout of the site was created using the [**Bootstrap 4**](https://getbootstrap.com) grid system (which is based on [Flexbox](https://www.w3schools.com/css/css3_flexbox.asp)), with alterations and additions. The core of this is the use of containers, rows and columns as classes for elements. All **anchor** links within text are fully navigable; they also change colour when hovered over (see [**Colours**](#colours)). The sections alternate between ones with large and detailed fixed backgrounds and ones with the more muted dark brown (#594C45) background that scrolls.
+This is a single-page site with 6 main sections. The basic layout of the site was created using the [**Bootstrap 4**](https://getbootstrap.com) grid system (which is based on [Flexbox](https://www.w3schools.com/css/css3_flexbox.asp)), with alterations and additions. The core of this is the use of containers, rows and columns as classes for elements. All **anchor** links within text are fully navigable; they also change colour when hovered over (see [**Colours**](#colours)). On **Desktop**, the main sections alternate between ones with large and detailed fixed backgrounds (e.g. the **Landing Page Jumbotron**) and ones with the more muted dark brown (#594C45) background that scrolls (e.g. the **Services Section**). On **Mobile** devices these section's backgrounds still alternate, but their 'background-attached' value was changed from 'fixed' to 'scroll' via a **Media Query**, so that the whole page scrolls at the same time. This is because **iOS** does not support fixed backgrounds, as they take up too much system memory to run, which resulted in extremely focused-in and unappealing images.
 
 ### **Existing Features**
 
 #### Landing Page
 
 - **Hero Image**  
-    This [image](assets/images/jumbotron.jpg) is a high quality file sourced on [**Pixabay**](https://pixabay.com/) which provides a stiking backdrop to the **Landing Page**. It is presented via a **Jumbotron**, and scales across all platforms.
+    This [image](assets/images/jumbotron.jpg) is a high quality file sourced on [**Pixabay**](https://pixabay.com/) which provides a striking backdrop to the **Landing Page**. It is presented via a **Jumbotron**, and scales across all platforms. On **Mobile** devices the 'background-attached' value was changed from 'fixed' to 'scroll' via a **Media Query**. This is because **iOS** does not support fixed backgrounds, as they take up too much system memory to run. 
 
 - **Main Logo**  
     As the concept of **Elite Gourmet** is one I come up with myself, I have no proprietary icons or images to use as a banner logo for the site. Therefore, I simply used the chosen **Heading** font (_**Cinzel**_) for the landing page's main title. This element has an opaque background to keep it legible on the dark background of the **Hero Image**.
@@ -442,9 +442,6 @@ There are 21 separate **Media Queries** in the [**CSS**](assets/css/style.css) c
 
 #### Mobile Bugs
 
-- **iPhones Using iOS** - **Extremely Focused Background Images**  
-    On a number of **iPhones** running **Safari** or **Chrome** on **iOS** (12 & 13) the large background images were focused in extremely closely, so that very little detail could be made out. There was no such problem on **Android** or **Fairphone OS** phones or on **Mac OS** or **Windows** laptops. This is probably because **iOS** does not support 'background-image fixed' as a value, and can only do this through workarounds. The appropriate **Vendor Prefixes** were used throughout. Some of the possible solutions are listed [here](https://www.joomshaper.com/forums/background-fixed-image-on-ios-mobile-devices?__cf_chl_jschl_tk__=5b7b340b82b582380f470f8cae95350aa400eb10-1590082286-0-AezR3cT2MLVMLKL2QwpP2VpOCg2p6vVzdwBuppviThp-c6FbjpM4xxTAvKMBvIwrtd-E9CyI6Kw4G8XVvpAdYX4J99lsrnxrlEwN2KGhT2fzPNkVo38fBi_NsRK9ogA8J5u3Y5y65OWfgnPCSBe0JOeONQ-1iwpan4GO2GkcMKZ0GPD7Gbo3iAYZAxdvz5vPJdREjA-xpAfT1nUL-d6roaXHGDaihLkTj6szJCrYd5BKqVcXATOnawy53gCyubcl9GMJCAuIdy0ocF-a707x-xHZKR5HoBYzBekuqXy9ESfBKURYx9MaldX3fGmeYeX9G_uXR8KVb9jsXKexirn92jk), but it was decided not to use them, as they would effect code for other platforms which were working perfectly.
-
 - **Galaxy A5 Using Android** - **Stutter on Scroll**  
     On a **Galaxy A5** running **Samsung's Internet Browser** on **Android Oreo** (8.0.0) there was a strange stutter effect on scroll. This seemed to be caused by the main **Hero Image** which forms the background for the landing page. It appears as if the image resizes as the user scrolls. I was unable to find a fix for this, or to find reference to it elsewhere. This did not happen on other devices, and did not greatly impact on the UI.
 
@@ -469,15 +466,20 @@ ___
     2. Look for the green *Clone or Download* button at the top right of the repository.
     3. If using [**Github Desktop**](https://desktop.github.com), chose to *Open in Desktop*.
     4. If you want to **Clone** the files into a **Git** repository, chose to copy the URL from the same menu (# 2.). Open your chosen **Command Line Interface** (**CLI**, e.g. [**Gitbash**](https://git-scm.com/downloads)) and use the following command:
-        ```
+
+        ```bash
         git clone https://github.com/an-slua-sidhe/milestone-2.git
         ```
+
     5. To set up the files manually in a local repository, chose to **Download ZIP** and remove the files from the ZIP folder. Place them into the chosen location. If desired, set up a **Git** repository in this folder in your **CLI** with the following command:
-        ```
+
+        ```bash
         git init
         ```
+
     6. You can check the state of your repository after initialising it by using this command:
-        ```
+
+        ```bash
         git status
         ```
 
@@ -487,7 +489,7 @@ ___
 
     1. After using the command 'git status' (see step 6 above) in the command line, check that the console reads:
 
-        ```
+        ```bash
         Nothing to commit
         working tree clean
         ```
@@ -525,7 +527,7 @@ ___
 
 ### **Code Used**
 
-- **Navbar Collapse when link selected** 
+- **Navbar Collapse when link selected**  
     Copied from a snippet found on [**Stack Overflow**](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click).
 
 - **Styling on Scroll**  
